@@ -1,0 +1,109 @@
+{
+	"dialogue": [
+		{
+			"expression": "confused",
+			"text": "badabeepskedobapuglybitch",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Do you think we should be rapping instead of finding a way to get out?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "bi",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Also, Where the hell is pico?\r We can't leave without him",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Skeebedebapopororororpopopa",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Someone is coming, we should ask for pico!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "idle",
+			"text": "You don't seem you belong here, who are you?\r",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "elexa"
+		},
+		{
+			"expression": "excited",
+			"text": "Badabo skeeberudurumbupap",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "sad",
+			"text": "...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "elexa"
+		},
+		{
+			"expression": "disgust",
+			"text": "I... Don't understand what you are saying",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "elexa"
+		},
+		{
+			"expression": "talk",
+			"text": "Excuse me, have you seen a guy with orange hair? we are looking for hi-",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "idle",
+			"text": "There is no such guy like that here, please leave this place, you are not allowed here",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "elexa"
+		},
+		{
+			"expression": "confused",
+			"text": "But we still need to find pic-\r",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "idle",
+			"text": "I will only repeat this once",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "elexa"
+		},
+		{
+			"expression": "idle",
+			"text": "Leave this place, now",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "elexa"
+		}
+	]
+}

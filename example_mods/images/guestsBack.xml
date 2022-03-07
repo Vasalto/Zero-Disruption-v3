@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="guestsBack.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="guests back0000" x="0" y="0" width="1816" height="572" frameX="0" frameY="-13" frameWidth="1816" frameHeight="585"/>
+	<SubTexture name="guests back0001" x="0" y="0" width="1816" height="572" frameX="0" frameY="-13" frameWidth="1816" frameHeight="585"/>
+	<SubTexture name="guests back0002" x="1816" y="0" width="1816" height="574" frameX="0" frameY="-11" frameWidth="1816" frameHeight="585"/>
+	<SubTexture name="guests back0003" x="0" y="574" width="1816" height="574" frameX="0" frameY="-11" frameWidth="1816" frameHeight="585"/>
+	<SubTexture name="guests back0004" x="1816" y="574" width="1816" height="578" frameX="0" frameY="-7" frameWidth="1816" frameHeight="585"/>
+	<SubTexture name="guests back0005" x="0" y="1152" width="1816" height="578" frameX="0" frameY="-7" frameWidth="1816" frameHeight="585"/>
+	<SubTexture name="guests back0006" x="1816" y="1152" width="1816" height="585"/>
+	<SubTexture name="guests back0007" x="1816" y="1152" width="1816" height="585"/>
+	<SubTexture name="guests back0008" x="1816" y="1152" width="1816" height="585"/>
+	<SubTexture name="guests back0009" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0010" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0011" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0012" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0013" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0014" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0015" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0016" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0017" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0018" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0019" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0020" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0021" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0022" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0023" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0024" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0025" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0026" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0027" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0028" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0029" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0030" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0031" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0032" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0033" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0034" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0035" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0036" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0037" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0038" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0039" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0040" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0041" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0042" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0043" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0044" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0045" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0046" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0047" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0048" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0049" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0050" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0051" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0052" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0053" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0054" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0055" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0056" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0057" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0058" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0059" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0060" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0061" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0062" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0063" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0064" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0065" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0066" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0067" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0068" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0069" x="0" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0070" x="1816" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0071" x="1816" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0072" x="1816" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0073" x="1816" y="1737" width="1816" height="585"/>
+	<SubTexture name="guests back0074" x="1816" y="1737" width="1816" height="585"/>
+</TextureAtlas>

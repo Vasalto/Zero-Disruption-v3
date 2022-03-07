@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="guestsFront.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="guests front0000" x="0" y="0" width="3012" height="672" frameX="0" frameY="-53" frameWidth="3012" frameHeight="725"/>
+	<SubTexture name="guests front0001" x="0" y="0" width="3012" height="672" frameX="0" frameY="-53" frameWidth="3012" frameHeight="725"/>
+	<SubTexture name="guests front0002" x="0" y="672" width="3012" height="693" frameX="0" frameY="-32" frameWidth="3012" frameHeight="725"/>
+	<SubTexture name="guests front0003" x="0" y="672" width="3012" height="693" frameX="0" frameY="-32" frameWidth="3012" frameHeight="725"/>
+	<SubTexture name="guests front0004" x="0" y="1365" width="3012" height="712" frameX="0" frameY="-13" frameWidth="3012" frameHeight="725"/>
+	<SubTexture name="guests front0005" x="0" y="1365" width="3012" height="712" frameX="0" frameY="-13" frameWidth="3012" frameHeight="725"/>
+	<SubTexture name="guests front0006" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0007" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0008" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0009" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0010" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0011" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0012" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0013" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0014" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0015" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0016" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0017" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0018" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0019" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0020" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0021" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0022" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0023" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0024" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0025" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0026" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0027" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0028" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0029" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0030" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0031" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0032" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0033" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0034" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0035" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0036" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0037" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0038" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0039" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0040" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0041" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0042" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0043" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0044" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0045" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0046" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0047" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0048" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0049" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0050" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0051" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0052" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0053" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0054" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0055" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0056" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0057" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0058" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0059" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0060" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0061" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0062" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0063" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0064" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0065" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0066" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0067" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0068" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0069" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0070" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0071" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0072" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0073" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0074" x="0" y="2077" width="3012" height="725"/>
+	<SubTexture name="guests front0075" x="0" y="2077" width="3012" height="725"/>
+</TextureAtlas>

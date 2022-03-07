@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgWARNING.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgWARNING0000" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0001" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0002" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0003" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0004" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0005" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0006" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0007" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0008" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0009" x="2700" y="0" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0010" x="5401" y="0" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0011" x="0" y="1601" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0012" x="2701" y="1601" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0013" x="5402" y="1601" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0014" x="0" y="3202" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0015" x="2701" y="3202" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0016" x="5402" y="3202" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0017" x="0" y="4803" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0018" x="2701" y="4803" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0019" x="5402" y="4803" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0020" x="0" y="6404" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0021" x="2701" y="6404" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0022" x="5402" y="6404" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0040" x="2701" y="6404" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0041" x="0" y="6404" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0048" x="2701" y="3202" width="2701" height="1601"/>
+	<SubTexture name="bgWARNING0057" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0058" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0059" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0060" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0061" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0062" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0063" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0064" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0065" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0066" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0067" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0068" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0069" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0070" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0071" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0072" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0073" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+	<SubTexture name="bgWARNING0074" x="0" y="0" width="2700" height="1600" frameX="0" frameY="0" frameWidth="2701" frameHeight="1601"/>
+</TextureAtlas>

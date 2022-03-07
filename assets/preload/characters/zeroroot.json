@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				-30
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "zero root up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				-67
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "zero root down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				-116
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "zero root idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-96
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "zero root right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				99,
+				-95
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "zero root left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				249,
+				-99
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "attack",
+			"loop": false,
+			"name": "zero root attack"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/zeroRoot",
+	"position": [
+		-210,
+		20
+	],
+	"healthicon": "zero",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-60,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

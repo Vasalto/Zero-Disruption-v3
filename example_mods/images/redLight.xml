@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="redLight.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="peee0000" x="0" y="0" width="1308" height="729"/>
+	<SubTexture name="peee0001" x="1308" y="0" width="1308" height="729"/>
+	<SubTexture name="peee0002" x="2616" y="0" width="1308" height="729"/>
+	<SubTexture name="peee0003" x="3924" y="0" width="1308" height="729"/>
+	<SubTexture name="peee0004" x="5232" y="0" width="1308" height="729"/>
+	<SubTexture name="peee0005" x="6540" y="0" width="1308" height="729"/>
+	<SubTexture name="peee0006" x="0" y="729" width="1308" height="729"/>
+	<SubTexture name="peee0007" x="1308" y="729" width="1308" height="729"/>
+	<SubTexture name="peee0008" x="2616" y="729" width="1308" height="729"/>
+	<SubTexture name="peee0009" x="3924" y="729" width="1308" height="729"/>
+	<SubTexture name="peee0010" x="5232" y="729" width="1308" height="729"/>
+	<SubTexture name="peee0011" x="6540" y="729" width="1308" height="729"/>
+	<SubTexture name="peee0012" x="0" y="1458" width="1308" height="729"/>
+	<SubTexture name="peee0013" x="1308" y="1458" width="1308" height="729"/>
+	<SubTexture name="peee0014" x="2616" y="1458" width="1308" height="729"/>
+	<SubTexture name="peee0015" x="3924" y="1458" width="1308" height="729"/>
+	<SubTexture name="peee0016" x="5232" y="1458" width="1308" height="729"/>
+	<SubTexture name="peee0017" x="6540" y="1458" width="1308" height="729"/>
+	<SubTexture name="peee0018" x="0" y="2187" width="1308" height="729"/>
+	<SubTexture name="peee0019" x="1308" y="2187" width="1308" height="729"/>
+	<SubTexture name="peee0020" x="1308" y="1458" width="1308" height="729"/>
+	<SubTexture name="peee0021" x="2616" y="2187" width="1308" height="729"/>
+	<SubTexture name="peee0022" x="2616" y="729" width="1308" height="729"/>
+	<SubTexture name="peee0023" x="3924" y="2187" width="1308" height="729"/>
+	<SubTexture name="peee0024" x="5232" y="2187" width="1308" height="729"/>
+	<SubTexture name="peee0025" x="0" y="0" width="1308" height="729"/>
+	<SubTexture name="peee0026" x="6540" y="2187" width="1308" height="729"/>
+	<SubTexture name="peee0027" x="0" y="2916" width="1308" height="729"/>
+	<SubTexture name="peee0028" x="1308" y="2916" width="1308" height="729"/>
+	<SubTexture name="peee0029" x="2616" y="2916" width="1308" height="729"/>
+</TextureAtlas>

@@ -1,0 +1,2 @@
+Value 1:Image: Three, Two, One or Go
+Value 2:Sound: On or Off

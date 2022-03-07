@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-579,
+				-81
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "elexa duo down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-632,
+				158
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "elexa duo up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-627,
+				12
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "elexa duo idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-552,
+				95
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "elexa duo left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-589,
+				109
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "elexa duo right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/elexa duo",
+	"position": [
+		-190,
+		0
+	],
+	"healthicon": "elexa",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		85,
+		142
+	],
+	"camera_position": [
+		-60,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

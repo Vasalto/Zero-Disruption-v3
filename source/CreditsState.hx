@@ -85,6 +85,15 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Zero Disruption Team'],
+			['Vasalto',				'vasalto',			'Jack of trades, Master of Nothing, Main Musician/Coder','https://twitter.com/Shadow_Mario_',	'444444'],
+			['Tet',					'tet',				'Main Artist/Animator',									'https://twitter.com/river_oaken',		'C30085'],
+			['Rotty',				'rotty',			'Main Charter',												' https://twitter.com/RottySC2',		'4494E6'],
+			['AntiMyersDiver2033',	'myers',			'Cool Musician',												' https://twitter.com/RottySC2',		'4494E6'],
+			['MajorasMax_',			'majoras',			'Cool Musician',												' https://twitter.com/RottySC2',		'4494E6'],
+			['Ocho',				'ocho',				'Cool Artist',												' https://twitter.com/RottySC2',		'4494E6'],
+			['D4',					'D4',				'Cool Artist',												' https://twitter.com/RottySC2',		'4494E6'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',					'https://twitter.com/river_oaken',		'C30085'],
@@ -104,7 +113,8 @@ class CreditsState extends MusicBeatState
 			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",					'https://twitter.com/ninja_muffin99',	'F73838'],
 			['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",						'https://twitter.com/PhantomArcade3K',	'FFBB1B'],
 			['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",						'https://twitter.com/evilsk8r',			'53E52C'],
-			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",						'https://twitter.com/kawaisprite',		'6475F3']
+			['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",						'https://twitter.com/kawaisprite',		'6475F3'],
+
 		];
 		
 		for(i in pisspoop){

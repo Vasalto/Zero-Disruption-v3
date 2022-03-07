@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="elexa duo.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="elexa duo down0000" x="0" y="0" width="667" height="604" frameX="0" frameY="-5" frameWidth="667" frameHeight="609"/>
+	<SubTexture name="elexa duo down0001" x="0" y="0" width="667" height="604" frameX="0" frameY="-5" frameWidth="667" frameHeight="609"/>
+	<SubTexture name="elexa duo down0002" x="667" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0003" x="667" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0004" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0005" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0006" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0007" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0008" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0009" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0010" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0011" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0012" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0013" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0014" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0015" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0016" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0017" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0018" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo down0019" x="1334" y="0" width="667" height="609"/>
+	<SubTexture name="elexa duo idle0000" x="2001" y="0" width="547" height="690" frameX="-7" frameY="-17" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0001" x="2001" y="0" width="547" height="690" frameX="-7" frameY="-17" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0002" x="2548" y="0" width="549" height="701" frameX="-4" frameY="-6" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0003" x="2548" y="0" width="549" height="701" frameX="-4" frameY="-6" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0004" x="3097" y="0" width="552" height="707" frameX="0" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0005" x="3097" y="0" width="552" height="707" frameX="0" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0006" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0007" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0008" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0009" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0010" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0011" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0012" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0013" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0014" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0015" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0016" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0017" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0018" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo idle0019" x="0" y="707" width="551" height="707" frameX="-1" frameY="0" frameWidth="554" frameHeight="707"/>
+	<SubTexture name="elexa duo left0000" x="551" y="707" width="579" height="830" frameX="0" frameY="0" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0001" x="551" y="707" width="579" height="830" frameX="0" frameY="0" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0002" x="1130" y="707" width="592" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0003" x="1130" y="707" width="592" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0004" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0005" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0006" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0007" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0008" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0009" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0010" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0011" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0012" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0013" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0014" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0015" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0016" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0017" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0018" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo left0019" x="1722" y="707" width="590" height="827" frameX="0" frameY="-3" frameWidth="592" frameHeight="830"/>
+	<SubTexture name="elexa duo right0000" x="2312" y="707" width="733" height="819" frameX="0" frameY="-1" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0001" x="2312" y="707" width="733" height="819" frameX="0" frameY="-1" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0002" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0003" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0004" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0005" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0006" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0007" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0008" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0009" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0010" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0011" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0012" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0013" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0014" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0015" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0016" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0017" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0018" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo right0019" x="3045" y="707" width="716" height="820" frameX="-1" frameY="0" frameWidth="733" frameHeight="820"/>
+	<SubTexture name="elexa duo up0000" x="0" y="1537" width="588" height="870" frameX="-6" frameY="0" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0001" x="0" y="1537" width="588" height="870" frameX="-6" frameY="0" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0002" x="588" y="1537" width="597" height="861" frameX="0" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0003" x="588" y="1537" width="597" height="861" frameX="0" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0004" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0005" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0006" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0007" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0008" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0009" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0010" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0011" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0012" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0013" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0014" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0015" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0016" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0017" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0018" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+	<SubTexture name="elexa duo up0019" x="1185" y="1537" width="595" height="861" frameX="-2" frameY="-9" frameWidth="597" frameHeight="870"/>
+</TextureAtlas>

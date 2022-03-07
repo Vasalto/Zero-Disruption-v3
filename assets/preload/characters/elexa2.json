@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				-304
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "elexa down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				34,
+				-19
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "elexa up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-30
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "elexa idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				130,
+				-135
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "elexa left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				-101
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "elexa right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/elexa2",
+	"position": [
+		-210,
+		0
+	],
+	"healthicon": "elexa",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		85,
+		142
+	],
+	"camera_position": [
+		50,
+		190
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

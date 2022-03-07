@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgBACK.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bgBACK0000" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0001" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0002" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0003" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0004" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0005" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0006" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0007" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0008" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0009" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0010" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0011" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0012" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0013" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0014" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0015" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0016" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0017" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0018" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0019" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0020" x="0" y="0" width="2700" height="1600"/>
+	<SubTexture name="bgBACK0021" x="0" y="0" width="2700" height="1600"/>
+</TextureAtlas>
