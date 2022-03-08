@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lookAttack.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lookAttack0000" x="0" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0001" x="245" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0002" x="490" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0003" x="735" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0004" x="980" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0005" x="1225" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0006" x="1470" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0007" x="1470" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0008" x="1715" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0009" x="1715" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0010" x="0" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0011" x="0" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0012" x="245" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0013" x="245" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0014" x="490" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0015" x="735" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0016" x="980" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0017" x="1225" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0018" x="0" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0019" x="0" y="0" width="245" height="333"/>
+	<SubTexture name="lookAttack0020" x="1470" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0021" x="1715" y="333" width="245" height="333"/>
+	<SubTexture name="lookAttack0022" x="0" y="666" width="245" height="333"/>
+	<SubTexture name="lookAttack0023" x="245" y="666" width="245" height="333"/>
+	<SubTexture name="stop0000" x="-2000" y="-2000" width="4280" height="4720" frameX="4440" frameY="4440" frameWidth="1281" frameHeight="720"/>
+</TextureAtlas>

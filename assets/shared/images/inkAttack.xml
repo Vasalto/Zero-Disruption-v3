@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ink Attack.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ink 10000" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10001" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10002" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10003" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10004" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10005" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10006" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10007" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10008" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10009" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10010" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10011" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10012" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10013" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10014" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10015" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10016" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10017" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10018" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 10019" x="0" y="0" width="869" height="605"/>
+	<SubTexture name="ink 20000" x="869" y="0" width="1147" height="987"/>
+	<SubTexture name="ink 20001" x="2016" y="0" width="596" height="603" frameX="-132" frameY="-192" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20002" x="2612" y="0" width="767" height="729" frameX="-21" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20003" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20004" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20005" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20006" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20007" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20008" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20009" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20010" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20011" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20012" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20013" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20014" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 20015" x="3379" y="0" width="701" height="729" frameX="-45" frameY="-129" frameWidth="1147" frameHeight="987"/>
+	<SubTexture name="ink 30000" x="0" y="987" width="985" height="867"/>
+	<SubTexture name="ink 30001" x="985" y="987" width="398" height="477" frameX="-275" frameY="-195" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30002" x="1383" y="987" width="575" height="615" frameX="-190" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30003" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30004" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30005" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30006" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30007" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30008" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30009" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30010" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30011" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30012" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30013" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30014" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="ink 30015" x="1958" y="987" width="501" height="615" frameX="-205" frameY="-126" frameWidth="985" frameHeight="867"/>
+	<SubTexture name="stop0000" x="-2000" y="-2000" width="4280" height="4720" frameX="4440" frameY="4440" frameWidth="1281" frameHeight="720"/>
+</TextureAtlas>
