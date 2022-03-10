@@ -5,6 +5,16 @@ function onCreate()
 	addLuaSprite('redLight', true)
 	scaleObject('redLight', 12, 12);
 
+	makeLuaSprite('dark', 'dark', -630, -350);
+	setScrollFactor('dark', 0, 0);
+	defaultCamZoom = getProperty('defaultCamZoom') - 0.01;
+	setProperty('dark.scale.x', 1 / defaultCamZoom);
+	setProperty('dark.scale.y', 1 / defaultCamZoom);
+	setProperty('dark.alpha', 0.0001);
+	scaleObject('dark', 13, 13);
+	addLuaSprite('dark', false);
+
+
 	luaDebugMode = true
 	
 	setProperty('defaultCamZoom', 0.7);
@@ -73,6 +83,9 @@ function onBeatHit()
 		doTweenAlpha('hudAlpha', 'camHUD', 0, 0.2, 'quintOut');
     elseif getProperty('curBeat') == 420 then
 		doTweenAlpha('hudAlpha', 'camHUD', 1, 0.9, 'quintOut');
+		doTweenAlpha('dark', 'dark', 0, 0.2, 'quintOut');
+	elseif getProperty('curBeat') == 307 then
+		doTweenAlpha('dark', 'dark', 1, 0.9, 'quintOut');
 	end
 
 end
