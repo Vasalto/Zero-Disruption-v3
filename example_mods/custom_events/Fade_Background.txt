@@ -1,0 +1,6 @@
+just a black thing over the bg, for those moments.
+kinda like BLAMMED LIGHTS!! but no tint
+requires dark flash event to work
+value 1: Duration
+(how much time will it take to fade, 0 for instantly)
+value 2: 0 = appear, 1 = remove
