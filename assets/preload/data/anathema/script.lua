@@ -108,12 +108,6 @@ function onUpdate()
         setPropertyFromGroup('strumLineNotes', i, 'alpha', 0)
     end
 
-	for i = 0, getProperty('unspawnNotes.length')-1 do
-		
-		setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'BloodSplash');
-	
-	end
-
 function onStartCountdown()
 	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
 	if not allowCountdown and isStoryMode and not seenCutscene then

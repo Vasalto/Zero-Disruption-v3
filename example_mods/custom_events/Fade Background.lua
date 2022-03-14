@@ -1,5 +1,4 @@
-function onCreatePost()
-	makeGraphic('dark', 3000, 3000, '000000')
+function onCreate()
 	makeLuaSprite('dark', 'dark', 0, 0);
 	setScrollFactor('dark', 0, 0);
 	defaultCamZoom = getProperty('defaultCamZoom') - 0.01;

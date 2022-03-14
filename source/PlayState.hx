@@ -702,8 +702,42 @@ class PlayState extends MusicBeatState
 				ink.scrollFactor.set(0.95, 0.95);
 				ink.updateHitbox();
 				ink.alpha = 1;
+			
+			case 'Lab2': //Week Puta
+				var bg:BGSprite = new BGSprite('labZero', -600, -300);
+				bg.setGraphicSize(Std.int(bg.width * 0.9));
+				bg.updateHitbox();
+				bg.scrollFactor.set(1, 1);
+				defaultCamZoom = 0.75;
+				add(bg);
+				
+				eye = new FlxSprite(0, 0);
+				eye.frames = Paths.getSparrowAtlas('lookAttack');
+				eye.setGraphicSize(Std.int(eye.width * 1));
+				eye.animation.addByPrefix('stop', "stop", 24);
+				eye.animation.addByPrefix('idle', "lookAttack", 24);
+				eye.animation.play('stop');
+				eye.screenCenter(X);
+				eye.screenCenter(Y);
+				eye.antialiasing = true;
+				eye.scrollFactor.set(0.95, 0.95);
+				eye.updateHitbox();
+				eye.alpha = 1;
+			
+				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
+				ink.frames = Paths.getSparrowAtlas('inkAttack');
+				ink.setGraphicSize(Std.int(ink.width * 2));
+				ink.animation.addByPrefix('stop', "stop", 24);
+				ink.animation.addByPrefix('ink1', "ink 1", 24);
+				ink.animation.addByPrefix('ink2', "ink 2", 24);
+				ink.animation.addByPrefix('ink3', "ink 3", 24);
+				ink.animation.play('stop');
+				ink.antialiasing = true;
+				ink.scrollFactor.set(0.95, 0.95);
+				ink.updateHitbox();
+				ink.alpha = 1;
 		}
-
+			
 
 		if(isPixelStage) {
 			introSoundsSuffix = '-pixel';

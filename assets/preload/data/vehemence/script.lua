@@ -17,7 +17,7 @@ function onCreate()
 
 	luaDebugMode = true
 	
-	setProperty('defaultCamZoom', 0.7);
+	setProperty('defaultCamZoom', 0.8);
 
 	setProperty('cameraSpeed', 2.2);
 

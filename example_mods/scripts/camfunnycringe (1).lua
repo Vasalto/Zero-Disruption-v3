@@ -27,6 +27,15 @@ function onMoveCamera(focus)
 	camlock = false
 	setProperty('cameraSpeed', 1)
 	setProperty('defaultCamZoom',0.8)
+
+
+	elseif focus == 'gf' then
+	campointx = getProperty('camFollow.x')
+	campointy = getProperty('camFollow.y')
+	bfturn = false
+	camlock = false
+	setProperty('cameraSpeed', 1)
+	setProperty('defaultCamZoom',0.7)
 	
 	end
 end
