@@ -704,13 +704,6 @@ class PlayState extends MusicBeatState
 				ink.alpha = 1;
 			
 			case 'Lab2': //Week Puta
-				var bg:BGSprite = new BGSprite('labZero', -600, -300);
-				bg.setGraphicSize(Std.int(bg.width * 0.9));
-				bg.updateHitbox();
-				bg.scrollFactor.set(1, 1);
-				defaultCamZoom = 0.75;
-				add(bg);
-				
 				eye = new FlxSprite(0, 0);
 				eye.frames = Paths.getSparrowAtlas('lookAttack');
 				eye.setGraphicSize(Std.int(eye.width * 1));
