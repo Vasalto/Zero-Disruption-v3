@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speech_bubble.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dialogue box zd0000" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0001" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0002" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0003" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0004" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0005" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0006" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0007" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0008" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0009" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0010" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0011" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0012" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0013" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0014" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0015" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0016" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0017" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0018" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0019" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0020" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0021" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0022" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0023" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0024" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0025" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0026" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0027" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0028" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0029" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0030" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0031" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0032" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0033" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0034" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0035" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0036" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0037" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0038" x="0" y="0" width="1280" height="397"/>
+	<SubTexture name="dialogue box zd0039" x="0" y="0" width="1280" height="397"/>
+</TextureAtlas>

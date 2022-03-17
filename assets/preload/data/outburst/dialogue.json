@@ -1,109 +1,67 @@
 {
 	"dialogue": [
 		{
-			"expression": "idle",
-			"text": "You are so anoying!",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
-		},
-		{
-			"expression": "confused",
-			"text": "We dont want to cause any trouble miss!",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gf"
+			"expression": "angry",
+			"text": "Come on! I don't have time for this! HE might-",
+			"boxState": "angry",
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
-			"text": "bi",
-			"boxState": "normal",
+			"text": "*CRASH!*",
+			"boxState": "angry",
 			"speed": 0.05,
-			"portrait": "bf"
-		},
-		{
-			"expression": "idle",
-			"text": "idk some test lol",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
-		},
-		{
-			"expression": "talk",
-			"text": "Skeebedebapopororororpopopa",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
-		},
-		{
-			"expression": "talk",
-			"text": "What is going on with those alarms?",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gf"
-		},
-		{
-			"expression": "idle",
-			"text": "Yidk evil monster got aut",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
-		},
-		{
-			"expression": "excited",
-			"text": "Badabo skeeberudurumbupap",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
-		},
-		{
-			"expression": "sad",
-			"text": "...",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "zero"
 		},
 		{
 			"expression": "disgust",
-			"text": "...",
+			"text": "Oh, goodness.",
 			"boxState": "normal",
+			"portrait": "elexa",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "(A tall, white figure emerged from a chamber in front of the two.)",
+			"boxState": "normal",
+			"portrait": "zero",
+			"speed": 0.05
+		},
+		{
+			"expression": "furious",
+			"text": "BEEP!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bfzd"
+		},
+		{
+			"expression": "shocked",
+			"text": "Wh-What is that thing?!",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "gfzd"
+		},
+		{
+			"expression": "angry",
+			"text": "I don't have time to explain; we need to find a way to sedate it!",
+			"boxState": "angry",
 			"speed": 0.05,
 			"portrait": "elexa"
 		},
 		{
 			"expression": "talk",
-			"text": "Excu",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gf"
-		},
-		{
-			"expression": "idle",
-			"text": "The",
+			"text": "You, with the blue hair! We need to keep singing!",
 			"boxState": "normal",
 			"speed": 0.05,
 			"portrait": "elexa"
 		},
 		{
 			"expression": "confused",
-			"text": "But ",
+			"text": "Bee-",
 			"boxState": "normal",
 			"speed": 0.05,
-			"portrait": "gf"
-		},
-		{
-			"expression": "idle",
-			"text": "omg run idk",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
-		},
-		{
-			"expression": "idle",
-			"text": "Leave this place, now",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "bfzd"
 		}
 	]
 }

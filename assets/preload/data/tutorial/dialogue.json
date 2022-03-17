@@ -1,0 +1,172 @@
+{
+	"dialogue": [
+		{
+			"expression": "thinking",
+			"text": "Well, that was strange. What what do we do now?",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Beep!",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "My suit? Do I look okay?",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "excited",
+			"text": "Bee badum.",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "excited",
+			"text": "Oh, geez. You're making me blush!",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "thinking",
+			"text": "Anyways, I think we need to find a way out of here/.",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Bop.",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "(Hi. I'm a placeholder for the narrator.)",
+			"boxState": "normal",
+			"portrait": "zero",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "The tandem searched around the dark room for a couple of minutes.",
+			"boxState": "normal",
+			"portrait": "zero",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "zero",
+			"speed": 0.09
+		},
+		{
+			"expression": "thinking",
+			"text": "Wow, it's dark in here. Is there a lightswitch anywhere?",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...!",
+			"boxState": "angry",
+			"portrait": "zero",
+			"speed": 0.08
+		},
+		{
+			"expression": "talk",
+			"text": "Seamlessly, the lights flickered on.",
+			"boxState": "normal",
+			"portrait": "zero",
+			"speed": 0.05
+		},
+		{
+			"expression": "shocked",
+			"text": "...!",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "...Voice activated light switches? What is this place?",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "furious",
+			"text": "Beep! Beebop bep!",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.045
+		},
+		{
+			"expression": "shocked",
+			"text": "Nearby, Boyfriend spots a seemingly arcane, yet high-tech speaker in the corner.",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "excited",
+			"text": "Bop, bop!",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "Oh... here? Shouldn't we find a way out first?",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Bep. ",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "...Okay, fine. Just this once! It's freezing in here!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gfzd"
+		},
+		{
+			"expression": "excited",
+			"text": "Bipee!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bfzd"
+		},
+		{
+			"expression": "talk",
+			"text": "Alright, let's warm up. Ready?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gfzd"
+		},
+		{
+			"expression": "talk",
+			"text": "...Bap!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bfzd"
+		}
+	]
+}

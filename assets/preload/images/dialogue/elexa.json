@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		170,
+		-140
+	],
+	"scale": 0.85,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "disgust",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "elexa expression disgusting",
+			"loop_name": "elexa expression disgusting"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "elexa expression sad0000",
+			"loop_name": "elexa expression sad0000"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "angry",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "elexa expressiong angry",
+			"loop_name": "elexa expressiong angry"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "elexa expression0000",
+			"loop_name": "elexa expression0000"
+		}
+	],
+	"image": "Elexa_Dialogue"
+}

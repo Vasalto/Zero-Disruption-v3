@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Elexa_Dialogue.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="elexa expression0000" x="0" y="0" width="493" height="757"/>
+	<SubTexture name="elexa expression disgusting0000" x="493" y="0" width="493" height="757"/>
+	<SubTexture name="elexa expression sad0000" x="986" y="0" width="493" height="757"/>
+	<SubTexture name="elexa expressiong angry0000" x="1479" y="0" width="493" height="757"/>
+</TextureAtlas>
