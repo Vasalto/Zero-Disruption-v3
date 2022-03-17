@@ -296,9 +296,9 @@ class MainMenuState extends MusicBeatState
 	
 				switch(singleItem){
 					case 0:  spr.x -= 2; //storuy, esto va pa aca -ñ
-					case 1:  spr.x -= -1; //free play, esto va pa aca -ñ
-					case 2:  spr.x -= 5; //options, esto va pa aca -ñ
-					case 3:  spr.x -= 5; //creddits, esto va pa aca -ñ
+					case 1:  spr.x -= 2; //free play, esto va pa aca -ñ
+					case 2:  spr.x -= 9.4; //options, esto va pa aca -ñ
+					case 3:  spr.x -= -10; //creddits, esto va pa aca -ñ
 					default: spr.x -= 5;
 				};
 	
@@ -313,9 +313,9 @@ class MainMenuState extends MusicBeatState
 				var singleItem:Int = spr.ID;
 	
 				switch(singleItem){
-					case 0:  spr.y -= 1; 
+					case 0:  spr.y -= -10; 
 					case 1:  spr.y -= 1;
-					case 2:  spr.y -= 1;
+					case 2:  spr.y -= -30;
 					case 3:  spr.y -= 1;
 					default: spr.y -= 20;
 				};

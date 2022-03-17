@@ -4,8 +4,9 @@ function onCreate()
 	setScrollFactor('bgBACK', 1, 1);
     -- addAnimationByPrefix('bgWARNING', 'Animation', 'bgWARNING', 7.5, true);
 	addLuaSprite('bgBACK', false);
+
 	
-	makeAnimatedLuaSprite('guestsBack','guestsBack', -180, -110);
+	makeAnimatedLuaSprite('guestsBack','guestsBack', -180, -95);
 	setScrollFactor('guestsBack', 1, 1);
     addAnimationByPrefix('guestsBack', 'guests back', 'guests back', 25, true);
 	addLuaSprite('guestsBack', false);
@@ -16,11 +17,11 @@ function onCreate()
     -- addAnimationByPrefix('bgWARNING', 'Animation', 'bgWARNING', 7.5, true);
 	addLuaSprite('bgFRONT', false);
 
-	makeAnimatedLuaSprite('guestsFront','guestsFront', -380, 450);
+	makeAnimatedLuaSprite('guestsFront','guestsFront', -400, 480);
 	setScrollFactor('guestsFront', 1, 1);
     addAnimationByPrefix('guestsFront', 'guests front', 'guests front', 25, true);
 	addLuaSprite('guestsFront', true);
-	scaleObject('guestsFront', 0.8, 0.8);
+	scaleObject('guestsFront', 0.8, 0.9);
 
 	
 end
