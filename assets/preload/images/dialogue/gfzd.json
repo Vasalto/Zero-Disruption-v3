@@ -1,89 +1,89 @@
 {
-	"dialogue_pos": "right",
 	"position": [
 		0,
-		-70
+		-40
 	],
+	"dialogue_pos": "right",
 	"scale": 1.25,
+	"image": "gfzd_dialogue",
 	"animations": [
 		{
-			"anim": "talk",
-			"loop_offsets": [
-				0,
-				0
-			],
 			"idle_offsets": [
 				0,
 				0
 			],
-			"loop_name": "gf zd normal",
-			"idle_name": "gf zd normal0"
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "gf zd normal0",
+			"loop_name": "gf zd normal"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "excited",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "gf zd blushed",
-			"idle_name": "gf zd blushed0"
+			"idle_name": "gf zd blushed0",
+			"loop_name": "gf zd blushed"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "pissed",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "bf zd angry",
-			"idle_name": "bf zd angry0"
+			"idle_name": "bf zd angry0",
+			"loop_name": "bf zd angry"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "shocked",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "gf zd scared",
-			"idle_name": "gf zd scared0"
+			"idle_name": "gf zd scared0",
+			"loop_name": "gf zd scared"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
 			"anim": "confused",
-			"loop_offsets": [
-				0,
-				0
-			],
-			"idle_name": "gf zd confused0",
-			"loop_name": "gf zd confused"
-		},
-		{
-			"loop_name": "gf zd thinking",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "gf zd thinking0",
-			"anim": "thinking",
+			"loop_name": "gf zd confused",
+			"idle_name": "gf zd confused0"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
+			],
+			"anim": "thinking",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "gf zd thinking",
+			"idle_name": "gf zd thinking0"
 		}
-	],
-	"image": "gfzd_dialogue"
+	]
 }

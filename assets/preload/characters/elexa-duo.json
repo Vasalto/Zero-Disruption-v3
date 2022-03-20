@@ -59,8 +59,8 @@
 	"no_antialiasing": false,
 	"image": "characters/elexa duo",
 	"position": [
-		-190,
-		0
+		-230,
+		170
 	],
 	"healthicon": "elexa",
 	"flip_x": false,
@@ -70,8 +70,8 @@
 		142
 	],
 	"camera_position": [
-		-60,
-		20
+		510,
+		30
 	],
 	"sing_duration": 4,
 	"scale": 0.9

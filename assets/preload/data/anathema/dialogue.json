@@ -1,109 +1,109 @@
 {
 	"dialogue": [
 		{
-			"expression": "idle",
+			"expression": "angry",
 			"text": "You are so anoying!",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
 			"expression": "confused",
 			"text": "We dont want to cause any trouble miss!",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gf"
+			"portrait": "gfzd",
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "pissed",
 			"text": "bi",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "idle",
-			"text": "idk some test lol",
+			"text": "ok rotty finish the chart ",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
 			"expression": "talk",
-			"text": "Skeebedebapopororororpopopa",
+			"text": "damn now i have smaple text",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bfzd",
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
-			"text": "What is going on with those alarms?",
+			"expression": "thinking",
+			"text": "hmmm so we can speak with freedom",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gf"
+			"portrait": "gfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "idle",
-			"text": "Yidk evil monster got aut",
+			"text": "Yeee because the chart is not done yet",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
-			"expression": "excited",
-			"text": "Badabo skeeberudurumbupap",
+			"expression": "pissed",
+			"text": "makes sense lol",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bf"
+			"portrait": "bfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "sad",
 			"text": "...",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
 			"expression": "disgust",
 			"text": "...",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
-			"text": "Excu",
+			"expression": "excited",
+			"text": "...",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gf"
+			"portrait": "gfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "idle",
 			"text": "The",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
-			"expression": "confused",
+			"expression": "thinking",
 			"text": "But ",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gf"
+			"portrait": "gfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "idle",
 			"text": "omg run idk",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
 			"expression": "idle",
 			"text": "Leave this place, now",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		}
 	]
 }

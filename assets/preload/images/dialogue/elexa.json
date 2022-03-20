@@ -1,10 +1,10 @@
 {
-	"dialogue_pos": "center",
+	"dialogue_pos": "right",
 	"position": [
-		170,
+		-150,
 		-140
 	],
-	"scale": 0.85,
+	"scale": 0.9,
 	"animations": [
 		{
 			"idle_offsets": [

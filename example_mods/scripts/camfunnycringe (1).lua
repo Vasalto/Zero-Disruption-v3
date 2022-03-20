@@ -18,7 +18,10 @@ function onMoveCamera(focus)
 	bfturn = true
 	camlock = false
 	setProperty('cameraSpeed', 1)
-	setProperty('defaultCamZoom',0.8)
+	setProperty('defaultCamZoom',0.7)
+		if songName == 'Vehemence' then
+			setProperty('defaultCamZoom',0.9)
+		end
 	
 	elseif focus == 'dad' then
 	campointx = getProperty('camFollow.x')

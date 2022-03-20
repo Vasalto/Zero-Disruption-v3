@@ -1,63 +1,63 @@
 {
-	"dialogue_pos": "right",
 	"position": [
-		-120,
+		-130,
 		-220
 	],
+	"dialogue_pos": "right",
 	"scale": 0.9,
+	"image": "Zero_Dialogue",
 	"animations": [
 		{
-			"anim": "talk",
-			"loop_offsets": [
-				0,
-				0
-			],
 			"idle_offsets": [
 				-1,
 				-12
 			],
-			"loop_name": "zero neutro",
-			"idle_name": "zero neutro"
-		},
-		{
 			"loop_offsets": [
-				5,
+				0,
 				0
 			],
-			"anim": "excited",
+			"anim": "talk",
+			"idle_name": "zero neutro",
+			"loop_name": "zero neutro"
+		},
+		{
 			"idle_offsets": [
 				4,
 				-8
 			],
-			"loop_name": "zero scary",
-			"idle_name": "zero scary"
+			"anim": "excited",
+			"loop_offsets": [
+				5,
+				0
+			],
+			"idle_name": "zero scary",
+			"loop_name": "zero scary"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "pissed",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "zero disgusting",
-			"idle_name": "BF PISSED0"
+			"idle_name": "BF PISSED0",
+			"loop_name": "zero disgusting"
 		},
 		{
-			"loop_offsets": [
-				-4,
-				0
-			],
-			"anim": "shocked",
 			"idle_offsets": [
 				-6,
 				-11
 			],
-			"loop_name": "zero uhm",
-			"idle_name": "zero uhm"
+			"anim": "shocked",
+			"loop_offsets": [
+				-4,
+				0
+			],
+			"idle_name": "zero uhm",
+			"loop_name": "zero uhm"
 		}
-	],
-	"image": "Zero_Dialogue"
+	]
 }

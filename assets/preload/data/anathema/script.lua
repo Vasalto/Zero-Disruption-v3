@@ -37,69 +37,22 @@ end
 
 function onMoveCamera(focus)
 	if focus == 'boyfriend' then
-        setProperty('defaultCamZoom',1.1);
+        setProperty('defaultCamZoom',0.7);
 	elseif focus == 'dad' then
         setProperty('defaultCamZoom',0.7);
 	elseif focus == 'girlfriend' then
-        setProperty('defaultCamZoom',1.4);
+        setProperty('defaultCamZoom',0.5);
 	end
 end
 
 function onUpdate()
     if followchars == true then
         if mustHitSection == false then
-            setProperty('defaultCamZoom',0.8)
-            if getProperty('dad.animation.curAnim.name') == 'singLEFT' then
-                --triggerEvent('Camera Follow Pos',xx+ofs,yy)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'singRIGHT' then
-                --triggerEvent('Camera Follow Pos',xx+ofs,yy)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'singUP' then
-                --triggerEvent('Camera Follow Pos',xx,yy-ofs)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'singDOWN' then
-               -- triggerEvent('Camera Follow Pos',xx,yy+ofs)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'singLEFT-alt' then
-                --triggerEvent('Camera Follow Pos',xx-ofs,yy)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'singRIGHT-alt' then
-               -- triggerEvent('Camera Follow Pos',xx+ofs,yy)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'singUP-alt' then
-               -- triggerEvent('Camera Follow Pos',xx,yy-ofs)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'singDOWN-alt' then
-                --triggerEvent('Camera Follow Pos',xx,yy+ofs)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'idle-alt' then
-                --triggerEvent('Camera Follow Pos',xx,yy)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'idle' then
-                --triggerEvent('Camera Follow Pos',xx,yy)
-            end
+            setProperty('defaultCamZoom',0.7)
+            
         else
-
-            setProperty('defaultCamZoom',0.9)
-            if getProperty('boyfriend.animation.curAnim.name') == 'singLEFT' then
-                --triggerEvent('Camera Follow Pos',xx2-ofs,yy2)
-            end
-            if getProperty('boyfriend.animation.curAnim.name') == 'singRIGHT' then
-                --triggerEvent('Camera Follow Pos',xx2+ofs,yy2)
-            end
-            if getProperty('boyfriend.animation.curAnim.name') == 'singUP' then
-                --triggerEvent('Camera Follow Pos',xx2,yy2-ofs)
-            end
-            if getProperty('boyfriend.animation.curAnim.name') == 'singDOWN' then
-                --triggerEvent('Camera Follow Pos',xx2,yy2+ofs)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'idle-alt' then
-               -- triggerEvent('Camera Follow Pos',xx2,yy2)
-            end
-            if getProperty('dad.animation.curAnim.name') == 'idle' then
-               -- triggerEvent('Camera Follow Pos',xx2,yy2)
-            end
+            setProperty('defaultCamZoom',0.7)
+            
         end
     else
         triggerEvent('Camera Follow Pos','','')
@@ -108,22 +61,7 @@ function onUpdate()
         setPropertyFromGroup('strumLineNotes', i, 'alpha', 0)
     end
 
-function onStartCountdown()
-	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
-	if not allowCountdown and isStoryMode and not seenCutscene then
-		setProperty('inCutscene', true);
-		runTimer('startDialogue', 0.8);
-		allowCountdown = true;
-		return Function_Stop;
-	end
-	return Function_Continue;
-end
 
-function onTimerCompleted(tag, loops, loopsLeft)
-	if tag == 'startDialogue' then -- Timer completed, play dialogue
-		startDialogue('dialogue', 'breakfast');
-	end
-end
 
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
 function onNextDialogue(count)

@@ -1,8 +1,8 @@
 -- Config
 -- Edit aspects about this script below:
 
-local camZoomPlayer = 0.8
-local camZoomOpponent = 0.8
+local camZoomPlayer = 0.7
+local camZoomOpponent = 0.7
 
 
 local zoomBasedOnNPS = true -- If the zoom should be based on your NPS 

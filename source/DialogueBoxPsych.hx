@@ -199,7 +199,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		this.dialogueList = dialogueList;
 		spawnCharacters();
 
-		box = new FlxSprite(20, 370);
+		box = new FlxSprite(60, 370);
 		box.frames = Paths.getSparrowAtlas('speech_bubble');
 		box.scrollFactor.set();
 		box.antialiasing = ClientPrefs.globalAntialiasing;
@@ -274,7 +274,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		}
 	}
 
-	public static var DEFAULT_TEXT_X = 90;
+	public static var DEFAULT_TEXT_X = 50;
 	public static var DEFAULT_TEXT_Y = 430;
 	var scrollSpeed = 4500;
 	var daText:Alphabet = null;

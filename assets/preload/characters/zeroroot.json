@@ -1,67 +1,79 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				38,
 				-30
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "zero root up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "zero root up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				38,
 				-67
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "zero root down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "zero root down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				37,
 				-116
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "zero root idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "zero root idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				26,
 				-96
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "zero root right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "zero root right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				99,
 				-95
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "zero root left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "zero root left"
 		},
 		{
 			"offsets": [
-				249,
-				-99
+				252,
+				-102
 			],
-			"indices": [],
-			"fps": 24,
+			"indices": [
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			],
+			"fps": 20,
 			"anim": "attack",
 			"loop": false,
 			"name": "zero root attack"
@@ -81,8 +93,8 @@
 		0
 	],
 	"camera_position": [
-		-60,
-		10
+		-800,
+		90
 	],
 	"sing_duration": 4,
 	"scale": 1.2

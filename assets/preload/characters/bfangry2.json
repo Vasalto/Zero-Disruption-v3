@@ -148,10 +148,10 @@
 				-10,
 				44
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "BF idle dance 3"
 		},
 		{
@@ -159,10 +159,10 @@
 				-33,
 				-3
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE DOWN 3"
 		},
 		{
@@ -170,10 +170,10 @@
 				-4,
 				39
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE LEFT 3"
 		},
 		{
@@ -181,10 +181,10 @@
 				-54,
 				57
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE UP 3"
 		},
 		{
@@ -192,18 +192,18 @@
 				-50,
 				37
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE RIGHT 3"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/BOYFRIENDangry1",
 	"position": [
-		0,
-		350
+		20,
+		430
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -213,8 +213,8 @@
 		209
 	],
 	"camera_position": [
-		0,
-		-20
+		-80,
+		-150
 	],
 	"sing_duration": 4,
 	"scale": 1

@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-19,
 				-304
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "elexa down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				34,
 				-19
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "elexa up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				10,
 				-30
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "elexa idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				130,
 				-135
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "elexa left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				21,
 				-101
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "elexa right"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/elexa2",
 	"position": [
 		-210,
-		0
+		-140
 	],
 	"healthicon": "elexa",
 	"flip_x": false,
