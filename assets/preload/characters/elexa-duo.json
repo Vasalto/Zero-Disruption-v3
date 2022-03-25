@@ -60,7 +60,7 @@
 	"image": "characters/elexa duo",
 	"position": [
 		-230,
-		170
+		100
 	],
 	"healthicon": "elexa",
 	"flip_x": false,

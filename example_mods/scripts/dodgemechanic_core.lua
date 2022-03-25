@@ -57,6 +57,8 @@ doWarning2 = function()
 	playSound('alert', generalvolume)	
 	setProperty('warning.alpha', 1)
 	objectPlayAnimation('warning', 'alert', true);
+	characterPlayAnim('dad', 'preattack', true)
+				setProperty('dad.specialAnim', true)
 	canDodge = true
 end
 doDodge = function()
@@ -73,6 +75,7 @@ doDodge = function()
 			setProperty('boyfriend.specialAnim', true)
 			characterPlayAnim('dad', 'attack', true)
 				setProperty('dad.specialAnim', true)
+			playSound('slap', generalVolume)	
 		end
 	elseif dodged then
 		characterPlayAnim('boyfriend', 'dodge', true)

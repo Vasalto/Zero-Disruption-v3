@@ -31,14 +31,13 @@ function onMoveCamera(focus)
 	setProperty('cameraSpeed', 1)
 	setProperty('defaultCamZoom',0.8)
 
-
 	elseif focus == 'gf' then
 	campointx = getProperty('camFollow.x')
 	campointy = getProperty('camFollow.y')
 	bfturn = false
 	camlock = false
 	setProperty('cameraSpeed', 1)
-	setProperty('defaultCamZoom',0.7)
+	setProperty('defaultCamZoom',0.8)
 	
 	end
 end
@@ -97,10 +96,18 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	end
 end
 
+
+
 function onUpdate()
 	if camlock then
 	setProperty('camFollow.x', camlockx)
 	setProperty('camFollow.y', camlocky)
-	end
+
 end
-	-- cringe camera EWW --
+
+function onGameOver() -- Fix BF being off center on Death
+    setCharacterY('boyfriend', getCharacterY('boyfriend') + -125)
+    setCharacterX('boyfriend', getCharacterX('boyfriend') - 80)
+    return Function_Continue;
+end
+end

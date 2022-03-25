@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="elexaMic.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="elexa drops mic0000" x="0" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0001" x="0" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0002" x="589" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0003" x="589" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0004" x="1178" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0005" x="1178" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0006" x="1767" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0007" x="1767" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0008" x="2356" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0009" x="2356" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0010" x="2356" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0011" x="2356" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0012" x="2945" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0013" x="2945" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0014" x="3534" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0015" x="3534" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0016" x="4123" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0017" x="4712" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0018" x="5301" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0019" x="5890" y="0" width="589" height="918" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0020" x="6479" y="0" width="589" height="989" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0021" x="7068" y="0" width="589" height="999" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0022" x="0" y="999" width="589" height="1006" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0023" x="589" y="999" width="589" height="1011" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0024" x="589" y="999" width="589" height="1011" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0025" x="1178" y="999" width="589" height="1014" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0026" x="1767" y="999" width="589" height="1014" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0027" x="1767" y="999" width="589" height="1014" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0028" x="2356" y="999" width="589" height="1014" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0029" x="2945" y="999" width="589" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0030" x="2945" y="999" width="589" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0031" x="3534" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0032" x="3534" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0033" x="3534" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0034" x="3534" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0035" x="4224" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0036" x="4914" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0037" x="5604" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0038" x="6294" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0039" x="6984" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0040" x="6984" y="999" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0041" x="0" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0042" x="0" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0043" x="690" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0044" x="690" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0045" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0046" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0047" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0048" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0049" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0050" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0051" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0052" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+	<SubTexture name="elexa drops mic0053" x="1380" y="2013" width="690" height="1013" frameX="0" frameY="0" frameWidth="690" frameHeight="1014"/>
+</TextureAtlas>

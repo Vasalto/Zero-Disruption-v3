@@ -1,0 +1,48 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				50,
+				137
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "drop",
+			"indices": [],
+			"name": "elexa drops mic"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				137
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "elexa drops mic",
+			"indices": [
+				1,
+				1
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/elexaMic",
+	"position": [
+		-203,
+		0
+	],
+	"healthicon": "elexa",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		85,
+		142
+	],
+	"camera_position": [
+		-50,
+		-90
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

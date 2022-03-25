@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				161,
+				-84
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "zero down"
+		},
+		{
+			"offsets": [
+				104,
+				311
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "zero up"
+		},
+		{
+			"offsets": [
+				30,
+				230
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "zero idle"
+		},
+		{
+			"offsets": [
+				20,
+				179
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "zero right"
+		},
+		{
+			"offsets": [
+				102,
+				225
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "zero left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BlazkZ",
+	"position": [
+		-180,
+		-80
+	],
+	"healthicon": "zero",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-210,
+		100
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

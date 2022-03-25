@@ -1,9 +1,13 @@
 jumping = false
 function onUpdatePost(elapsed)
-	if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE') and not jumping then -- YOU CAN EDIT SPACE TO ANY KEY YO WANT
-		doTweenY('boyfriendJumpY', 'boyfriend', defaultBoyfriendY + -50, 0.3, 'cubeOut')
-		setProperty('boyfriend.stunned', false)
-		jumping = true
+	if songName == 'Vehemence' then
+		if not inGameOver then
+			if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SPACE') and not jumping then -- YOU CAN EDIT SPACE TO ANY KEY YO WANT
+				doTweenY('boyfriendJumpY', 'boyfriend', defaultBoyfriendY + -50, 0.3, 'cubeOut')
+				setProperty('boyfriend.stunned', false)
+				jumping = true
+			end
+		end
 	end
 end
 

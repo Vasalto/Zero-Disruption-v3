@@ -3,7 +3,7 @@
 		{
 			"offsets": [
 				38,
-				-30
+				-25
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				38,
-				-67
+				37,
+				-64
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				26,
-				-96
+				29,
+				-94
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				99,
-				-95
+				108,
+				-96
 			],
 			"loop": false,
 			"fps": 24,
@@ -57,9 +57,12 @@
 		},
 		{
 			"offsets": [
-				252,
-				-102
+				248,
+				-94
 			],
+			"loop": false,
+			"fps": 20,
+			"anim": "attack",
 			"indices": [
 				9,
 				10,
@@ -73,10 +76,25 @@
 				18,
 				19
 			],
-			"fps": 20,
-			"anim": "attack",
-			"loop": false,
 			"name": "zero root attack"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				248,
+				-94
+			],
+			"anim": "preattack",
+			"fps": 20,
+			"name": "zero root attack",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				5
+			]
 		}
 	],
 	"no_antialiasing": false,

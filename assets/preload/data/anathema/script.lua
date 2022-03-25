@@ -33,6 +33,9 @@ function onCreate()
 	addLuaSprite('vignette', true);
 
     setProperty('gf.visible', true)
+
+    setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'rekt'); --put in mods/music/
+
 end
 
 function onMoveCamera(focus)
