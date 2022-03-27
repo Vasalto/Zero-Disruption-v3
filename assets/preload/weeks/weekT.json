@@ -3,18 +3,22 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "Zero",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
-			"Trouble",
-			"elexa",
+			"tutorial",
+			"gf",
 			[
 				146,
 				113,
@@ -22,7 +26,7 @@
 			]
 		],
 		[
-			"Outburst",
+			"Trouble",
 			"elexa",
 			[
 				146,
@@ -31,28 +35,33 @@
 			]
 		],
 		[
-			"Anathema",
-			"zero",
+			"Outburst",
+			"elexa",
 			[
-				146,
 				0,
-				73
+				120,
+				255
 			]
 		],
 		[
-			"vehemence",
+			"Anathema",
 			"zero",
 			[
 				66,
 				0,
 				0
 			]
+		],
+		[
+			"vehemence",
+			"zero",
+			[
+				20,
+				0,
+				0
+			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"weekName": "WeekZero"
 }

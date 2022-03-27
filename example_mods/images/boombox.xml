@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="boombox.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfYeah0000" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0001" x="259" y="0" width="269" height="243" frameX="0" frameY="0" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0002" x="259" y="0" width="269" height="243" frameX="0" frameY="0" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0003" x="528" y="0" width="265" height="242" frameX="-2" frameY="-2" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0004" x="0" y="243" width="265" height="242" frameX="-2" frameY="-2" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0005" x="265" y="243" width="265" height="242" frameX="-2" frameY="-2" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0006" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0007" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0008" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0009" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0010" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0011" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0012" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0013" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0014" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0015" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0016" x="259" y="0" width="269" height="243" frameX="0" frameY="0" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0017" x="259" y="0" width="269" height="243" frameX="0" frameY="0" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0018" x="528" y="0" width="265" height="242" frameX="-2" frameY="-2" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0019" x="0" y="243" width="265" height="242" frameX="-2" frameY="-2" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0020" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0021" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0022" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0023" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0024" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0025" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0026" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0027" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0028" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+	<SubTexture name="gfYeah0029" x="0" y="0" width="259" height="237" frameX="-5" frameY="-6" frameWidth="269" frameHeight="244"/>
+</TextureAtlas>

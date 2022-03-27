@@ -41,7 +41,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("Checkin awesome credts", null);
+		DiscordClient.changePresence("Checkin awesome credits", null);
 		#end
 
 		persistentUpdate = true;
@@ -87,12 +87,13 @@ class CreditsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Zero Disruption Team'],
 			['Vasalto',				'vasalto',			'Jack of trades, Master of Nothing, Main Musician/Coder','https://twitter.com/Shadow_Mario_',	'444444'],
-			['Tet',					'tet',				'Main Artist/Animator',									'https://twitter.com/river_oaken',		'C30085'],
-			['Rotty',				'rotty',			'Main Charter',												' https://twitter.com/RottySC2',		'4494E6'],
-			['AntiMyersDiver2033',	'myers',			'Cool Musician',												' https://twitter.com/RottySC2',		'4494E6'],
-			['MajorasMax_',			'majoras',			'Cool Musician',												' https://twitter.com/RottySC2',		'4494E6'],
-			['Ocho',				'ocho',				'Cool Artist',												' https://twitter.com/RottySC2',		'4494E6'],
-			['D4',					'D4',				'Cool Artist',												' https://twitter.com/RottySC2',		'4494E6'],
+			['Tet',					'tet',				'Main Artist/Animator',									'https://twitter.com/Vasalto3',		'C30085'],
+			['Rotty',				'rotty',			'Main Charter',											' https://twitter.com/RottySC2',		'4494E6'],
+			['AntiMyersDiver2033',	'myers',			'Cool Musician',										'https://twitter.com/FNF_0Disruption',		'4494E6'],
+			['MajorasMax_',			'majoras',			'Cool Musician',										'https://twitter.com/MajorasMax',		'4494E6'],
+			['Puffybunnytail',		'puffybunnytail',	'Cool Artist',											'https://twitter.com/PuffyBunnyTail',		'C30085'],
+			['Ocho',				'ocho',				'Cool Artist',											'https://twitter.com/FNF_0Disruption',		'4494E6'],
+			['D4',					'D4',				'Cool Artist',											'https://twitter.com/D4Dev6',		'4494E6'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',						'https://twitter.com/Shadow_Mario_',	'444444'],
