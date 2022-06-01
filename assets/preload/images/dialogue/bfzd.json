@@ -1,89 +1,89 @@
 {
+	"dialogue_pos": "right",
 	"position": [
 		0,
 		-60
 	],
-	"dialogue_pos": "right",
 	"scale": 1.25,
-	"image": "bfzd_dialogue",
 	"animations": [
 		{
-			"idle_offsets": [
-				0,
-				0
-			],
+			"anim": "talk",
 			"loop_offsets": [
 				0,
 				0
 			],
-			"anim": "talk",
-			"idle_name": "bf zd normal0",
-			"loop_name": "bf zd normal"
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "bf zd normal",
+			"idle_name": "bf zd normal0"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
 			"anim": "excited",
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "bf zd ashamed0",
-			"loop_name": "bf zd ashamed"
+			"loop_name": "bf zd ashamed",
+			"idle_name": "bf zd ashamed0"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
 			"anim": "pissed",
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "bf zd angry0",
-			"loop_name": "bf zd angry"
+			"loop_name": "bf zd angry",
+			"idle_name": "bf zd angry0"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
 			"anim": "shocked",
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "bf zd dunno0",
-			"loop_name": "bf zd dunno"
+			"loop_name": "bf zd dunno",
+			"idle_name": "bf zd dunno0"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "confused",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bf zd confused0",
+			"loop_name": "bf zd confused"
+		},
+		{
 			"idle_offsets": [
 				0,
 				0
 			],
-			"loop_name": "bf zd confused",
-			"idle_name": "bf zd confused0"
-		},
-		{
-			"loop_offsets": [
-				-111,
-				-71
-			],
 			"anim": "furious",
-			"idle_offsets": [
-				-111,
-				-71
+			"loop_offsets": [
+				0,
+				0
 			],
-			"loop_name": "bf zd furious",
-			"idle_name": "bf zd furious0"
+			"idle_name": "bf zd furious0",
+			"loop_name": "bf zd furious"
 		}
-	]
+	],
+	"image": "bfzd_dialogue"
 }

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_gallery.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gallery basic0000" x="0" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0001" x="523" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0002" x="1046" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0003" x="1569" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0004" x="2092" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0005" x="2615" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0006" x="3138" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0007" x="0" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0008" x="523" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0009" x="1046" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0010" x="1569" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0011" x="2092" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0012" x="2615" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0013" x="3138" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0014" x="0" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery basic0015" x="3138" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0016" x="523" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery basic0017" x="2092" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0018" x="1569" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0019" x="1046" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery basic0020" x="1569" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery basic0021" x="523" y="606" width="523" height="606"/>
+	<SubTexture name="gallery basic0022" x="3138" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0023" x="2092" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery basic0024" x="2615" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery basic0025" x="2092" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0026" x="1569" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0027" x="3138" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery basic0028" x="523" y="0" width="523" height="606"/>
+	<SubTexture name="gallery basic0029" x="0" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0000" x="0" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0001" x="523" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0002" x="1046" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0003" x="1569" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0004" x="2092" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0005" x="2615" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0006" x="3138" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0007" x="0" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0008" x="523" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0009" x="1046" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0010" x="1569" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0011" x="2092" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0012" x="2615" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0013" x="3138" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0014" x="0" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery white0015" x="3138" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0016" x="523" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery white0017" x="2092" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0018" x="1569" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0019" x="1046" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery white0020" x="1569" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery white0021" x="523" y="606" width="523" height="606"/>
+	<SubTexture name="gallery white0022" x="3138" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0023" x="2092" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery white0024" x="2615" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery white0025" x="2092" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0026" x="1569" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0027" x="3138" y="1212" width="523" height="606"/>
+	<SubTexture name="gallery white0028" x="523" y="0" width="523" height="606"/>
+	<SubTexture name="gallery white0029" x="0" y="0" width="523" height="606"/>
+</TextureAtlas>

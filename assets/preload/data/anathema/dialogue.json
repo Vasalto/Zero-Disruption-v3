@@ -2,108 +2,80 @@
 	"dialogue": [
 		{
 			"expression": "angry",
-			"text": "You are so anoying!",
+			"text": "...It's not working!",
 			"boxState": "normal",
 			"portrait": "elexa",
 			"speed": 0.05
 		},
 		{
 			"expression": "confused",
-			"text": "We dont want to cause any trouble miss!",
+			"text": "What now? It's getting closer!",
 			"boxState": "normal",
 			"portrait": "gfzd",
 			"speed": 0.05
 		},
 		{
 			"expression": "pissed",
-			"text": "bi",
+			"text": "Boh.",
 			"boxState": "normal",
 			"portrait": "bfzd",
 			"speed": 0.05
 		},
 		{
-			"expression": "idle",
-			"text": "ok rotty finish the chart ",
-			"boxState": "normal",
+			"expression": "angry",
+			"text": "You! Girl! There's a door behind me! Find the guards, and bring them here!",
+			"boxState": "angry",
 			"portrait": "elexa",
+			"speed": 0.045
+		},
+		{
+			"expression": "shocked",
+			"text": "WHAT?! I wouldn't even know where to go-",
+			"boxState": "angry",
+			"portrait": "gfzd",
 			"speed": 0.05
 		},
 		{
+			"speed": 0.05,
+			"portrait": "zero",
+			"boxState": "normal",
 			"expression": "talk",
-			"text": "damn now i have smaple text",
-			"boxState": "normal",
-			"portrait": "bfzd",
-			"speed": 0.05
+			"text": "(In one fell swoop, Zero grabs hold of GF.)"
 		},
 		{
-			"expression": "thinking",
-			"text": "hmmm so we can speak with freedom",
-			"boxState": "normal",
+			"speed": 0.05,
 			"portrait": "gfzd",
-			"speed": 0.05
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "Agh! Put me down, you monster! "
 		},
 		{
-			"expression": "idle",
-			"text": "Yeee because the chart is not done yet",
-			"boxState": "normal",
-			"portrait": "elexa",
-			"speed": 0.05
-		},
-		{
-			"expression": "pissed",
-			"text": "makes sense lol",
-			"boxState": "normal",
+			"speed": 0.05,
 			"portrait": "bfzd",
-			"speed": 0.05
+			"boxState": "angry",
+			"expression": "furious",
+			"text": "Beep!"
 		},
 		{
-			"expression": "sad",
-			"text": "...",
-			"boxState": "normal",
+			"expression": "angry",
+			"text": "Damn! ZERO! Let go of her!",
+			"boxState": "angry",
 			"portrait": "elexa",
-			"speed": 0.05
+			"speed": 0.045
 		},
 		{
-			"expression": "disgust",
+			"expression": "shocked",
 			"text": "...",
 			"boxState": "normal",
-			"portrait": "elexa",
-			"speed": 0.05
+			"portrait": "zero",
+			"speed": 0.115
 		},
 		{
 			"expression": "excited",
-			"text": "...",
+			"text": "...Sing.",
 			"boxState": "normal",
-			"portrait": "gfzd",
-			"speed": 0.05
-		},
-		{
-			"expression": "idle",
-			"text": "The",
-			"boxState": "normal",
-			"portrait": "elexa",
-			"speed": 0.05
-		},
-		{
-			"expression": "thinking",
-			"text": "But ",
-			"boxState": "normal",
-			"portrait": "gfzd",
-			"speed": 0.05
-		},
-		{
-			"expression": "idle",
-			"text": "omg run idk",
-			"boxState": "normal",
-			"portrait": "elexa",
-			"speed": 0.05
-		},
-		{
-			"expression": "idle",
-			"text": "Leave this place, now",
-			"boxState": "normal",
-			"portrait": "elexa",
-			"speed": 0.05
+			"portrait": "zero",
+			"speed": 0.115
 		}
 	]
 }

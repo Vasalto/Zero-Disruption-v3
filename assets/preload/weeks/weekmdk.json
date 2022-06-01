@@ -1,4 +1,16 @@
 {
+	"storyName": "testing issue",
+	"difficulties": "",
+	"hideFreeplay": true,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
 	"songs": [
 		[
 			"project-mdk",
@@ -10,22 +22,10 @@
 			]
 		]
 	],
-	"hideFreeplay": false,
-	"weekBackground": "",
-	"difficulties": "",
 	"weekCharacters": [
 		"",
 		"",
 		""
 	],
-	"storyName": "testing issue",
-	"weekName": "Custom Week",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": true,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"weekName": "Custom Week"
 }

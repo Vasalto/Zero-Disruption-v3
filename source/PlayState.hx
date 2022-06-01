@@ -703,7 +703,7 @@ class PlayState extends MusicBeatState
 				ink.updateHitbox();
 				ink.alpha = 1;
 			
-			case 'Lab2': //Week Puta
+			case 'LabMess': //Week Puta
 				eye = new FlxSprite(0, 0);
 				eye.frames = Paths.getSparrowAtlas('lookAttack');
 				eye.setGraphicSize(Std.int(eye.width * 1));
@@ -729,7 +729,7 @@ class PlayState extends MusicBeatState
 				ink.scrollFactor.set(0.95, 0.95);
 				ink.updateHitbox();
 				ink.alpha = 1;
-		}
+		}	
 			
 
 		if(isPixelStage) {
@@ -3274,16 +3274,65 @@ class PlayState extends MusicBeatState
 					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0] + difficulty, PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
 
-					if(winterHorrorlandNext) {
-						new FlxTimer().start(1.5, function(tmr:FlxTimer) {
+					if (curSong == "Curious Cat") {
+							#if VIDEOS_ALLOWED
+							var foundFile:Bool = false;
+							var fileName:String = #if MODS_ALLOWED Paths.modFolders('videos/' + "transformationCinematic" + '.' + Paths.VIDEO_EXT); #else ''; #end
+							#if sys
+							if(FileSystem.exists(fileName)) {
+								foundFile = true;
+							}
+							#end
+					
+							if(!foundFile) {
+								fileName = Paths.video("transformationCinematic");
+								#if sys
+								if(FileSystem.exists(fileName)) {
+								#else
+								if(OpenFlAssets.exists(fileName)) {
+								#end
+									foundFile = true;
+								}
+							}
+					
+							if(foundFile) {
+								inCutscene = true;
+								var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+								bg.scrollFactor.set();
+								bg.cameras = [camHUD];
+								add(bg);
+					
+									(new FlxVideo(fileName)).finishCallback = function() {
+										MusicBeatState.switchState(new LoadingScreen(
+												storyPlaylist[0].toLowerCase(),
+												storyDifficulty, 
+												Highscore.formatSong(storyPlaylist[0].toLowerCase(), storyDifficulty),
+												true,
+												storyPlaylist
+											)
+										);
+									};
+							}
+							else
+							{
+								FlxG.log.warn('Couldnt find video file: ' + fileName);
+							}
+							#end
+						} else {
+							new FlxTimer().start(1.5, function(tmr:FlxTimer) {
 							cancelMusicFadeTween();
-							LoadingState.loadAndSwitchState(new PlayState());
-						});
-					} else {
-						cancelMusicFadeTween();
-						LoadingState.loadAndSwitchState(new PlayState());
+							MusicBeatState.switchState(new LoadingScreen(
+									storyPlaylist[0].toLowerCase(),
+									storyDifficulty, 
+									Highscore.formatSong(storyPlaylist[0].toLowerCase(), storyDifficulty),
+									true,
+									storyPlaylist
+									)
+								);
+							});
+						}
+						
 					}
-				}
 			}
 			else
 			{

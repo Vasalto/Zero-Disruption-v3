@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_story_mode.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="story mode basic0000" x="0" y="0" width="363" height="547"/>
+	<SubTexture name="story mode basic0001" x="363" y="0" width="363" height="546" frameX="0" frameY="-1" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0002" x="726" y="0" width="363" height="545" frameX="0" frameY="-2" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0003" x="1089" y="0" width="363" height="544" frameX="0" frameY="-3" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0004" x="1452" y="0" width="363" height="542" frameX="0" frameY="-5" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0005" x="1815" y="0" width="363" height="541" frameX="0" frameY="-6" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0006" x="2178" y="0" width="363" height="540" frameX="0" frameY="-7" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0007" x="2541" y="0" width="363" height="538" frameX="0" frameY="-9" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0008" x="2904" y="0" width="363" height="537" frameX="0" frameY="-10" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0009" x="3267" y="0" width="363" height="536" frameX="0" frameY="-11" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0010" x="3630" y="0" width="363" height="535" frameX="0" frameY="-12" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0011" x="0" y="547" width="363" height="533" frameX="0" frameY="-14" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0012" x="363" y="547" width="363" height="532" frameX="0" frameY="-15" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0013" x="726" y="547" width="363" height="531" frameX="0" frameY="-16" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0014" x="1089" y="547" width="363" height="529" frameX="0" frameY="-18" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0015" x="1452" y="547" width="363" height="531" frameX="0" frameY="-16" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0016" x="1815" y="547" width="363" height="532" frameX="0" frameY="-15" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0017" x="2178" y="547" width="363" height="533" frameX="0" frameY="-14" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0018" x="2541" y="547" width="363" height="534" frameX="0" frameY="-13" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0019" x="2904" y="547" width="363" height="536" frameX="0" frameY="-11" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0020" x="3267" y="547" width="363" height="537" frameX="0" frameY="-10" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0021" x="3630" y="547" width="363" height="538" frameX="0" frameY="-9" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0022" x="0" y="1085" width="363" height="539" frameX="0" frameY="-8" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0023" x="363" y="1085" width="363" height="540" frameX="0" frameY="-7" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0024" x="726" y="1085" width="363" height="542" frameX="0" frameY="-5" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0025" x="1089" y="1085" width="363" height="543" frameX="0" frameY="-4" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0026" x="1452" y="1085" width="363" height="544" frameX="0" frameY="-3" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0027" x="1815" y="1085" width="363" height="545" frameX="0" frameY="-2" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0028" x="2178" y="1085" width="363" height="546" frameX="0" frameY="-1" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode basic0029" x="2541" y="1085" width="363" height="547"/>
+	<SubTexture name="story mode white0000" x="2904" y="1085" width="363" height="547"/>
+	<SubTexture name="story mode white0001" x="3267" y="1085" width="363" height="546" frameX="0" frameY="-1" frameWidth="363" frameHeight="547"/>
+	<SubTexture name="story mode white0002" x="3630" y="1085" width="363" height="545" frameX="0" frameY="-2" frameWidth="363" frameHeight="547"/>
+</TextureAtlas>

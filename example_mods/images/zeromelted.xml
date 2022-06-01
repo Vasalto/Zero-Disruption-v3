@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zeromelted.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="zero melted0000" x="0" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0001" x="868" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0002" x="868" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0003" x="1736" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0004" x="2604" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0005" x="2604" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0006" x="3472" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0007" x="3472" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0008" x="2604" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0009" x="2604" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0010" x="1736" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0011" x="4340" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0012" x="4340" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0013" x="5208" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0014" x="6076" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0015" x="6944" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0016" x="6944" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted0017" x="0" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0018" x="868" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0019" x="868" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0020" x="1736" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0021" x="2604" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0022" x="2604" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0023" x="3472" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0024" x="4340" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0025" x="4340" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted0026" x="6076" y="0" width="868" height="933"/>
+	<SubTexture name="zero melted 20000" x="5208" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted 20001" x="6076" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted 20002" x="6076" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted 20003" x="6944" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted 20004" x="0" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20005" x="868" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20006" x="1736" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20007" x="2604" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20008" x="3472" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20009" x="4340" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20010" x="6944" y="933" width="868" height="933"/>
+	<SubTexture name="zero melted 20011" x="5208" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20012" x="5208" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20013" x="6076" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20014" x="6944" y="1866" width="868" height="933"/>
+	<SubTexture name="zero melted 20015" x="0" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20016" x="0" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20017" x="868" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20018" x="1736" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20019" x="2604" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20020" x="3472" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20021" x="4340" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20022" x="4340" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20023" x="5208" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20024" x="6076" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20025" x="6944" y="2799" width="868" height="933"/>
+	<SubTexture name="zero melted 20026" x="0" y="3732" width="868" height="933"/>
+</TextureAtlas>

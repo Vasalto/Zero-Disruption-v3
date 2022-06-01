@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfv3.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfv30000" x="0" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30001" x="0" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30002" x="640" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30003" x="1280" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30004" x="1280" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30005" x="1920" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30006" x="2560" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30007" x="2560" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30008" x="3200" y="0" width="640" height="510"/>
+	<SubTexture name="gfv30009" x="0" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30010" x="640" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30011" x="640" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30012" x="1280" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30013" x="1920" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30014" x="1920" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30015" x="2560" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30016" x="2560" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30017" x="3200" y="510" width="640" height="510"/>
+	<SubTexture name="gfv30018" x="0" y="1020" width="640" height="510"/>
+	<SubTexture name="gfv30019" x="0" y="1020" width="640" height="510"/>
+	<SubTexture name="gfv30020" x="640" y="1020" width="640" height="510"/>
+	<SubTexture name="gfv30021" x="640" y="1020" width="640" height="510"/>
+	<SubTexture name="gfv30022" x="1280" y="1020" width="640" height="510"/>
+	<SubTexture name="gfv30023" x="1920" y="1020" width="640" height="510"/>
+	<SubTexture name="gfv30024" x="2560" y="1020" width="640" height="510"/>
+	<SubTexture name="gfv30025" x="3200" y="1020" width="640" height="510"/>
+	<SubTexture name="gfv30026" x="0" y="1530" width="640" height="510"/>
+	<SubTexture name="gfv30027" x="640" y="1530" width="640" height="510"/>
+</TextureAtlas>

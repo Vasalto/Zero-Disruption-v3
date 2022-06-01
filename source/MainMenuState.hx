@@ -36,7 +36,9 @@ class MainMenuState extends MusicBeatState
 		'story_mode',
 		'freeplay',
 		'options',
-		'credits'
+		'credits',
+		'gallery'
+
 		
 	];
 
@@ -143,12 +145,12 @@ class MainMenuState extends MusicBeatState
 
 		//FlxG.camera.follow(camFollowPos, null, 1);
 
-		char1  = new Character(920, 150, 'elexa', true);
+		/*char1  = new Character(920, 150, 'elexa', true);
 		char1.setGraphicSize(Std.int(char1.width * 0.8));
 		add(char1);
 		char1.visible = true;
 		char1.dance();
-		char1.updateHitbox();
+		char1.updateHitbox();*/
 
 		
 
@@ -266,8 +268,8 @@ class MainMenuState extends MusicBeatState
 									case 'mods':
 										MusicBeatState.switchState(new ModsMenuState());
 									#end
-									case 'awards':
-										MusicBeatState.switchState(new AchievementsMenuState());
+									case 'gallery':
+										MusicBeatState.switchState(new ArtworkState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':
@@ -299,6 +301,7 @@ class MainMenuState extends MusicBeatState
 					case 1:  spr.x -= 2; //free play, esto va pa aca -ñ
 					case 2:  spr.x -= 9.4; //options, esto va pa aca -ñ
 					case 3:  spr.x -= -10; //creddits, esto va pa aca -ñ
+					case 4:  spr.x -= -15; //creddits, esto va pa aca -ñ
 					default: spr.x -= 5;
 				};
 	
@@ -317,6 +320,7 @@ class MainMenuState extends MusicBeatState
 					case 1:  spr.y -= 1;
 					case 2:  spr.y -= -30;
 					case 3:  spr.y -= 1;
+					case 4:  spr.y -= -10; 
 					default: spr.y -= 20;
 				};
 	

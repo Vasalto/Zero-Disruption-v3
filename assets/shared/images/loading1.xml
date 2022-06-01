@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="loading1.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="loading10000" x="0" y="0" width="1926" height="1059"/>
+	<SubTexture name="loading10001" x="1926" y="0" width="1926" height="1059"/>
+	<SubTexture name="loading10002" x="3852" y="0" width="1926" height="1059"/>
+	<SubTexture name="loading10003" x="3852" y="0" width="1926" height="1059"/>
+	<SubTexture name="loading10004" x="5778" y="0" width="1926" height="1059"/>
+	<SubTexture name="loading10005" x="0" y="1059" width="1926" height="1059"/>
+	<SubTexture name="loading10006" x="1926" y="1059" width="1926" height="1059"/>
+	<SubTexture name="loading10007" x="3852" y="1059" width="1926" height="1059"/>
+	<SubTexture name="loading10008" x="5778" y="1059" width="1926" height="1059"/>
+	<SubTexture name="loading10009" x="0" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10010" x="1926" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10011" x="3852" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10012" x="5778" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10013" x="5778" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10014" x="0" y="3177" width="1926" height="1059"/>
+	<SubTexture name="loading10015" x="0" y="3177" width="1926" height="1059"/>
+	<SubTexture name="loading10016" x="3852" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10017" x="3852" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10018" x="5778" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10019" x="5778" y="2118" width="1926" height="1059"/>
+	<SubTexture name="loading10020" x="1926" y="3177" width="1926" height="1059"/>
+	<SubTexture name="loading10021" x="3852" y="3177" width="1926" height="1059"/>
+	<SubTexture name="loading10022" x="5778" y="3177" width="1926" height="1059"/>
+	<SubTexture name="loading10023" x="5778" y="3177" width="1926" height="1059"/>
+	<SubTexture name="loading10024" x="0" y="4236" width="1926" height="1059"/>
+	<SubTexture name="loading10025" x="0" y="4236" width="1926" height="1059"/>
+	<SubTexture name="loading10026" x="1926" y="4236" width="1926" height="1059"/>
+	<SubTexture name="loading10027" x="1926" y="4236" width="1926" height="1059"/>
+	<SubTexture name="loading10028" x="3852" y="4236" width="1926" height="1059"/>
+	<SubTexture name="loading10029" x="3852" y="4236" width="1926" height="1059"/>
+</TextureAtlas>
