@@ -11,7 +11,7 @@ function onCreate()
 	scaleObject('dark', 13, 13);
 	addLuaSprite('dark', false);
 
-	makeAnimatedLuaSprite('shadow', 'shadow', -350.5, 100, true)
+	makeAnimatedLuaSprite('shadow', 'stages/2/shadow', -350.5, 100, true)
 	addAnimationByPrefix('shadow', 'shadowa', 'alextween', 24, false);
 	addAnimationByPrefix('shadow', 'shadowb', 'zerotweenfront', 24, false);
 	addAnimationByPrefix('shadow', 'shadowc', 'zerotweenright', 24, false);

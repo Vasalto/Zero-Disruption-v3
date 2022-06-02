@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zerojumpscare.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="zerojumpscareentry0000" x="0" y="0" width="887" height="1292" frameX="-567" frameY="-19" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0001" x="887" y="0" width="887" height="1292" frameX="-473" frameY="0" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0002" x="887" y="0" width="887" height="1292" frameX="-473" frameY="0" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0003" x="1774" y="0" width="923" height="1208" frameX="0" frameY="-140" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0004" x="2697" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0005" x="2697" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0006" x="3583" y="0" width="885" height="1292" frameX="-94" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0007" x="4468" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0008" x="5354" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0009" x="6240" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0010" x="7126" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0011" x="5354" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0012" x="6240" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0013" x="7126" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0014" x="0" y="1292" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0015" x="6240" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0016" x="886" y="1292" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0017" x="5354" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0018" x="1772" y="1292" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0019" x="7126" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0020" x="7126" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0021" x="886" y="1292" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0022" x="5354" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0023" x="1772" y="1292" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0024" x="7126" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0025" x="5354" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0026" x="1772" y="1292" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0027" x="7126" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0028" x="5354" y="0" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareentry0029" x="1772" y="1292" width="886" height="1292" frameX="-51" frameY="-33" frameWidth="1454" frameHeight="1348"/>
+	<SubTexture name="zerojumpscareexit0000" x="4430" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareexit0001" x="2658" y="1292" width="886" height="1292" frameX="0" frameY="0" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0002" x="3544" y="1292" width="886" height="1292" frameX="0" frameY="0" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0003" x="4430" y="1292" width="886" height="1292" frameX="0" frameY="0" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0004" x="4430" y="1292" width="886" height="1292" frameX="0" frameY="0" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0005" x="5316" y="1292" width="886" height="1349" frameX="0" frameY="-28" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0006" x="6202" y="1292" width="886" height="1376" frameX="0" frameY="-273" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0007" x="6202" y="1292" width="886" height="1376" frameX="0" frameY="-273" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0008" x="7088" y="1292" width="886" height="1377" frameX="0" frameY="-714" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0009" x="7088" y="1292" width="886" height="1377" frameX="0" frameY="-714" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0010" x="7974" y="1292" width="0" height="0" frameX="0" frameY="0" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0011" x="7974" y="1292" width="0" height="0" frameX="0" frameY="0" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0012" x="7974" y="1292" width="0" height="0" frameX="0" frameY="0" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareexit0013" x="7974" y="1292" width="0" height="0" frameX="0" frameY="0" frameWidth="886" frameHeight="2091"/>
+	<SubTexture name="zerojumpscareloop0000" x="0" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0001" x="886" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0002" x="1772" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0003" x="0" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0004" x="886" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0005" x="1772" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0006" x="2658" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0007" x="886" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0008" x="3544" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0009" x="0" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0010" x="4430" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0011" x="1772" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0012" x="1772" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0013" x="3544" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0014" x="0" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0015" x="4430" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0016" x="1772" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0017" x="0" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0018" x="4430" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0019" x="1772" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0020" x="0" y="2669" width="886" height="1292"/>
+	<SubTexture name="zerojumpscareloop0021" x="4430" y="2669" width="886" height="1292"/>
+</TextureAtlas>

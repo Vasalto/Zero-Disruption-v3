@@ -9,7 +9,7 @@
 		--addLuaSprite('bgWARNING', false);
 
 
-		makeLuaSprite('bgBACK','bgBACKWARNING', -600, -300);
+		makeLuaSprite('bgBACK','bgWARNING', -600, -300);
 		setScrollFactor('bgBACK', 1, 1);
 		-- addAnimationByPrefix('bgWARNING', 'Animation', 'bgWARNING', 7.5, true);
 		addLuaSprite('bgBACK', false);
@@ -25,7 +25,7 @@
 		addLuaSprite('redLight', true)
 		scaleObject('redLight', 12, 12);
 
-		makeAnimatedLuaSprite('buttons','buttons', 310, 200);
+		makeAnimatedLuaSprite('buttons','mechanics/buttons', 310, 200);
 		setScrollFactor('buttons', 1, 1);
 		addAnimationByPrefix('buttons', 'buttons', 'buttons', 25, true);
 		setObjectCamera('buttons','hud');
@@ -33,7 +33,7 @@
 		setProperty('buttons.alpha', 0);
 		addLuaSprite('buttons', true)
 
-		makeAnimatedLuaSprite('zeroj','zerojumpscare', 630, -350);
+		makeAnimatedLuaSprite('zeroj','mechanics/zerojumpscare', 630, -350);
 		setScrollFactor('zeroj', 1, 1);
 		setObjectCamera('zeroj','hud');
 		addAnimationByPrefix('zeroJ', 'zerojumpscareloop', 'zerojumpscareloop', 25, true);
@@ -41,14 +41,15 @@
 		addAnimationByPrefix('zeroj', 'loop', 'zerojumpscareloop', 24, true)
 		addAnimationByPrefix('zeroj', 'exit', 'zerojumpscareexit', 24, false)
 		setProperty('zeroj.alpha', 0);
-
 		addLuaSprite('zeroj', true)
---		makeAnimatedLuaSprite('fx', 'vintage', 0, 0)
---		addAnimationByPrefix('fx', 'idle', 'idle', 16, true)
---		scaleObject('fx', 3, 3)
---		setObjectCamera('fx', 'camHud')
---		objectPlayAnimation('fx', 'idle', true)
---		setProperty('fx.alpha', 0)
+
+		makeAnimatedLuaSprite('fx', 'vignettes/vintage', 0, 0)
+		addAnimationByPrefix('fx', 'idle', 'idle', 16, true)
+		scaleObject('fx', 3, 3)
+		setObjectCamera('fx', 'camHud')
+		objectPlayAnimation('fx', 'idle', true)
+		setProperty('fx.alpha', 0)
+		addLuaSprite(fx, true)
 
 
 

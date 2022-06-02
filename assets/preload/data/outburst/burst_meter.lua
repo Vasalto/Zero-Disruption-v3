@@ -7,7 +7,7 @@ function onCreate()
 	precacheImage('zerosooth')
 
 -- bar bg or smthng
-	makeLuaSprite('barNormal', 'temper', 1190.5, 145)
+	makeLuaSprite('barNormal', 'mechanics/temper', 1190.5, 145)
 	setObjectCamera('barNormal', 'hud')
 	addLuaSprite('barNormal')
 -- da actual bar
@@ -18,16 +18,16 @@ function onCreate()
 	addLuaSprite('barBlue')
 	setProperty('barBlue.scale.y', barAmount)
 
-	makeLuaSprite('barline', 'temperlines', 1204.5, 145)
+	makeLuaSprite('barline', 'mechanics/temperlines', 1204.5, 145)
 	setObjectCamera('barline', 'hud')
 	addLuaSprite('barline')
 
-	makeLuaSprite('vignette', 'blackvignette', 0, 0);
+	makeLuaSprite('vignette', 'vignettes/blackvignette', 0, 0);
 	setProperty('vignette.alpha', 0);
 	setObjectCamera('vignette', 'other')
 	addLuaSprite('vignette', true);
 
-	makeAnimatedLuaSprite('zerosooth', 'zerosooth', 337.5, -292, true)
+	makeAnimatedLuaSprite('zerosooth', 'mechanics/zerosooth', 337.5, -292, true)
 	addAnimationByPrefix('zerosooth', 'zerosooth', 'zerosooth', 24, true);
 	addAnimationByPrefix('zerosooth', 'zeroangry', 'zeroangry', 28, true);
 	setProperty('zerosooth.alpha', 0);

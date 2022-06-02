@@ -164,12 +164,8 @@ class TitleState extends MusicBeatState
 		MusicBeatState.switchState(new FreeplayState());
 		#elseif CHARTING
 		MusicBeatState.switchState(new ChartingState());
+		FlxG.mouse.visible = true;
 		#else
-		if(FlxG.save.data.flashing == null && !FlashingState.leftState) {
-			FlxTransitionableState.skipNextTransIn = true;
-			FlxTransitionableState.skipNextTransOut = true;
-			MusicBeatState.switchState(new FlashingState());
-		} else {
 			#if desktop
 			DiscordClient.initialize();
 			Application.current.onExit.add (function (exitCode) {
@@ -180,7 +176,7 @@ class TitleState extends MusicBeatState
 			{
 				startIntro();
 			});
-		}
+		
 		#end
 	}
 
@@ -391,9 +387,9 @@ class TitleState extends MusicBeatState
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
 					if (mustUpdate) {
-						MusicBeatState.switchState(new WarnState());
+						MusicBeatState.switchState(new WarnState());//WarnState
 					} else {
-						MusicBeatState.switchState(new WarnState());
+						MusicBeatState.switchState(new WarnState());//WarnState
 					}
 					closedState = true;
 				});

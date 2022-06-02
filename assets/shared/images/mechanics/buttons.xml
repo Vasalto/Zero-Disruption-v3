@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="buttons.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="buttons0000" x="0" y="0" width="1140" height="436"/>
+	<SubTexture name="buttons0001" x="0" y="0" width="1140" height="436"/>
+	<SubTexture name="buttons0002" x="0" y="436" width="1140" height="436"/>
+	<SubTexture name="buttons0003" x="0" y="436" width="1140" height="436"/>
+	<SubTexture name="buttons0004" x="0" y="0" width="1140" height="436"/>
+	<SubTexture name="buttons0005" x="0" y="0" width="1140" height="436"/>
+	<SubTexture name="buttons0006" x="0" y="436" width="1140" height="436"/>
+	<SubTexture name="buttons0007" x="0" y="436" width="1140" height="436"/>
+	<SubTexture name="buttons0008" x="0" y="0" width="1140" height="436"/>
+	<SubTexture name="buttons0009" x="0" y="872" width="1140" height="436"/>
+	<SubTexture name="buttons0010" x="0" y="1308" width="1140" height="436"/>
+	<SubTexture name="buttons0011" x="0" y="1308" width="1140" height="436"/>
+	<SubTexture name="buttons0012" x="0" y="872" width="1140" height="436"/>
+	<SubTexture name="buttons0013" x="0" y="872" width="1140" height="436"/>
+	<SubTexture name="buttons0014" x="0" y="1308" width="1140" height="436"/>
+	<SubTexture name="buttons0015" x="0" y="1308" width="1140" height="436"/>
+</TextureAtlas>

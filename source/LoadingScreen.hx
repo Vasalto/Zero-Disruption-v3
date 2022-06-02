@@ -17,7 +17,7 @@ enum PreloadType {
     image;
 }
 
-class LoadingScreen extends MusicBeatState {
+class LoadingScreen extends MusicBeatState { //im probs gonna rewrite this, i need to get better at coding lol (i just don't want to piss off people when we open source this) - slithy
 
     public static var assetStack:Map<String, PreloadType> = [];
     

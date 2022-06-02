@@ -670,7 +670,7 @@ class PlayState extends MusicBeatState
 					add(bg);
 				}
 			case 'Lab3': //Week Puta
-				var bg:BGSprite = new BGSprite('labZero', -600, -300);
+				var bg:BGSprite = new BGSprite('stages/labZero', -600, -300);
 				bg.setGraphicSize(Std.int(bg.width * 0.9));
 				bg.updateHitbox();
 				bg.scrollFactor.set(1, 1);
@@ -678,7 +678,7 @@ class PlayState extends MusicBeatState
 				add(bg);
 				
 				eye = new FlxSprite(0, 0);
-				eye.frames = Paths.getSparrowAtlas('lookAttack');
+				eye.frames = Paths.getSparrowAtlas('mechanics/lookAttack');
 				eye.setGraphicSize(Std.int(eye.width * 1));
 				eye.animation.addByPrefix('stop', "stop", 24);
 				eye.animation.addByPrefix('idle', "lookAttack", 24);
@@ -691,7 +691,7 @@ class PlayState extends MusicBeatState
 				eye.alpha = 1;
 			
 				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
-				ink.frames = Paths.getSparrowAtlas('inkAttack');
+				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
 				ink.setGraphicSize(Std.int(ink.width * 2));
 				ink.animation.addByPrefix('stop', "stop", 24, false);
 				ink.animation.addByPrefix('ink1', "ink 1", 24, false);
@@ -705,7 +705,7 @@ class PlayState extends MusicBeatState
 			
 			case 'LabMess': //Week Puta
 				eye = new FlxSprite(0, 0);
-				eye.frames = Paths.getSparrowAtlas('lookAttack');
+				eye.frames = Paths.getSparrowAtlas('mechanics/lookAttack');
 				eye.setGraphicSize(Std.int(eye.width * 1));
 				eye.animation.addByPrefix('stop', "stop", 24);
 				eye.animation.addByPrefix('idle', "lookAttack", 24);
@@ -718,7 +718,7 @@ class PlayState extends MusicBeatState
 				eye.alpha = 1;
 			
 				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
-				ink.frames = Paths.getSparrowAtlas('inkAttack');
+				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
 				ink.setGraphicSize(Std.int(ink.width * 2));
 				ink.animation.addByPrefix('stop', "stop", 24, false);
 				ink.animation.addByPrefix('ink1', "ink 1", 24, false);

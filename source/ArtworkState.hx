@@ -461,8 +461,8 @@ class ArtworkState extends MusicBeatState {
             curSelected += sel;
 
             if (curSelected < 1)
-                curSelected = 24;
-            if (curSelected > 24)
+                curSelected = 25;
+            if (curSelected > 25)
                 curSelected = 1;
 
             changeImagePath(true, curImage);

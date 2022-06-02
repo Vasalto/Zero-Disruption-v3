@@ -46,7 +46,8 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
-	private var char1:Character = null;
+	var elexaMenu:FlxSprite;
+	//private var char1:Character = null; //you could just make an flxsprite, i added elexaMenu
 
 	override function create()
 	{
@@ -145,15 +146,25 @@ class MainMenuState extends MusicBeatState
 
 		//FlxG.camera.follow(camFollowPos, null, 1);
 
-		/*char1  = new Character(920, 150, 'elexa', true);
+
+
+		
+		elexaMenu = new FlxSprite(835, 50); 
+		elexaMenu.frames = Paths.getSparrowAtlas('elexa idle', 'shared');
+		elexaMenu.animation.addByPrefix('idle','elexa idle',24);
+		elexaMenu.animation.play('idle');
+		elexaMenu.scale.set(0.67, 0.67);
+		elexaMenu.flipX = true;
+		elexaMenu.antialiasing = true;
+		add(elexaMenu);
+
+		/*
+		char1  = new Character(920, 150, 'elexa', true);
 		char1.setGraphicSize(Std.int(char1.width * 0.8));
 		add(char1);
 		char1.visible = true;
 		char1.dance();
 		char1.updateHitbox();*/
-
-		
-
 
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
