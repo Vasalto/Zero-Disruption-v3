@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfYeah.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfYeah0000" x="0" y="0" width="629" height="493" frameX="-5" frameY="-14" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0001" x="629" y="0" width="639" height="493" frameX="0" frameY="-14" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0002" x="1268" y="0" width="639" height="495" frameX="0" frameY="-12" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0003" x="1907" y="0" width="636" height="495" frameX="-2" frameY="-12" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0004" x="2543" y="0" width="636" height="503" frameX="-2" frameY="-4" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0005" x="3179" y="0" width="632" height="503" frameX="-2" frameY="-4" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0006" x="0" y="503" width="629" height="505" frameX="-5" frameY="-2" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0007" x="0" y="503" width="629" height="505" frameX="-5" frameY="-2" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0008" x="629" y="503" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0009" x="629" y="503" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0010" x="629" y="503" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0011" x="629" y="503" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0012" x="629" y="503" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0013" x="629" y="503" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0014" x="629" y="503" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0015" x="1258" y="503" width="629" height="493" frameX="-5" frameY="-14" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0016" x="1887" y="503" width="639" height="493" frameX="0" frameY="-14" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0017" x="2526" y="503" width="639" height="495" frameX="0" frameY="-12" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0018" x="3165" y="503" width="637" height="495" frameX="-2" frameY="-12" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0019" x="0" y="1010" width="637" height="503" frameX="-2" frameY="-4" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0020" x="637" y="1010" width="629" height="503" frameX="-5" frameY="-4" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0021" x="1266" y="1010" width="629" height="505" frameX="-5" frameY="-2" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0022" x="1266" y="1010" width="629" height="505" frameX="-5" frameY="-2" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0023" x="1895" y="1010" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0024" x="1895" y="1010" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0025" x="1895" y="1010" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0026" x="1895" y="1010" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0027" x="1895" y="1010" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0028" x="1895" y="1010" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+	<SubTexture name="gfYeah0029" x="1895" y="1010" width="629" height="507" frameX="-5" frameY="0" frameWidth="639" frameHeight="507"/>
+</TextureAtlas>

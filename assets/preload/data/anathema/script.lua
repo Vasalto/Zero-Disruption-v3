@@ -13,7 +13,7 @@ local del = 0;
 local del2 = 0;
 
 function onCreate()
-
+    precacheImage('vignettes/vintage')
     luaDebugMode = true
 	
 	setProperty('cameraSpeed', 2.2);
@@ -35,6 +35,14 @@ function onCreate()
     setProperty('gf.visible', true)
 
     setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'rekt'); --put in mods/music/
+
+    makeAnimatedLuaSprite('fx', 'vignettes/vintage', 0, 0)
+    addAnimationByPrefix('fx', 'idle', 'idle', 16, true)
+    scaleObject('fx', 3, 3)
+    setObjectCamera('fx', 'camHud')
+    objectPlayAnimation('fx', 'idle', true)
+    setProperty('fx.alpha', 0)
+    addLuaSprite('fx', true)
 
 end
 

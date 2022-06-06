@@ -1,9 +1,9 @@
 --Script Config: Images
 --Find these inside of mods/images
-local ThreeImage = 'three'
-local TwoImage = 'two'
-local OneImage = 'one'
-local GoImage =	'gofun'
+local ThreeImage = 'ready'
+local TwoImage = 'set'
+local OneImage = 'go'
+local GoImage =	'go'
 
 --Script Config: Sounds
 --Find these inside of mods/sounds

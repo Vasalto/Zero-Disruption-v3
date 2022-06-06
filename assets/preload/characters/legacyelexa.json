@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				1,
-				-139
+				21,
+				-89
 			],
 			"loop": false,
 			"fps": 24,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				50,
-				98
+				-26,
+				151
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				10,
-				100
+				84,
+				141
 			],
 			"loop": false,
 			"fps": 24,
@@ -34,33 +34,33 @@
 			"name": "elexa idle"
 		},
 		{
-			"offsets": [
-				140,
-				-7
-			],
 			"loop": false,
+			"offsets": [
+				-40,
+				99
+			],
+			"anim": "singRIGHT",
 			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "elexa left"
+			"name": "elexa left",
+			"indices": []
 		},
 		{
-			"offsets": [
-				41,
-				29
-			],
 			"loop": false,
+			"offsets": [
+				90,
+				75
+			],
+			"anim": "singLEFT",
 			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "elexa right"
+			"name": "elexa right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/elexa",
+	"image": "characters/legacyelexa",
 	"position": [
-		-235,
-		-30
+		-210,
+		0
 	],
 	"healthicon": "elexa",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		142
 	],
 	"camera_position": [
-		40,
-		-10
+		30,
+		20
 	],
 	"sing_duration": 4,
-	"scale": 1.1
+	"scale": 1
 }

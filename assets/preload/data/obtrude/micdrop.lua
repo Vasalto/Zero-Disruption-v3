@@ -1,9 +1,9 @@
 --Code by doctor krazy, credit me if used.
 --You may modify it to suit your needs.
 function onCreate()
-	makeAnimatedLuaSprite('micFloor', 'micFloor', 117.5, 792, true)
+	makeAnimatedLuaSprite('micFloor', 'micFloor', 335, 1165, true)
 	addLuaSprite('micFloor')
-	scaleObject('micFloor', 0.9, 1)
+	scaleObject('micFloor', 1.1, 1.1)
 	setObjectScrollFactor('micFloor', 0.1, 0.1)
 	setObjectPosition('micFloor', 200, 500)
 

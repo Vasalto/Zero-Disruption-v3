@@ -4,7 +4,13 @@ local soundPlayed = false
 local soundPlayVar = false
 
 function onCreate()
-	precacheImage('zerosooth')
+	precacheImage('mechanics/zerosooth')
+	--precacheImage('mechanics/temper')
+	--precacheImage('mechanics/temperlines')
+	precacheImage('vignettes/blackvignette')
+
+
+
 
 -- bar bg or smthng
 	makeLuaSprite('barNormal', 'mechanics/temper', 1190.5, 145)
@@ -16,7 +22,7 @@ function onCreate()
 	setObjectCamera('barBlue', 'hud')
 	setProperty('barBlue.origin.y', 1)
 	addLuaSprite('barBlue')
-	setProperty('barBlue.scale.y', barAmount)
+	setProperty('barBlue.scale.y', shielded)
 
 	makeLuaSprite('barline', 'mechanics/temperlines', 1204.5, 145)
 	setObjectCamera('barline', 'hud')
@@ -30,7 +36,7 @@ function onCreate()
 	makeAnimatedLuaSprite('zerosooth', 'mechanics/zerosooth', 337.5, -292, true)
 	addAnimationByPrefix('zerosooth', 'zerosooth', 'zerosooth', 24, true);
 	addAnimationByPrefix('zerosooth', 'zeroangry', 'zeroangry', 28, true);
-	setProperty('zerosooth.alpha', 0);
+	setProperty('zerosooth.alpha', 0.001);
 	addLuaSprite('zerosooth')
 	
 
@@ -45,7 +51,7 @@ function onBeatHit()
 	end
 end
 
-function onUpdate()
+function onUpdate(elapsed)
 	if curBeat >= 1 then
 		if barAmount >= 222 then
 			setProperty('health', getProperty('health')-0.005);
@@ -60,10 +66,10 @@ function onUpdate()
 		end
 		if burst == false then
 			    if barAmount ~= 0 then
-  	 	     	barAmount= barAmount - 0.1
+  	 	     	barAmount= barAmount - (elapsed * 9)
 				setProperty('barBlue.scale.y', barAmount)
 				elseif barAmount ~= 0 and curBeat >= 320 then
-  	 	     	barAmount= barAmount - 0.2
+  	 	     	barAmount= barAmount - (elapsed * 11)
 				setProperty('barBlue.scale.y', barAmount)
 			end		
 		end
@@ -71,12 +77,12 @@ function onUpdate()
 
 	if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.E') and E == true then -- bar shit
 		barAmount= barAmount + 40
-		runTimer('CooldownE', 0.1);
+		runTimer('CooldownE', 0.01);
 
 		--setProperty('boyfriend.specialAnim', true)
 	elseif getPropertyFromClass('flixel.FlxG', 'keys.justPressed.Q') and Q == true  then
 		barAmount= barAmount - 80
-		runTimer('CooldownQ', 0.1);
+		runTimer('CooldownQ', 0.01);
 
     
     end

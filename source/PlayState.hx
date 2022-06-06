@@ -365,6 +365,8 @@ class PlayState extends MusicBeatState
 					curStage = 'mallEvil';
 				case 'senpai' | 'roses':
 					curStage = 'school';
+				case 'obtrude' | 'legacy-obtrude':
+					curStage = 'Lab1';
 				case 'thorns':
 					curStage = 'schoolEvil';
 				default:
@@ -669,6 +671,17 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+			case 'Lab1':
+				var back:BGSprite = new BGSprite('stages/1/back', -600, -300);
+				back.scale.set(1,1);
+				back.scrollFactor.set(1,1);
+				add(back);
+
+				var front:BGSprite = new BGSprite('stages/1/front', -600, -300);
+				front.scale.set(1,1);
+				front.scrollFactor.set(1,1);
+				add(front);
+				
 			case 'Lab3': //Week Puta
 				var bg:BGSprite = new BGSprite('stages/labZero', -600, -300);
 				bg.setGraphicSize(Std.int(bg.width * 0.9));
