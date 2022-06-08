@@ -210,6 +210,10 @@ class PlayState extends MusicBeatState
 	var grpLimoDancers:FlxTypedGroup<BackgroundDancer>;
 	var fastCar:BGSprite;
 
+	var backlab2:BGSprite;
+	var frontlab2:BGSprite;
+	var frontstagechange:BGSprite;
+
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
 	var santa:BGSprite;
@@ -367,6 +371,8 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'obtrude' | 'legacy-obtrude':
 					curStage = 'Lab1';
+				case 'outburst' | 'anathema':
+					curStage = 'Lab2';
 				case 'thorns':
 					curStage = 'schoolEvil';
 				default:
@@ -682,6 +688,23 @@ class PlayState extends MusicBeatState
 				front.scrollFactor.set(1,1);
 				add(front);
 				
+			case 'Lab2':
+				backlab2 = new BGSprite('stages/2/back', -600, -300);
+				backlab2.scale.set(1,1);
+				backlab2.scrollFactor.set(1,1);
+				add(backlab2);
+
+				frontlab2 = new BGSprite('stages/2/front', -600, -300);
+				frontlab2.scale.set(1,1);
+				frontlab2.scrollFactor.set(1,1);
+				add(frontlab2); 
+
+				frontstagechange = new BGSprite('stages/3/front', -600, -300);
+				frontstagechange.scale.set(1,1);
+				frontstagechange.scrollFactor.set(1,1);
+				frontstagechange.visible = false;
+				add(frontstagechange); 
+				
 			case 'Lab3': //Week Puta
 				var bg:BGSprite = new BGSprite('stages/labZero', -600, -300);
 				bg.setGraphicSize(Std.int(bg.width * 0.9));
@@ -748,6 +771,8 @@ class PlayState extends MusicBeatState
 		if(isPixelStage) {
 			introSoundsSuffix = '-pixel';
 		}
+
+
 
 		add(gfGroup);
 
@@ -2176,10 +2201,17 @@ class PlayState extends MusicBeatState
 			iconP1.swapOldIcon();
 		}*/
 
+
+		if (curSong.toLowerCase() == 'outburst' && curStage == 'Lab2' && curStep >= 1279 )
+			{
+				frontstagechange.visible = true;
+			}
 		callOnLuas('onUpdate', [elapsed]);
 
 		switch (curStage)
 		{
+
+			
 			case 'schoolEvil':
 				if(!ClientPrefs.lowQuality && bgGhouls.animation.curAnim.finished) {
 					bgGhouls.visible = false;
@@ -4315,6 +4347,8 @@ class PlayState extends MusicBeatState
 		{
 			notes.sort(FlxSort.byY, ClientPrefs.downScroll ? FlxSort.ASCENDING : FlxSort.DESCENDING);
 		}
+
+
 
 		if (SONG.notes[Math.floor(curStep / 16)] != null)
 		{

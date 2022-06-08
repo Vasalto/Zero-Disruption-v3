@@ -33,10 +33,10 @@ function onCreate()
 	setObjectCamera('vignette', 'other')
 	addLuaSprite('vignette', true);
 
-	makeAnimatedLuaSprite('zerosooth', 'mechanics/zerosooth', 337.5, -292, true)
+	makeAnimatedLuaSprite('zerosooth', 'mechanics/zerosooth', 537.5, 0, true)
 	addAnimationByPrefix('zerosooth', 'zerosooth', 'zerosooth', 24, true);
 	addAnimationByPrefix('zerosooth', 'zeroangry', 'zeroangry', 28, true);
-	setProperty('zerosooth.alpha', 0.001);
+	setProperty('zerosooth.alpha', 0.001); --0.001
 	addLuaSprite('zerosooth')
 	
 

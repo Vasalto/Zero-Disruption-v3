@@ -11,7 +11,7 @@ function onCreate()
 	scaleObject('dark', 13, 13);
 	addLuaSprite('dark', false);
 
-	makeAnimatedLuaSprite('shadow', 'stages/2/shadow', -350.5, 100, true)
+	makeAnimatedLuaSprite('shadow', 'stages/2/shadow', -150.5, 250, true)
 	addAnimationByPrefix('shadow', 'shadowa', 'alextween', 24, false);
 	addAnimationByPrefix('shadow', 'shadowb', 'zerotweenfront', 24, false);
 	addAnimationByPrefix('shadow', 'shadowc', 'zerotweenright', 24, false);
@@ -70,8 +70,8 @@ end
 function Alexab()
 	doTweenAlpha('shadow', 'shadow', 1, 1, 'quintOut');
 	objectPlayAnimation('shadow', 'shadowb', true);
-	setProperty('shadow.x', 500);
-	setProperty('shadow.y', -100);
+	setProperty('shadow.x', 700);
+	setProperty('shadow.y', 100);
 
 end
 
@@ -79,12 +79,12 @@ function Alexac()
 	doTweenAlpha('shadow', 'shadow', 1, 1, 'quintOut');
 	objectPlayAnimation('shadow', 'shadowc', true);
 	setProperty('shadow.y', 100);
-	if curBeat <= 260 then
-		setProperty('shadow.x', 1000);
-		setProperty('shadow.y', 100);
+	if curBeat >= 260 then
+		setProperty('shadow.x', 700);
+		setProperty('shadow.y', 200);
 	elseif curBeat >= 271 then
-		setProperty('shadow.x', 1050);
-		setProperty('shadow.y', 100);
+		setProperty('shadow.x', 700);
+		setProperty('shadow.y', 200);
 	end
 end
 
@@ -92,6 +92,7 @@ function Alexad()
 	doTweenAlpha('shadow', 'shadow', 1, 1, 'quintOut');
 	objectPlayAnimation('shadow', 'shadowd', true);
 	setProperty('shadow.x', -400);
+	setProperty('shadow.y', 200);
 end
 
 
