@@ -371,8 +371,10 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'obtrude' | 'legacy-obtrude':
 					curStage = 'Lab1';
-				case 'outburst' | 'anathema':
+				case 'outburst':
 					curStage = 'Lab2';
+				case 'anathema':
+					curStage = 'Lab3';
 				case 'thorns':
 					curStage = 'schoolEvil';
 				default:
@@ -705,7 +707,44 @@ class PlayState extends MusicBeatState
 				frontstagechange.visible = false;
 				add(frontstagechange); 
 				
-			case 'Lab3': //Week Puta
+				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
+				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
+				ink.setGraphicSize(Std.int(ink.width * 2));
+				ink.animation.addByPrefix('stop', "stop", 24, false);
+				ink.animation.addByPrefix('ink1', "ink 1", 24, false);
+				ink.animation.addByPrefix('ink2', "ink 2", 24, false);
+				ink.animation.addByPrefix('ink3', "ink 3", 24, false);
+				ink.animation.play('stop');
+				ink.antialiasing = true;
+				ink.scrollFactor.set(0.95, 0.95);
+				ink.updateHitbox();
+				ink.alpha = 1;
+
+			case 'Lab3':
+				var back:BGSprite = new BGSprite('stages/3/back', -600, -300);
+				back.scale.set(1,1);
+				back.scrollFactor.set(1,1);
+				add(back);
+
+				var front:BGSprite = new BGSprite('stages/3/front', -600, -300);
+				front.scale.set(1,1);
+				front.scrollFactor.set(1,1);
+				add(front); 
+				
+				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
+				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
+				ink.setGraphicSize(Std.int(ink.width * 2));
+				ink.animation.addByPrefix('stop', "stop", 24, false);
+				ink.animation.addByPrefix('ink1', "ink 1", 24, false);
+				ink.animation.addByPrefix('ink2', "ink 2", 24, false);
+				ink.animation.addByPrefix('ink3', "ink 3", 24, false);
+				ink.animation.play('stop');
+				ink.antialiasing = true;
+				ink.scrollFactor.set(0.95, 0.95);
+				ink.updateHitbox();
+				ink.alpha = 1;
+				
+			/*case 'Lab3': //Week Puta
 				var bg:BGSprite = new BGSprite('stages/labZero', -600, -300);
 				bg.setGraphicSize(Std.int(bg.width * 0.9));
 				bg.updateHitbox();
@@ -737,7 +776,7 @@ class PlayState extends MusicBeatState
 				ink.antialiasing = true;
 				ink.scrollFactor.set(0.95, 0.95);
 				ink.updateHitbox();
-				ink.alpha = 1;
+				ink.alpha = 1;*/
 			
 			case 'LabMess': //Week Puta
 				eye = new FlxSprite(0, 0);
@@ -1261,7 +1300,7 @@ class PlayState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence.
-		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+		DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());// DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		#end
 
 		if(!ClientPrefs.controllerMode)
@@ -1780,7 +1819,7 @@ class PlayState extends MusicBeatState
 		
 		#if desktop
 		// Updating Discord Rich Presence (with Time Left)
-		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength);
+		DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength); //DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength);
 		#end
 		setOnLuas('songLength', songLength);
 		callOnLuas('onSongStart', []);
@@ -2134,11 +2173,11 @@ class PlayState extends MusicBeatState
 			#if desktop
 			if (startTimer.finished)
 			{
-				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
+				DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			}
 			else
 			{
-				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+				DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 			}
 			#end
 		}
@@ -2153,11 +2192,11 @@ class PlayState extends MusicBeatState
 		{
 			if (Conductor.songPosition > 0.0)
 			{
-				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
+				DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);//DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			}
 			else
 			{
-				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+				DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());//DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 			}
 		}
 		#end
@@ -2170,7 +2209,7 @@ class PlayState extends MusicBeatState
 		#if desktop
 		if (health > 0 && !paused)
 		{
-			DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+			DiscordClient.changePresence(detailsPausedText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());//DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		}
 		#end
 
@@ -2201,11 +2240,13 @@ class PlayState extends MusicBeatState
 			iconP1.swapOldIcon();
 		}*/
 
-
-		if (curSong.toLowerCase() == 'outburst' && curStage == 'Lab2' && curStep >= 1279 )
+		//makes the funny glass break visible
+		if (curSong.toLowerCase() == 'outburst' && curStage == 'Lab2' && curStep >= 1279)
 			{
 				frontstagechange.visible = true;
 			}
+
+
 		callOnLuas('onUpdate', [elapsed]);
 
 		switch (curStage)
@@ -2372,7 +2413,7 @@ class PlayState extends MusicBeatState
 				//}
 		
 				#if desktop
-				DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+				DiscordClient.changePresence(detailsPausedText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());//DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 				#end
 			}
 		}
@@ -2718,7 +2759,7 @@ class PlayState extends MusicBeatState
 				
 				#if desktop
 				// Game Over doesn't get his own variable because it's only used here
-				DiscordClient.changePresence("Game Over - " + detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+				DiscordClient.changePresence("Game Over - " + detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());//DiscordClient.changePresence("Game Over - " + detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 				#end
 				isDead = true;
 				return true;

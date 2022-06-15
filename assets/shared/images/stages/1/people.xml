@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="people.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="people0000" x="0" y="0" width="4987" height="999" frameX="0" frameY="-30" frameWidth="4987" frameHeight="1029"/>
+	<SubTexture name="people0001" x="0" y="999" width="4987" height="999" frameX="0" frameY="-30" frameWidth="4987" frameHeight="1029"/>
+	<SubTexture name="people0002" x="0" y="999" width="4987" height="999" frameX="0" frameY="-30" frameWidth="4987" frameHeight="1029"/>
+	<SubTexture name="people0003" x="0" y="1998" width="4987" height="1007" frameX="0" frameY="-22" frameWidth="4987" frameHeight="1029"/>
+	<SubTexture name="people0004" x="0" y="3005" width="4987" height="1012" frameX="0" frameY="-17" frameWidth="4987" frameHeight="1029"/>
+	<SubTexture name="people0005" x="0" y="3005" width="4987" height="1012" frameX="0" frameY="-17" frameWidth="4987" frameHeight="1029"/>
+	<SubTexture name="people0006" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0007" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0008" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0009" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0010" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0011" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0012" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0013" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0014" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0015" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0016" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0017" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0018" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0019" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0020" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0021" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0022" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0023" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0024" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0025" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0026" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0027" x="0" y="4017" width="4987" height="1029"/>
+	<SubTexture name="people0028" x="0" y="4017" width="4987" height="1029"/>
+</TextureAtlas>

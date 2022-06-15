@@ -22,6 +22,13 @@ function onCreate()
 
 	setPropertyFromClass('ClientPrefs', 'timeBarType', 'Disabled');
 
+    makeLuaSprite('redLight','stages/2/red', -630, -350);
+    scaleObject('redLight', 12, 12);
+    setProperty('redLight.alpha', 0)
+    setScrollFactor('redLight', 1, 1);
+    setObjectCamera('redLight', 'hud')
+    addLuaSprite('redLight', true)
+
 	makeLuaSprite('LMAOTENTACLES', 'tentaclesblack', 0, 0);
 	setProperty('LMAOTENTACLES.alpha', 0);
 	setObjectCamera('LMAOTENTACLES', 'other')
@@ -56,6 +63,12 @@ function onMoveCamera(focus)
 	end
 end
 
+function redfade()
+    doTweenAlpha('byebye','redLight',1,0.5,'sinein')
+    --setProperty('redLight.alpha',1)
+    runTimer('redfade', 0.7)
+end
+
 function onUpdate()
     if followchars == true then
         if mustHitSection == false then
@@ -73,6 +86,22 @@ function onUpdate()
     end
 
 
+    function onTimerCompleted(tag, l, ll)
+        if tag == 'redfade' then
+            doTweenAlpha('byebye', 'redLight', 0, 0.5, 'linear');
+        end
+    end
+
+    function onBeatHit()
+        if curBeat % 16 == 0 then
+            redfade()
+        elseif curBeat == 1 then
+            redfade()
+        end
+    end
+
+--[[bro aint nobody got time for this :skull:
+
 
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
 function onNextDialogue(count)
@@ -82,4 +111,4 @@ end
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 end
-end
+end]]
