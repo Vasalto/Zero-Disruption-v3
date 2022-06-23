@@ -255,6 +255,10 @@ class PlayState extends MusicBeatState
 	var eye:FlxSprite;
 	var ink:FlxSprite;
 
+	var peeps:FlxSprite;
+	var peepsdesk:FlxSprite;
+
+
 	//Achievement shit
 	var keysPressed:Array<Bool> = [];
 	var boyfriendIdleTime:Float = 0.0;
@@ -689,6 +693,28 @@ class PlayState extends MusicBeatState
 				front.scale.set(1,1);
 				front.scrollFactor.set(1,1);
 				add(front);
+
+				// Yo slith add it in source cuz my pc takes waayy to long on launching the game through code
+
+				var peeps:FlxSprite = new FlxSprite(-380, 995);
+				peeps.frames = Paths.getSparrowAtlas('stages/1/people');
+				//eye.setGraphicSize(Std.int(eye.width * 1));
+				peeps.animation.addByPrefix('people', "people", 24);
+				peeps.scale.set(0.5,0.5);
+				peeps.animation.play('people');
+				peeps.scrollFactor.set(0.95, 0.95);
+				peeps.updateHitbox();
+				add(peeps);
+
+				var peepsdesk:FlxSprite = new FlxSprite(-585, 200);
+				peepsdesk.frames = Paths.getSparrowAtlas('stages/1/peopleback');
+				//eye.setGraphicSize(Std.int(eye.width * 1));
+				peepsdesk.animation.addByPrefix('peopleback', "peopleback", 24);
+				peepsdesk.animation.play('peopleback');
+				peepsdesk.scrollFactor.set(1, 1);
+				peepsdesk.updateHitbox();
+				add(peepsdesk);
+
 				
 			case 'Lab2':
 				backlab2 = new BGSprite('stages/2/back', -600, -300);
@@ -2381,7 +2407,7 @@ class PlayState extends MusicBeatState
 		if(ratingName == '?') {
 			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName;
 		} else {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC;//peeps wanted no integer rating
+			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC;//peeeps wanted no integer rating
 		}
 
 		if(botplayTxt.visible) {

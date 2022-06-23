@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="peopleback.png">
+<TextureAtlas imagePath="people back.png">
 	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="peopleback0000" x="0" y="0" width="1632" height="1153" frameX="0" frameY="-13" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0001" x="1632" y="0" width="1632" height="1154" frameX="0" frameY="-12" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0002" x="3264" y="0" width="1632" height="1155" frameX="0" frameY="-11" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0003" x="4896" y="0" width="1632" height="1156" frameX="0" frameY="-10" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0004" x="6528" y="0" width="1632" height="1157" frameX="0" frameY="-9" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0005" x="0" y="1157" width="1632" height="1158" frameX="0" frameY="-8" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0006" x="1632" y="1157" width="1632" height="1159" frameX="0" frameY="-7" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0007" x="3264" y="1157" width="1632" height="1160" frameX="0" frameY="-6" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0008" x="4896" y="1157" width="1632" height="1161" frameX="0" frameY="-5" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0009" x="6528" y="1157" width="1632" height="1162" frameX="0" frameY="-4" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0010" x="0" y="2319" width="1632" height="1163" frameX="0" frameY="-3" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0011" x="1632" y="2319" width="1632" height="1164" frameX="0" frameY="-2" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0012" x="3264" y="2319" width="1632" height="1165" frameX="0" frameY="-1" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0013" x="4896" y="2319" width="1632" height="1166"/>
-	<SubTexture name="peopleback0014" x="6528" y="2319" width="1632" height="1166"/>
-	<SubTexture name="peopleback0015" x="0" y="3485" width="1632" height="1166"/>
-	<SubTexture name="peopleback0016" x="1632" y="3485" width="1632" height="1165" frameX="0" frameY="-1" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0017" x="3264" y="3485" width="1632" height="1164" frameX="0" frameY="-2" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0018" x="4896" y="3485" width="1632" height="1163" frameX="0" frameY="-3" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0019" x="0" y="2319" width="1632" height="1163" frameX="0" frameY="-3" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0020" x="6528" y="3485" width="1632" height="1162" frameX="0" frameY="-4" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0021" x="0" y="4651" width="1632" height="1161" frameX="0" frameY="-5" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0022" x="1632" y="4651" width="1632" height="1160" frameX="0" frameY="-6" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0023" x="3264" y="4651" width="1632" height="1160" frameX="0" frameY="-6" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0024" x="4896" y="4651" width="1632" height="1159" frameX="0" frameY="-7" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0025" x="4896" y="4651" width="1632" height="1159" frameX="0" frameY="-8" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0026" x="6528" y="4651" width="1632" height="1157" frameX="0" frameY="-9" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0027" x="0" y="5812" width="1632" height="1157" frameX="0" frameY="-9" frameWidth="1632" frameHeight="1166"/>
-	<SubTexture name="peopleback0028" x="1632" y="5812" width="1632" height="1156" frameX="0" frameY="-10" frameWidth="1632" frameHeight="1166"/>
+	<SubTexture name="peopleback0000" x="0" y="0" width="982" height="730" frameX="0" frameY="-13" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0001" x="982" y="0" width="982" height="731" frameX="0" frameY="-12" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0002" x="1964" y="0" width="982" height="732" frameX="0" frameY="-11" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0003" x="2946" y="0" width="982" height="733" frameX="0" frameY="-10" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0004" x="3928" y="0" width="982" height="734" frameX="0" frameY="-9" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0005" x="4910" y="0" width="982" height="735" frameX="0" frameY="-8" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0006" x="5892" y="0" width="982" height="736" frameX="0" frameY="-7" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0007" x="6874" y="0" width="982" height="737" frameX="0" frameY="-6" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0008" x="0" y="737" width="982" height="738" frameX="0" frameY="-5" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0009" x="982" y="737" width="982" height="739" frameX="0" frameY="-4" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0010" x="1964" y="737" width="982" height="740" frameX="0" frameY="-3" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0011" x="2946" y="737" width="982" height="741" frameX="0" frameY="-2" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0012" x="3928" y="737" width="982" height="742" frameX="0" frameY="-1" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0013" x="4910" y="737" width="982" height="742" frameX="0" frameY="-1" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0014" x="5892" y="737" width="982" height="743"/>
+	<SubTexture name="peopleback0015" x="6874" y="737" width="982" height="743"/>
+	<SubTexture name="peopleback0016" x="0" y="1480" width="982" height="742" frameX="0" frameY="-1" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0017" x="982" y="1480" width="982" height="741" frameX="0" frameY="-2" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0018" x="1964" y="1480" width="982" height="740" frameX="0" frameY="-3" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0019" x="2946" y="1480" width="982" height="740" frameX="0" frameY="-3" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0020" x="3928" y="1480" width="982" height="739" frameX="0" frameY="-4" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0021" x="4910" y="1480" width="982" height="738" frameX="0" frameY="-5" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0022" x="5892" y="1480" width="982" height="737" frameX="0" frameY="-6" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0023" x="6874" y="1480" width="982" height="737" frameX="0" frameY="-6" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0024" x="0" y="2222" width="982" height="736" frameX="0" frameY="-7" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0025" x="0" y="2222" width="982" height="736" frameX="0" frameY="-8" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0026" x="982" y="2222" width="982" height="734" frameX="0" frameY="-9" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0027" x="1964" y="2222" width="982" height="734" frameX="0" frameY="-9" frameWidth="982" frameHeight="743"/>
+	<SubTexture name="peopleback0028" x="2946" y="2222" width="982" height="733" frameX="0" frameY="-10" frameWidth="982" frameHeight="743"/>
 </TextureAtlas>
