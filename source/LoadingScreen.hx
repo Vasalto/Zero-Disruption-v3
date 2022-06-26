@@ -18,14 +18,9 @@ enum PreloadType {
 }
 
 class LoadingScreen extends MusicBeatState { //im probs gonna rewrite this, i need to get better at coding lol (i just don't want to piss off people when we open source this) - slithy //PS: either that or we get another coder to write it
-
-    public static var assetStack:Map<String, PreloadType> = [];
     
     var maxCount:Int;
 
-    private var pizza:Character = null;
-
-    
     private var playstateInfo:Map<String, Dynamic> = [
         "songLowerCase" => "",
         "diffuclty" => 0,
@@ -34,66 +29,63 @@ class LoadingScreen extends MusicBeatState { //im probs gonna rewrite this, i ne
         "isStoryMode" => false
     ];
 
-    private var spriteInfo:Map<String, Array<Dynamic>> = [
-        "obtrude" => ["loadingbg1", "loading1", [-20, -1.08], "loading1",],
-        "outburst" => ["loadingbg2", "Zerocarga", [680.46, 60.08], "Zerocarga",],
-        "anathema" => ["loadingbg3", "alert", [1950.46, 1040.08], "alert",],
-        "vehemence" => ["loadingbg4", "alert", [250.46, 240.08], "alert",],
-    ];
-
-    private var finished:Bool = false;
-
-    private var keypressed:Bool = false;
-
     override public function create() {
-        trace(playstateInfo["songLowerCase"]);
+        //trace(playstateInfo["songLowerCase"]);
 
         super.create();
-
         FlxG.sound.music.stop();
-
         Paths.setCurrentLevel('shared');
 
-        var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image(spriteInfo[playstateInfo["songLowerCase"]][0], "shared"));
-        bg.screenCenter();
-        bg.antialiasing = true;
-        add(bg);
+        var load1:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loadingbg1', 'shared'));
+        load1.screenCenter();
+        load1.antialiasing = true;
 
-        var portrait:FlxSprite = new FlxSprite();
-        portrait.frames = Paths.getSparrowAtlas(spriteInfo[playstateInfo["songLowerCase"]][1], "shared");
-        portrait.animation.addByPrefix('idle', spriteInfo[playstateInfo["songLowerCase"]][3], 24, true);
-        portrait.animation.play('idle');
-        portrait.scale.set(0.68,0.68);
-        portrait.updateHitbox();
-        portrait.setPosition(spriteInfo[playstateInfo["songLowerCase"]][2][0], spriteInfo[playstateInfo["songLowerCase"]][2][1]);
-        portrait.antialiasing = true;
-        trace(portrait);
-        add(portrait);
+        var load2:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loadingbg2', 'shared'));
+        load2.screenCenter();
+        load2.antialiasing = true;
 
-        /*pizza = new Character(0,0,"loading");
-        pizza.playAnim('loading');
-        pizza.x = 0 - (pizza.width/3.5);
-        pizza.y = FlxG.height - (pizza.height + (pizza.height / 4));
-        add(pizza);
+        var load3:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loadingbg3', 'shared'));
+        load3.screenCenter();
+        load3.antialiasing = true;
 
-        FlxG.camera.alpha = 0;
+        var load4:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loadingbg4', 'shared'));
+        load4.screenCenter();
+        load4.antialiasing = true;
 
-        maxCount = Lambda.count(assetStack);
-        trace(maxCount);
+        var portrait1:FlxSprite = new FlxSprite();
+        portrait1.frames = Paths.getSparrowAtlas("loading1", "shared");
+        portrait1.animation.addByPrefix('idle', "loading1", 24, true);
+        portrait1.animation.play('idle');
+        portrait1.scale.set(0.68,0.68);
+        portrait1.updateHitbox();
+        portrait1.setPosition(-20, 1.08);
+        portrait1.antialiasing = true;
 
-        FlxG.mouse.visible = false;
+        var portrait2:FlxSprite = new FlxSprite();
+        portrait2.frames = Paths.getSparrowAtlas("Zerocarga", "shared");
+        portrait2.animation.addByPrefix('idle', "Zerocarga", 24, true);
+        portrait2.animation.play('idle');
+        portrait2.scale.set(0.68,0.68); //sets the scale
+        portrait2.updateHitbox();
+        portrait2.setPosition(680.46, 60.08); //offsets
+        portrait2.antialiasing = true;
 
-        FlxG.sound.play(Paths.sound("loadingsound", "shared"));*/
+       switch(Paths.formatToSongPath(PlayState.SONG.song)) //adds flxsprites depending on the song
+		{
+			case 'obtrude':
+                add(load1);
+                add(portrait1);
+			case 'outburst':
+                add(load2);
+                add(portrait2);
+            case 'anathema':
+                add(load3);
+                //add(portrait3);
+            case 'vehemence':
+                add(load4);
+                //add(portrait4);
+		}
 
-        new FlxTimer().start(1.5, function(tmr:FlxTimer)
-            {
-                FlxTween.tween(FlxG.camera, {alpha: 1}, 0.5, {
-                    onComplete: function(tween:FlxTween){
-                        Thread.create(function(){
-                        });
-                    }
-                });
-            });
     }
 
     override public function new(songLowerCase:String, diffuclty:Int, jsondata:String, isStoryMode:Bool, ?songPlayList:Array<String> = null) {
@@ -116,15 +108,14 @@ class LoadingScreen extends MusicBeatState { //im probs gonna rewrite this, i ne
     override function update(elapsed:Float) {
         super.update(elapsed);
 
-        if (FlxG.keys.justPressed.ENTER && !keypressed) {
+        if (controls.ACCEPT) {
             finish();
-            keypressed = true;
         }
     }
 
     function finish() {
-
-        FlxTween.tween(FlxG.camera, {alpha: 0}, 0.5, {
+		FlxG.sound.play(Paths.sound('confirmMenu'));
+        FlxTween.tween(FlxG.camera, {alpha: 0}, 0.7, { // 0.5
             onComplete: function(tween:FlxTween){
 
                 if (playstateInfo["isStoryMode"]) {

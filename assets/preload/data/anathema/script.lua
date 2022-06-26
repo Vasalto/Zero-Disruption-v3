@@ -99,6 +99,7 @@ function onUpdate()
             redfade()
         end
     end
+end
 
 --[[bro aint nobody got time for this :skull:
 

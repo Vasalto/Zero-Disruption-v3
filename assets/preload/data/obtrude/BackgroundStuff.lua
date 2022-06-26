@@ -1,43 +1,37 @@
 
 function onCreate()
-	--makeAnimatedLuaSprite('bgBACK','bgBACK', -600, -300);
-	--setScrollFactor('bgBACK', 1, 1);
-   --  addAnimationByPrefix('bgWARNING', 'Animation', 'bgWARNING', 7.5, true);
-	--addLuaSprite('bgBACK', false);
-
-	
-	makeLuaSprite('cell','1stage/b', 1040, 105);
+	makeLuaSprite('cell','stages/1/elevatorandtubes/b', 1040, 105);
 	setScrollFactor('cell', 1, 1);
 	addLuaSprite('cell', true);
 	--scaleObject('front', 0.5, 0.5);
 
-	makeLuaSprite('cell2','1stage/c', 1240, 475); --menor de 500 sube
+	makeLuaSprite('cell2','stages/1/elevatorandtubes/c', 1240, 475); --menor de 500 sube
 	setScrollFactor('cell2', 1, 1);
 	addLuaSprite('cell2', true);
 	--scaleObject('front', 0.5, 0.5);
 
-	makeLuaSprite('cell3','1stage/a', -270, -15);
+	makeLuaSprite('cell3','stages/1/elevatorandtubes/a', -270, -15);
 	setScrollFactor('cell3', 1, 1);
 	addLuaSprite('cell3', true);
 	--scaleObject('front', 0.5, 0.5);
 
-	makeLuaSprite('elevator','1stage/elevator', 1390, -335);
+	makeLuaSprite('elevator','stages/1/elevatorandtubes/elevator', 1390, -335);
 	setScrollFactor('elevator', 1, 1);
 	--scaleObject('front', 0.5, 0.5);
 	
-	makeLuaSprite('elevatorM','1stage/majoras', 1405, -955);
+	makeLuaSprite('elevatorM','stages/1/elevatorandtubes/majoras', 1405, -955);
 	setScrollFactor('elevatorM', 1, 1);
 
-	makeLuaSprite('elevatorD','1stage/dany', 1405, 955);
+	makeLuaSprite('elevatorD','stages/1/elevatorandtubes/dany', 1405, 955);
 	setScrollFactor('elevatorD', 1, 1);
 
-	makeLuaSprite('elevatorR','1stage/rei', 1405, -955);
+	makeLuaSprite('elevatorR','stages/1/elevatorandtubes/rei', 1405, -955);
 	setScrollFactor('elevatorR', 1, 1);
 
-	makeLuaSprite('elevatorS','1stage/slithyocho', 1405, 955);
+	makeLuaSprite('elevatorS','stages/1/elevatorandtubes/slithyocho', 1405, 955);
 	setScrollFactor('elevatorS', 1, 1);
 
-	makeLuaSprite('elevatorMY','1stage/myers', 1405, -955);
+	makeLuaSprite('elevatorMY','stages/1/elevatorandtubes/myers', 1405, -955);
 	setScrollFactor('elevatorMY', 1, 1);
 
 
@@ -53,17 +47,7 @@ function onCreate()
 	addLuaSprite('elevatorS', false); --majora
 	addLuaSprite('elevatorMY', false); --majora
 
-
-
-
-	addLuaSprite('elevator', false); -- elevador
-
-	--scaleObject('front', 0.5, 0.5);
-	
-
-	
-
-	
+	addLuaSprite('elevator', false); -- elevador	
 end
 
 function onCreatePost() -- this is the order for the elevator. 0 is behind the background and all shit
