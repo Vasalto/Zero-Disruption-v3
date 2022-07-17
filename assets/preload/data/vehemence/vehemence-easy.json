@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bfangry",
-		"player2": "zeroroot",
+		"player1": "bfangry2",
+		"player2": "zero2.0",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -8574,6 +8574,46 @@
 				"bpm": 175
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 175,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 175,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 175
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 175,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
 				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
@@ -8594,14 +8634,14 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gf",
+		"gfVersion": "gfv3scared",
 		"events": [],
 		"player3": null,
 		"song": "Vehemence",
 		"arrowSkin": "",
-		"stage": "labZero",
+		"stage": "Lab4",
 		"validScore": true,
-		"needsVoices": false,
+		"needsVoices": true,
 		"speed": 2.9,
 		"bpm": 175
 	}

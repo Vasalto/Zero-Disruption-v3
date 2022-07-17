@@ -212,6 +212,7 @@ class PlayState extends MusicBeatState
 
 	var backlab2:BGSprite;
 	var frontlab2:BGSprite;
+	var desklol:BGSprite;
 	var frontstagechange:BGSprite;
 
 	var upperBoppers:BGSprite;
@@ -251,12 +252,14 @@ class PlayState extends MusicBeatState
 	var detailsText:String = "";
 	var detailsPausedText:String = "";
 	#end
-//mod
+	//mod
 	var eye:FlxSprite;
 	var ink:FlxSprite;
 
 	var peeps:FlxSprite;
 	var peepsdesk:FlxSprite;
+	var frontlab4:BGSprite;
+	var frontlab4StageChange:BGSprite;
 
 
 	//Achievement shit
@@ -379,6 +382,8 @@ class PlayState extends MusicBeatState
 					curStage = 'Lab2';
 				case 'anathema':
 					curStage = 'Lab3';
+				case 'vehemence':
+					curStage = 'Lab4';
 				case 'thorns':
 					curStage = 'schoolEvil';
 				default:
@@ -689,6 +694,10 @@ class PlayState extends MusicBeatState
 				back.scrollFactor.set(1,1);
 				add(back);
 
+				var elevator:BGSprite = new BGSprite('stages/1/elevatorandtubes/elevator', 1390, -335);
+				elevator.scrollFactor.set(1,1);
+				add(elevator);
+
 				var front:BGSprite = new BGSprite('stages/1/front', -600, -300);
 				front.scale.set(1,1);
 				front.scrollFactor.set(1,1);
@@ -756,6 +765,11 @@ class PlayState extends MusicBeatState
 				front.scale.set(1,1);
 				front.scrollFactor.set(1,1);
 				add(front); 
+
+				desklol = new BGSprite('stages/4/desk', -520, 490);
+				desklol.scale.set(1,1);
+				desklol.scrollFactor.set(1,1);
+				add(desklol); 
 				
 				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
 				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
@@ -769,6 +783,69 @@ class PlayState extends MusicBeatState
 				ink.scrollFactor.set(0.95, 0.95);
 				ink.updateHitbox();
 				ink.alpha = 1;
+
+				
+			case 'Lab4':
+
+			/**
+				var back:BGSprite = new BGSprite('stages/1/back', -600, -300);
+				back.scale.set(1,1);
+				back.scrollFactor.set(1,1);
+				add(back);
+
+				var front:BGSprite = new BGSprite('stages/1/front', -600, -300);
+				front.scale.set(1,1);
+				front.scrollFactor.set(1,1);
+				add(front);
+			**/
+				var back:BGSprite = new BGSprite('stages/4/back', -600, -300);
+				back.scale.set(1,1);
+				back.scrollFactor.set(1,1);
+				add(back);
+
+				frontlab4 = new BGSprite('stages/4/front', -600, -300);
+				frontlab4.scale.set(1,1);
+				frontlab4.scrollFactor.set(1,1);
+				add(frontlab4); 
+
+				frontlab4StageChange = new BGSprite('stages/4/front2', -600, -300);
+				frontlab4StageChange.scale.set(1,1);
+				frontlab4StageChange.visible = false;
+				frontlab4StageChange.scrollFactor.set(1,1);
+				add(frontlab4StageChange); 
+
+				desklol = new BGSprite('stages/4/desk', -520, 490);
+				desklol.scale.set(1,1);
+				desklol.scrollFactor.set(1,1);
+				add(desklol); 
+				
+				eye = new FlxSprite(0, 0);
+				eye.frames = Paths.getSparrowAtlas('mechanics/lookAttack');
+				eye.setGraphicSize(Std.int(eye.width * 1));
+				eye.animation.addByPrefix('stop', "stop", 24);
+				eye.animation.addByPrefix('idle', "lookAttack", 24);
+				eye.animation.play('stop');
+				eye.screenCenter(X);
+				eye.screenCenter(Y);
+				eye.antialiasing = true;
+				eye.scrollFactor.set(0.95, 0.95);
+				eye.updateHitbox();
+				eye.alpha = 1;
+				
+				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
+				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
+				ink.setGraphicSize(Std.int(ink.width * 2));
+				ink.animation.addByPrefix('stop', "stop", 24, false);
+				ink.animation.addByPrefix('ink1', "ink 1", 24, false);
+				ink.animation.addByPrefix('ink2', "ink 2", 24, false);
+				ink.animation.addByPrefix('ink3', "ink 3", 24, false);
+				ink.animation.play('stop');
+				ink.antialiasing = true;
+				ink.scrollFactor.set(0.95, 0.95);
+				ink.updateHitbox();
+				ink.alpha = 1;
+
+
 				
 			/*case 'Lab3': //Week Puta
 				var bg:BGSprite = new BGSprite('stages/labZero', -600, -300);
@@ -804,7 +881,7 @@ class PlayState extends MusicBeatState
 				ink.updateHitbox();
 				ink.alpha = 1;*/
 			
-			case 'LabMess': //Week Puta
+			/*case 'LabMess': //Week Puta
 				eye = new FlxSprite(0, 0);
 				eye.frames = Paths.getSparrowAtlas('mechanics/lookAttack');
 				eye.setGraphicSize(Std.int(eye.width * 1));
@@ -829,7 +906,7 @@ class PlayState extends MusicBeatState
 				ink.antialiasing = true;
 				ink.scrollFactor.set(0.95, 0.95);
 				ink.updateHitbox();
-				ink.alpha = 1;
+				ink.alpha = 1*/
 		}	
 			
 
@@ -2270,6 +2347,11 @@ class PlayState extends MusicBeatState
 		if (curSong.toLowerCase() == 'outburst' && curStage == 'Lab2' && curStep >= 1279)
 			{
 				frontstagechange.visible = true;
+			}
+		if (curSong.toLowerCase() == 'vehemence' && curStage == 'Lab4' && curStep >= 144)
+			{
+				frontlab4StageChange.visible = true;
+				frontlab4.visible = false;
 			}
 
 
