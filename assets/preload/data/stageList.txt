@@ -6,6 +6,6 @@ mall
 mallEvil
 school
 schoolEvil
-Alley
 Lab1
 LabMess
+basement
