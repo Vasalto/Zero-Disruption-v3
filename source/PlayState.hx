@@ -723,7 +723,6 @@ class PlayState extends MusicBeatState
 				peepsdesk.scrollFactor.set(1, 1);
 				peepsdesk.updateHitbox();
 				add(peepsdesk);
-
 				
 			case 'Lab2':
 				backlab2 = new BGSprite('stages/2/back', -600, -300);
@@ -736,11 +735,17 @@ class PlayState extends MusicBeatState
 				frontlab2.scrollFactor.set(1,1);
 				add(frontlab2); 
 
-				frontstagechange = new BGSprite('stages/3/front', -600, -300);
+				frontstagechange = new BGSprite('stages/4/front', -600, -300);
 				frontstagechange.scale.set(1,1);
 				frontstagechange.scrollFactor.set(1,1);
 				frontstagechange.visible = false;
 				add(frontstagechange); 
+				
+				desklol = new BGSprite('stages/4/desk', -520, 490);
+				desklol.scale.set(1,1);
+				desklol.scrollFactor.set(1,1);
+				desklol.visible = false;
+				add(desklol); 
 				
 				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
 				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
@@ -761,7 +766,7 @@ class PlayState extends MusicBeatState
 				back.scrollFactor.set(1,1);
 				add(back);
 
-				var front:BGSprite = new BGSprite('stages/3/front', -600, -300);
+				var front:BGSprite = new BGSprite('stages/4/front', -600, -300);
 				front.scale.set(1,1);
 				front.scrollFactor.set(1,1);
 				add(front); 
@@ -2346,6 +2351,8 @@ class PlayState extends MusicBeatState
 		//makes the funny glass break visible
 		if (curSong.toLowerCase() == 'outburst' && curStage == 'Lab2' && curStep >= 1279)
 			{
+				frontlab2.visible = false;
+				desklol.visible = false;
 				frontstagechange.visible = true;
 			}
 		if (curSong.toLowerCase() == 'vehemence' && curStage == 'Lab4' && curStep >= 144)
@@ -3468,63 +3475,17 @@ class PlayState extends MusicBeatState
 					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0] + difficulty, PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
 
-					if (curSong == "Curious Cat") {
-							#if VIDEOS_ALLOWED
-							var foundFile:Bool = false;
-							var fileName:String = #if MODS_ALLOWED Paths.modFolders('videos/' + "transformationCinematic" + '.' + Paths.VIDEO_EXT); #else ''; #end
-							#if sys
-							if(FileSystem.exists(fileName)) {
-								foundFile = true;
-							}
-							#end
-					
-							if(!foundFile) {
-								fileName = Paths.video("transformationCinematic");
-								#if sys
-								if(FileSystem.exists(fileName)) {
-								#else
-								if(OpenFlAssets.exists(fileName)) {
-								#end
-									foundFile = true;
-								}
-							}
-					
-							if(foundFile) {
-								inCutscene = true;
-								var bg = new FlxSprite(-FlxG.width, -FlxG.height).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
-								bg.scrollFactor.set();
-								bg.cameras = [camHUD];
-								add(bg);
-					
-									(new FlxVideo(fileName)).finishCallback = function() {
-										MusicBeatState.switchState(new LoadingScreen(
-												storyPlaylist[0].toLowerCase(),
-												storyDifficulty, 
-												Highscore.formatSong(storyPlaylist[0].toLowerCase(), storyDifficulty),
-												true,
-												storyPlaylist
-											)
-										);
-									};
-							}
-							else
-							{
-								FlxG.log.warn('Couldnt find video file: ' + fileName);
-							}
-							#end
-						} else {
-							new FlxTimer().start(1.5, function(tmr:FlxTimer) {
-							cancelMusicFadeTween();
-							MusicBeatState.switchState(new LoadingScreen(
-									storyPlaylist[0].toLowerCase(),
-									storyDifficulty, 
-									Highscore.formatSong(storyPlaylist[0].toLowerCase(), storyDifficulty),
-									true,
-									storyPlaylist
-									)
-								);
-							});
-						}
+					new FlxTimer().start(1.5, function(tmr:FlxTimer) {
+					cancelMusicFadeTween();
+					MusicBeatState.switchState(new LoadingScreen(
+							storyPlaylist[0].toLowerCase(),
+							storyDifficulty, 
+							Highscore.formatSong(storyPlaylist[0].toLowerCase(), storyDifficulty),
+							true,
+							storyPlaylist
+							)
+						);
+					});
 						
 					}
 			}
