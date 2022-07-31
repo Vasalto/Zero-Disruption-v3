@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-89,
+				-158
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "elexaGun",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				419,
+				-175
+			],
+			"anim": "shoot",
+			"fps": 24,
+			"name": "elexaGunShot",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-86,
+				-159
+			],
+			"anim": "ready",
+			"fps": 24,
+			"name": "elexaGunReady",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-124,
+				-214
+			],
+			"anim": "reload",
+			"fps": 24,
+			"name": "elexaGunReload",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-122,
+				-215
+			],
+			"anim": "reloadLoop",
+			"fps": 24,
+			"name": "elexaGunReloadloop",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/elexagun",
+	"position": [
+		-210,
+		0
+	],
+	"healthicon": "elexa",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		85,
+		142
+	],
+	"camera_position": [
+		30,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

@@ -1,68 +1,69 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				38,
 				-25
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "zero root up"
+			"fps": 24,
+			"name": "zero root up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				37,
 				-64
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "zero root down"
+			"fps": 24,
+			"name": "zero root down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				37,
 				-116
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "zero root idle"
+			"fps": 24,
+			"name": "zero root idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				29,
 				-94
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "zero root right"
+			"fps": 24,
+			"name": "zero root right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				108,
 				-96
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "zero root left"
+			"fps": 24,
+			"name": "zero root left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				248,
 				-94
 			],
-			"loop": false,
-			"fps": 20,
 			"anim": "attack",
+			"fps": 20,
+			"name": "zero root attack",
 			"indices": [
 				9,
 				10,
@@ -75,18 +76,16 @@
 				17,
 				18,
 				19
-			],
-			"name": "zero root attack"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				248,
 				-94
 			],
-			"anim": "preattack",
+			"loop": false,
 			"fps": 20,
-			"name": "zero root attack",
+			"anim": "preattack",
 			"indices": [
 				1,
 				2,
@@ -94,14 +93,15 @@
 				4,
 				5,
 				5
-			]
+			],
+			"name": "zero root attack"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/zeroRoot",
 	"position": [
 		-210,
-		20
+		-170
 	],
 	"healthicon": "zero",
 	"flip_x": false,
@@ -111,7 +111,7 @@
 		0
 	],
 	"camera_position": [
-		-800,
+		-910,
 		90
 	],
 	"sing_duration": 4,

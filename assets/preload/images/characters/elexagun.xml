@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="elexagun.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="elexaGun0000" x="0" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0001" x="651" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0002" x="651" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0003" x="1302" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0004" x="1953" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0005" x="2604" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0006" x="3255" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0007" x="3906" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0008" x="4557" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0009" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0010" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0011" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0012" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0013" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0014" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0015" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0016" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0017" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0018" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0019" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0020" x="5208" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0021" x="5859" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0022" x="5859" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGun0023" x="5859" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0000" x="6510" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0001" x="7161" y="0" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0002" x="0" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0003" x="651" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0004" x="1302" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0005" x="1953" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0006" x="2604" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0007" x="3255" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0008" x="3906" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0009" x="3906" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0010" x="4557" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0011" x="5208" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0012" x="5208" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0013" x="5208" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReady0014" x="5208" y="572" width="651" height="572"/>
+	<SubTexture name="elexaGunReload0000" x="5859" y="572" width="554" height="476" frameX="0" frameY="-17" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0001" x="6413" y="572" width="554" height="493" frameX="0" frameY="-1" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0002" x="6967" y="572" width="553" height="493" frameX="0" frameY="-1" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0003" x="7520" y="572" width="551" height="490" frameX="0" frameY="-5" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0004" x="0" y="1144" width="551" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0005" x="551" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0006" x="1103" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0007" x="1655" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0008" x="2207" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0009" x="2207" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0010" x="2207" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0011" x="2207" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0012" x="2207" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReload0013" x="2207" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0000" x="2759" y="1144" width="554" height="491" frameX="0" frameY="-4" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0001" x="3313" y="1144" width="553" height="493" frameX="0" frameY="-2" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0002" x="3866" y="1144" width="553" height="494" frameX="0" frameY="-1" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0003" x="4419" y="1144" width="553" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0004" x="4972" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0005" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0006" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0007" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0008" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0009" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0010" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0011" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0012" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunReloadloop0013" x="5524" y="1144" width="552" height="495" frameX="0" frameY="0" frameWidth="554" frameHeight="495"/>
+	<SubTexture name="elexaGunShot0000" x="6076" y="1144" width="554" height="540" frameX="-603" frameY="0" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0001" x="6630" y="1144" width="551" height="535" frameX="-605" frameY="-5" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0002" x="7181" y="1144" width="550" height="532" frameX="-608" frameY="-8" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0003" x="0" y="1684" width="1153" height="628" frameX="0" frameY="-5" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0004" x="1153" y="1684" width="1096" height="573" frameX="-59" frameY="-8" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0005" x="2249" y="1684" width="1026" height="535" frameX="-134" frameY="-15" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0006" x="3275" y="1684" width="1025" height="528" frameX="-136" frameY="-32" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0007" x="4300" y="1684" width="976" height="531" frameX="-183" frameY="-26" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0008" x="5276" y="1684" width="572" height="515" frameX="-586" frameY="-25" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0009" x="5848" y="1684" width="560" height="516" frameX="-598" frameY="-24" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0010" x="6408" y="1684" width="559" height="515" frameX="-599" frameY="-25" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0011" x="6967" y="1684" width="559" height="515" frameX="-599" frameY="-25" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0012" x="7526" y="1684" width="559" height="515" frameX="-599" frameY="-25" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0013" x="7526" y="1684" width="559" height="515" frameX="-599" frameY="-25" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0014" x="7526" y="1684" width="559" height="515" frameX="-599" frameY="-25" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0015" x="7526" y="1684" width="559" height="515" frameX="-599" frameY="-25" frameWidth="1161" frameHeight="633"/>
+	<SubTexture name="elexaGunShot0016" x="7526" y="1684" width="559" height="515" frameX="-599" frameY="-25" frameWidth="1161" frameHeight="633"/>
+</TextureAtlas>

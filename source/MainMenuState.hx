@@ -31,6 +31,16 @@ class MainMenuState extends MusicBeatState
 	var menuItems:FlxTypedGroup<FlxSprite>;
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
+
+	var maxCount:Int;
+
+    private var playstateInfo:Map<String, Dynamic> = [
+        "songLowerCase" => "",
+        "diffuclty" => 0,
+        "jsondata" /*aka songname-diff*/ => "",
+        "songPlayList" => [],
+        "isStoryMode" => false
+    ];
 	
 	var optionShit:Array<String> = [
 		'story_mode',
@@ -206,6 +216,8 @@ class MainMenuState extends MusicBeatState
 
 	var selectedSomethin:Bool = false;
 
+	
+
 	override function update(elapsed:Float)
 	{
 		if (FlxG.sound.music.volume < 0.8)
@@ -294,11 +306,60 @@ class MainMenuState extends MusicBeatState
 			#if desktop
 			else if (FlxG.keys.anyJustPressed(debugKeys))
 			{
-				selectedSomethin = true;
-				MusicBeatState.switchState(new MasterEditorMenu());
+				//selectedSomethin = true;
+				//MusicBeatState.switchState(new MasterEditorMenu());
+				PlayState.storyPlaylist = ["project-mdk"];
+				PlayState.isStoryMode = true;
+
+				FlxG.sound.play(Paths.sound('confirmMenu'));
+				FlxTween.tween(FlxG.camera, {alpha: 0}, 0.7, { // 0.5
+					onComplete: function(tween:FlxTween){
+		
+						if (playstateInfo["isStoryMode"]) {
+							PlayState.storyPlaylist = playstateInfo["songPlayList"];
+							PlayState.isStoryMode = playstateInfo["isStoryMode"];
+							PlayState.campaignScore = 0;
+							PlayState.campaignMisses = 0; 
+						} else {
+							PlayState.isStoryMode = false;
+						}
+					   
+						//PlayState.SONG = Song.loadFromJson(StringTools.replace(playstateInfo["jsondata"], "-null", ""), playstateInfo["songLowerCase"]);
+						PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + "-hard", PlayState.storyPlaylist[0].toLowerCase());
+
+		
+						//PlayState.storyDifficulty = playstateInfo["diffuclty"];  
+						LoadingState.loadAndSwitchState(new PlayState());
+						FlxG.sound.music.volume = 0;
+						FreeplayState.destroyFreeplayVocals();
+					}
+				});
 			}
 			#end
 		}
+
+		/*function finish() {
+			FlxG.sound.play(Paths.sound('confirmMenu'));
+			FlxTween.tween(FlxG.camera, {alpha: 0}, 0.7, { // 0.5
+				onComplete: function(tween:FlxTween){
+	
+					if (playstateInfo["isStoryMode"]) {
+						PlayState.storyPlaylist = playstateInfo["songPlayList"];
+						PlayState.isStoryMode = playstateInfo["isStoryMode"];
+						PlayState.campaignScore = 0;
+						PlayState.campaignMisses = 0; 
+					} else {
+						PlayState.isStoryMode = false;
+					}
+				   
+					PlayState.SONG = Song.loadFromJson(StringTools.replace(playstateInfo["jsondata"], "-null", ""), playstateInfo["songLowerCase"]);
+	
+					PlayState.storyDifficulty = playstateInfo["diffuclty"];  
+					
+					MusicBeatState.switchState(new PlayState());
+				}
+			});
+		}*/
 			
 		super.update(elapsed);
 
