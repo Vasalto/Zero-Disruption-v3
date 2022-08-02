@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				45,
-				-241
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				1,
+				-199
+			],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "elexa down"
-		},
-		{
-			"offsets": [
-				55,
-				-8
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "elexa up"
+			"name": "elexa down",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				60,
+				108
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "elexa up",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				10,
-				-30
+				100
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "elexa idle"
+			"fps": 24,
+			"name": "elexa idle",
+			"indices": []
 		},
 		{
-			"offsets": [
-				160,
-				-105
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				210,
+				-7
+			],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "elexa left"
+			"fps": 24,
+			"name": "elexa left",
+			"indices": []
 		},
 		{
-			"offsets": [
-				51,
-				-71
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				41,
+				29
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "elexa right"
+			"fps": 24,
+			"name": "elexa right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/elexa2",
 	"position": [
-		-230,
-		-140
+		-235,
+		-30
 	],
 	"healthicon": "elexa",
 	"flip_x": false,
@@ -70,8 +70,8 @@
 		142
 	],
 	"camera_position": [
-		50,
-		190
+		40,
+		-10
 	],
 	"sing_duration": 4,
 	"scale": 1.1

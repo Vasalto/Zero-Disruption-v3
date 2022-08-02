@@ -741,9 +741,9 @@ class PlayState extends MusicBeatState
 				frontstagechange.visible = false;
 				add(frontstagechange); 
 				
-				desklol = new BGSprite('stages/4/desk', -520, 490);
-				desklol.scale.set(1,1);
+				desklol = new BGSprite('stages/4/desk', -530, 460);
 				desklol.scrollFactor.set(1,1);
+				desklol.scale.set(1.1,1.2);
 				desklol.visible = false;
 				add(desklol); 
 				
@@ -766,7 +766,7 @@ class PlayState extends MusicBeatState
 				back.scrollFactor.set(1,1);
 				add(back);
 
-				var front:BGSprite = new BGSprite('stages/4/front', -600, -300);
+				var front:BGSprite = new BGSprite('stages/3/front', -600, -300);
 				front.scale.set(1,1);
 				front.scrollFactor.set(1,1);
 				add(front); 
@@ -774,7 +774,7 @@ class PlayState extends MusicBeatState
 				desklol = new BGSprite('stages/4/desk', -520, 490);
 				desklol.scale.set(1,1);
 				desklol.scrollFactor.set(1,1);
-				add(desklol); 
+				//add(desklol); 
 				
 				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
 				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
@@ -822,7 +822,7 @@ class PlayState extends MusicBeatState
 				desklol = new BGSprite('stages/4/desk', -520, 490);
 				desklol.scale.set(1,1);
 				desklol.scrollFactor.set(1,1);
-				add(desklol); 
+				//add(desklol); 
 				
 				eye = new FlxSprite(0, 0);
 				eye.frames = Paths.getSparrowAtlas('mechanics/lookAttack');

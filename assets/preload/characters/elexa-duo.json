@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-579,
 				-81
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa duo down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "elexa duo down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-632,
 				158
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa duo up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "elexa duo up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-627,
 				12
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa duo idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "elexa duo idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-552,
 				95
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa duo left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "elexa duo left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-589,
 				109
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "elexa duo right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "elexa duo right"
 		}
 	],
 	"no_antialiasing": false,
@@ -70,7 +70,7 @@
 		142
 	],
 	"camera_position": [
-		510,
+		340,
 		30
 	],
 	"sing_duration": 4,

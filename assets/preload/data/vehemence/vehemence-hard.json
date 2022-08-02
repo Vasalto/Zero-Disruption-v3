@@ -2,11 +2,7 @@
 	"song": {
 		"player1": "bfangry2",
 		"events": [],
-<<<<<<< HEAD
-		"gfVersion": "gfv3scared",
-=======
 		"gfVersion": "elexagun",
->>>>>>> 10077832d29c1995a55201845c45f73e551de3ee
 		"notes": [
 			{
 				"sectionNotes": [
@@ -6915,8 +6911,6 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-<<<<<<< HEAD
-=======
 				"sectionNotes": [
 					[
 						167314.285714286,
@@ -7019,7 +7013,6 @@
 			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
->>>>>>> 10077832d29c1995a55201845c45f73e551de3ee
 				"sectionNotes": [
 					[
 						170057.142857143,
@@ -7113,10 +7106,6 @@
 						0
 					],
 					[
-<<<<<<< HEAD
-						171942.857142857,
-						3,
-=======
 						172157.142857143,
 						2,
 						0
@@ -7135,7 +7124,6 @@
 					[
 						172800,
 						2,
->>>>>>> 10077832d29c1995a55201845c45f73e551de3ee
 						0
 					],
 					[
@@ -7183,9 +7171,6 @@
 						174000,
 						1,
 						0
-<<<<<<< HEAD
-					],
-=======
 					]
 				],
 				"altAnim": false,
@@ -7198,7 +7183,6 @@
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
 				"sectionNotes": [
->>>>>>> 10077832d29c1995a55201845c45f73e551de3ee
 					[
 						173657.142857143,
 						0,
@@ -7271,9 +7255,6 @@
 						0
 					],
 					[
-<<<<<<< HEAD
-						175457.142857143,
-=======
 						174428.571428571,
 						0,
 						0
@@ -7291,7 +7272,6 @@
 				"sectionNotes": [
 					[
 						175542.857142857,
->>>>>>> 10077832d29c1995a55201845c45f73e551de3ee
 						3,
 						0
 					],
@@ -8972,11 +8952,7 @@
 				"mustHitSection": true
 			}
 		],
-<<<<<<< HEAD
-		"player2": "zero2.0",
-=======
 		"player2": "zeroroot",
->>>>>>> 10077832d29c1995a55201845c45f73e551de3ee
 		"player3": null,
 		"song": "Vehemence",
 		"needsVoices": true,
