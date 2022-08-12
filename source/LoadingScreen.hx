@@ -12,26 +12,21 @@ import flixel.tweens.FlxTween;
 import flixel.FlxSprite;
 import flixel.util.FlxTimer;
 
-enum PreloadType {
+/*enum PreloadType {
     atlas;
     image;
-}
+}*/
 
-class LoadingScreen extends MusicBeatState { //im probs gonna rewrite this, i need to get better at coding lol (i just don't want to piss off people when we open source this) - slithy //PS: either that or we get another coder to write it
-    
+class LoadingScreen extends MusicBeatState {
+    var enterPressed:Bool = true; //prevents you from hitting enter multiple times
     var maxCount:Int;
 
     private var playstateInfo:Map<String, Dynamic> = [
         "songLowerCase" => "",
-        "diffuclty" => 0,
         "jsondata" /*aka songname-diff*/ => "",
-        "songPlayList" => [],
-        "isStoryMode" => false
     ];
 
     override public function create() {
-        //trace(playstateInfo["songLowerCase"]);
-
         super.create();
         FlxG.sound.music.stop();
         Paths.setCurrentLevel('shared');
@@ -69,71 +64,59 @@ class LoadingScreen extends MusicBeatState { //im probs gonna rewrite this, i ne
         portrait2.updateHitbox();
         portrait2.setPosition(680.46, 60.08); //offsets
         portrait2.antialiasing = true;
-
        switch(Paths.formatToSongPath(PlayState.SONG.song)) //adds flxsprites depending on the song
-		{
-			case 'obtrude':
-                add(load1);
-                add(portrait1);
-			case 'outburst':
-                add(load2);
-                add(portrait2);
-            case 'anathema':
-                add(load3);
-                //add(portrait3);
-            case 'vehemence':
-                add(load4);
-                //add(portrait4);
-		}
-
+            {
+                case 'obtrude':
+                    add(load1);
+                    add(portrait1);
+                case 'outburst':
+                    add(load2);
+                    add(portrait2);
+                case 'anathema':
+                    add(load3);
+                    //add(portrait3);
+                case 'vehemence':
+                    add(load4);
+                    //add(portrait4);
+            }
     }
 
-    override public function new(songLowerCase:String, diffuclty:Int, jsondata:String, isStoryMode:Bool, ?songPlayList:Array<String> = null) {
-        super();
-
-        //passing info to finish function
-
-        playstateInfo["songLowerCase"] = songLowerCase;
-
-        playstateInfo["diffuclty"] = diffuclty;
-
-        playstateInfo["jsondata"] = jsondata;
-
-        playstateInfo["isStoryMode"] = isStoryMode;
-
-        playstateInfo["songPlayList"] = songPlayList;
-
-    }
-
-    override function update(elapsed:Float) {
+    override function update(elapsed:Float) 
+    {
         super.update(elapsed);
-
-        if (controls.ACCEPT) {
-            finish();
+        if (controls.ACCEPT && enterPressed == true) {
+            goToSong();
+            enterPressed = false; //locals & bools are the SAME THING
         }
     }
 
-    function finish() {
-		FlxG.sound.play(Paths.sound('confirmMenu'));
-        FlxTween.tween(FlxG.camera, {alpha: 0}, 0.7, { // 0.5
+    override public function new(songLowerCase:String, difficulty:Int, jsondata:String, isStoryMode:Bool, ?songPlayList:Array<String> = null) {
+        super();
+        //passing info to finish function
+        playstateInfo["songLowerCase"] = songLowerCase;
+        playstateInfo["jsondata"] = jsondata;
+    }
+
+    function goToSong() 
+    {
+        FlxG.sound.play(Paths.sound('confirmMenu'));
+        FlxTween.tween(FlxG.camera, {alpha: 0}, 0.5, {
             onComplete: function(tween:FlxTween){
-
-                if (playstateInfo["isStoryMode"]) {
-                    PlayState.storyPlaylist = playstateInfo["songPlayList"];
-                    PlayState.isStoryMode = playstateInfo["isStoryMode"];
-                    PlayState.campaignScore = 0;
-                    PlayState.campaignMisses = 0; 
-                } else {
-                    PlayState.isStoryMode = false;
-                }
-               
+                if (PlayState.isStoryMode = true)
+                    {
+                        PlayState.storyPlaylist = PlayState.storyPlaylist;
+                        PlayState.isStoryMode = true;
+                        PlayState.campaignScore = 0;
+                        PlayState.campaignMisses = 0;
+                    } 
+                else 
+                    {
+                        PlayState.isStoryMode = false;
+                    }
                 PlayState.SONG = Song.loadFromJson(StringTools.replace(playstateInfo["jsondata"], "-null", ""), playstateInfo["songLowerCase"]);
-
-                PlayState.storyDifficulty = playstateInfo["diffuclty"];  
-                
+                PlayState.storyDifficulty = PlayState.storyDifficulty;                
                 MusicBeatState.switchState(new PlayState());
             }
         });
     }
-
 }

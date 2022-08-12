@@ -903,15 +903,24 @@ class PlayState extends MusicBeatState
 		}
 
 
+		if (curStage == 'Lab4') {
+			add(dadGroup);
+			add(gfGroup);
+			add(boyfriendGroup);
+		}
+		else
+		{
+			add(gfGroup);
+			// Shitty layering but whatev it works LOL
+			if (curStage == 'limo') {
+				add(limo);
+			}
+			add(dadGroup);
+			add(boyfriendGroup);
+		}
 
-		add(gfGroup);
 
-		// Shitty layering but whatev it works LOL
-		if (curStage == 'limo')
-			add(limo);
 
-		add(dadGroup);
-		add(boyfriendGroup);
 		
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
@@ -3458,8 +3467,10 @@ class PlayState extends MusicBeatState
 					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0] + difficulty, PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
 
-					new FlxTimer().start(1.5, function(tmr:FlxTimer) {
-					cancelMusicFadeTween();
+					/*
+					FlxTween.tween(FlxG.camera, {alpha: 0}, 0.5, {
+						onComplete: function(tween:FlxTween){
+							cancelMusicFadeTween();
 					MusicBeatState.switchState(new LoadingScreen(
 							storyPlaylist[0].toLowerCase(),
 							storyDifficulty, 
@@ -3468,9 +3479,24 @@ class PlayState extends MusicBeatState
 							storyPlaylist
 							)
 						);
+						}
 					});
-						
-					}
+					*/
+					
+					FlxTween.tween(FlxG.camera, {alpha: 0}, 0.5, {
+						onComplete: function(tween:FlxTween){
+							cancelMusicFadeTween();
+								MusicBeatState.switchState(new LoadingScreen(
+								storyPlaylist[0].toLowerCase(),
+								storyDifficulty, 
+								Highscore.formatSong(storyPlaylist[0].toLowerCase(), storyDifficulty),
+								true,
+								storyPlaylist
+								)
+							);
+						}
+					});
+				}
 			}
 			else
 			{

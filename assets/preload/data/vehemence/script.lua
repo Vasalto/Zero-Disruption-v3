@@ -7,6 +7,7 @@ function onCreate()
     makeLuaSprite('red','',-700,0)
 	makeGraphic('red',2500,2000,'FF0000')
     addLuaSprite('red', true)
+    setObjectCamera('red', 'hud')
     setProperty('red.visible', false)   
 end
 
