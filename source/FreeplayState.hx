@@ -40,6 +40,7 @@ class FreeplayState extends MusicBeatState
 	var lerpRating:Float = 0;
 	var intendedScore:Int = 0;
 	var intendedRating:Float = 0;
+	var songname:FlxText;
 
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
@@ -98,7 +99,7 @@ class FreeplayState extends MusicBeatState
 			}
 		}*/
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuFree'));
+		bg = new FlxSprite().loadGraphic(Paths.image('menufree2'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 		bg.screenCenter();
@@ -112,7 +113,17 @@ class FreeplayState extends MusicBeatState
 			songText.isMenuItem = true;
 			songText.targetY = i;
 			grpSongs.add(songText);
+			songText.visible= false;
+			//grpSongs.screenCenter(X);
 
+		/*	if (Patchwork.visible && FlxG.mouse.overlaps(Patchwork) && FlxG.mouse.justPressed)
+				{
+					PlayState.SONG = Song.loadFromJson("ghostbusterz-hard", "ghostbusterz");
+					PlayState.isStoryMode = false;
+					LoadingState.loadAndSwitchState(new PlayState());
+				} check this code tomorrow for sure - Vasalto
+
+*/ 
 			if (songText.width > 980)
 			{
 				var textScale:Float = 980 / songText.width;
@@ -128,7 +139,9 @@ class FreeplayState extends MusicBeatState
 
 			Paths.currentModDirectory = songs[i].folder;
 			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter);
-			icon.sprTracker = songText;
+			//icon.sprTracker = songText;
+			icon.screenCenter(X);
+			icon.y = Std.int(530);
 
 			// using a FlxGroup is too much fuss!
 			iconArray.push(icon);
@@ -136,16 +149,26 @@ class FreeplayState extends MusicBeatState
 
 			// songText.x += 40;
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
-			// songText.screenCenter(X);
 		}
+
+		
+		songname = new FlxText(0, 320, 0, 'fuckyou', 72);
+		songname.screenCenter(X);
+		songname.setFormat(Paths.font("modernism.ttf"), 32, FlxColor.BLUE, RIGHT);
+		songname.color = 0x54B6D9;
+		//songname.setBorderStyle(OUTLINE, FlxColor.BLACK, 3, 1);
+		songname.antialiasing = ClientPrefs.globalAntialiasing;
+		add(songname);
+
+
 		WeekData.setDirectoryFromWeek();
 
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
-		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
-
+		scoreText.setFormat(Paths.font("modernism.ttf"), 32, FlxColor.WHITE, RIGHT);
+		scoreText.screenCenter(X);
 		scoreBG = new FlxSprite(scoreText.x - 6, 0).makeGraphic(1, 66, 0xFF000000);
 		scoreBG.alpha = 0.6;
-		add(scoreBG);
+		//FUCK SCORE BGadd(scoreBG);
 
 		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
 		diffText.font = scoreText.font;
@@ -187,7 +210,7 @@ class FreeplayState extends MusicBeatState
 
 		var textBG:FlxSprite = new FlxSprite(0, FlxG.height - 26).makeGraphic(FlxG.width, 26, 0xFF000000);
 		textBG.alpha = 0.6;
-		add(textBG);
+		//add(textBG);
 
 		#if PRELOAD_ALL
 		var leText:String = "Press SPACE to listen to the Song / Press CTRL to open the Gameplay Changers Menu / Press RESET to Reset your Score and Accuracy.";
@@ -197,9 +220,9 @@ class FreeplayState extends MusicBeatState
 		var size:Int = 18;
 		#end
 		var text:FlxText = new FlxText(textBG.x, textBG.y + 4, FlxG.width, leText, size);
-		text.setFormat(Paths.font("vcr.ttf"), size, FlxColor.WHITE, RIGHT);
+		text.setFormat(Paths.font("modernism.ttf"), size, FlxColor.WHITE, RIGHT);
 		text.scrollFactor.set();
-		add(text);
+		//add(text);
 		super.create();
 	}
 
@@ -446,12 +469,15 @@ class FreeplayState extends MusicBeatState
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
 		intendedRating = Highscore.getRating(songs[curSelected].songName, curDifficulty);
 		#end
+		
+		songname.text = songs[curSelected].songName.toLowerCase();
+		songname.screenCenter(X);
 
 		var bullShit:Int = 0;
 
 		for (i in 0...iconArray.length)
 		{
-			iconArray[i].alpha = 0.6;
+			iconArray[i].alpha = 0;
 		}
 
 		iconArray[curSelected].alpha = 1;
@@ -516,11 +542,12 @@ class FreeplayState extends MusicBeatState
 	}
 
 	private function positionHighscore() {
-		scoreText.x = FlxG.width - scoreText.width - 6;
-
+		//scoreText.x = FlxG.width - scoreText.width - 260; //original value 60
+		scoreText.screenCenter(X); //mf how many times i have been trying to luck ewith this shit
 		scoreBG.scale.x = FlxG.width - scoreText.x + 6;
 		scoreBG.x = FlxG.width - (scoreBG.scale.x / 2);
-		diffText.x = Std.int(scoreBG.x + (scoreBG.width / 2));
+		diffText.x = Std.int(600);
+		//diffText.screenCenter(X); //REVOLUTIOOOOOOOOOOOOOOOOOON
 		diffText.x -= diffText.width / 2;
 	}
 }
