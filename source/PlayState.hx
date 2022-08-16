@@ -2358,8 +2358,6 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
-
-			
 			case 'schoolEvil':
 				if(!ClientPrefs.lowQuality && bgGhouls.animation.curAnim.finished) {
 					bgGhouls.visible = false;
