@@ -1,0 +1,69 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": null,
+		"player1": "bf",
+		"player2": "elexa",
+		"player3": null,
+		"events": [
+			[
+				81300,
+				[
+					[
+						"Cinema",
+						"on",
+						""
+					]
+				]
+			],
+			[
+				82000,
+				[
+					[
+						"CustomCountdown",
+						"three",
+						"off"
+					]
+				]
+			],
+			[
+				82400,
+				[
+					[
+						"CustomCountdown",
+						"two",
+						"off"
+					]
+				]
+			],
+			[
+				82900,
+				[
+					[
+						"CustomCountdown",
+						"one",
+						"off"
+					]
+				]
+			],
+			[
+				83200,
+				[
+					[
+						"Cinema",
+						"off",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfYeahV2",
+		"bpm": 150,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Trouble"
+	}
+}

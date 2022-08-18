@@ -1,58 +1,18 @@
 {
 	"song": {
-		"speed": 3,
-		"stage": null,
+		"speed": 2.6,
+		"stage": "Lab1",
 		"player1": "bf",
-		"player2": "elexa",
+		"player2": "elexamic",
 		"player3": null,
 		"events": [
 			[
-				81300,
+				1200,
 				[
 					[
-						"Cinema",
-						"on",
-						""
-					]
-				]
-			],
-			[
-				82000,
-				[
-					[
-						"CustomCountdown",
-						"three",
-						"off"
-					]
-				]
-			],
-			[
-				82400,
-				[
-					[
-						"CustomCountdown",
-						"two",
-						"off"
-					]
-				]
-			],
-			[
-				82900,
-				[
-					[
-						"CustomCountdown",
-						"one",
-						"off"
-					]
-				]
-			],
-			[
-				83200,
-				[
-					[
-						"Cinema",
-						"off",
-						""
+						"Play Animation",
+						"drop",
+						"dad"
 					]
 				]
 			]
@@ -64,6 +24,6 @@
 		"bpm": 150,
 		"arrowSkin": null,
 		"needsVoices": true,
-		"song": "Trouble"
+		"song": "Obtrude"
 	}
 }
