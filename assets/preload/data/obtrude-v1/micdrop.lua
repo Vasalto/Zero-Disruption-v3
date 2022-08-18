@@ -1,6 +1,4 @@
---Code by doctor krazy, credit me if used.
---You may modify it to suit your needs.
-function onCreate()
+sfunction onCreate()
 	makeAnimatedLuaSprite('micFloor', 'micFloor', 335, 1165, true)
 	addLuaSprite('micFloor')
 	scaleObject('micFloor', 1.1, 1.1)
