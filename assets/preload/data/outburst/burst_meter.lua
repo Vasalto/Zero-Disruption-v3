@@ -3,30 +3,31 @@ local burst = false
 local soundPlayed = false
 local soundPlayVar = false
 
+local redbar = false
+
 function onCreate()
 	precacheImage('mechanics/zerosooth')
 	--precacheImage('mechanics/temper')
 	--precacheImage('mechanics/temperlines')
 	precacheImage('vignettes/blackvignette')
 
-
-
-
--- bar bg or smthng
+	-- bar bg or smthng
 	makeLuaSprite('barNormal', 'mechanics/temper', 1190.5, 145)
 	setObjectCamera('barNormal', 'hud')
 	addLuaSprite('barNormal')
--- da actual bar
+	
 	makeLuaSprite('barBlue', 'barBlue', 1231, 430)
-	makeGraphic('barBlue', 18, 1, '15E9FF')
+	makeGraphic('barBlue', 18, 1, 'FFFFFF')
+	setProperty('barBlue.color', getColorFromHex('15E9FF'))
 	setObjectCamera('barBlue', 'hud')
 	setProperty('barBlue.origin.y', 1)
 	addLuaSprite('barBlue')
 	setProperty('barBlue.scale.y', shielded)
 
 	makeLuaSprite('barline', 'mechanics/temperlines', 1204.5, 145)
-	setObjectCamera('barline', 'hud')
+	setObjectCamera('barline', 'other')
 	addLuaSprite('barline')
+
 
 	makeLuaSprite('vignette', 'vignettes/blackvignette', 0, 0);
 	setProperty('vignette.alpha', 0);
@@ -38,9 +39,6 @@ function onCreate()
 	addAnimationByPrefix('zerosooth', 'zeroangry', 'zeroangry', 28, true);
 	setProperty('zerosooth.alpha', 0.001); --0.001
 	addLuaSprite('zerosooth')
-	
-
-
 end
 
 function onBeatHit()
@@ -53,16 +51,27 @@ end
 
 function onUpdate(elapsed)
 	if curBeat >= 1 then
+		if redbar == true then
+			setProperty('barBlue.color', getColorFromHex('ff0400'))
+		elseif redbar == false then
+			setProperty('barBlue.color', getColorFromHex('15E9FF'))
+		end
 		if barAmount >= 222 then
+			redbar = true;
 			setProperty('health', getProperty('health')-0.005);
 			cameraShake("hud", 0.002, 0.4);
 		end
 		if barAmount <= 65 then
+			redbar = true;
 			setProperty('health', getProperty('health')-0.005);
 			cameraShake("hud", 0.002, 0.4);
 		end
+		if barAmount >= 65 and barAmount <= 222 then
+			redbar = false;
+		end
 		if barAmount<0 then
 			setProperty('health', getProperty('health')-200);
+			setProperty('barBlue.alpha', 0)
 		end
 		if burst == false then
 			    if barAmount ~= 0 then
@@ -78,13 +87,9 @@ function onUpdate(elapsed)
 	if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.E') and E == true then -- bar shit
 		barAmount= barAmount + 40
 		runTimer('CooldownE', 0.01);
-
-		--setProperty('boyfriend.specialAnim', true)
 	elseif getPropertyFromClass('flixel.FlxG', 'keys.justPressed.Q') and Q == true  then
 		barAmount= barAmount - 80
 		runTimer('CooldownQ', 0.01);
-
-    
     end
 end
 
