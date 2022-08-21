@@ -96,7 +96,6 @@ end
 E = true
 Q = true
 
-
 function onTimerCompleted(tag, l, ll)
     if tag == 'CooldownE' then
         -- your code here
