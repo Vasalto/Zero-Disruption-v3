@@ -27,4 +27,3 @@ function onStepHit()
 	end
 end
 end
-
