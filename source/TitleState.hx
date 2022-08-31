@@ -190,6 +190,7 @@ class TitleState extends MusicBeatState
 	}
 
 	var logoBl:FlxSprite;
+	var logoOut:FlxSprite;
 	var gfDance:FlxSprite;
 	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
@@ -253,6 +254,14 @@ class TitleState extends MusicBeatState
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
 		logoBl.screenCenter(X);
+
+		logoOut = new FlxSprite(titleJSON.titlex, titleJSON.titley);
+		logoOut.frames = Paths.getSparrowAtlas('logoOut');
+		logoOut.antialiasing = ClientPrefs.globalAntialiasing;
+		logoOut.animation.addByPrefix('bump', 'logoOut1', 24, true);
+		logoOut.animation.play('bump');
+		logoOut.updateHitbox();
+		logoOut.screenCenter(X);
 		// logoBl.color = FlxColor.BLACK;
 
 		swagShader = new ColorSwap();
@@ -265,7 +274,8 @@ class TitleState extends MusicBeatState
 		
 		//add(gfDance);
 		gfDance.shader = swagShader.shader;
-		add(logoBl);
+		//add(logoBl);
+		//add(logoOut);
 		logoBl.shader = swagShader.shader;
 
 		titleText = new FlxSprite(titleJSON.startx, titleJSON.starty);
@@ -326,7 +336,10 @@ class TitleState extends MusicBeatState
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
 
 		if (initialized)
-			skipIntro();
+			{
+				logoIntro();
+				skipIntro();
+			}
 		else
 			initialized = true;
 
@@ -454,6 +467,7 @@ class TitleState extends MusicBeatState
 		if (pressedEnter && !skippedIntro)
 		{
 			skipIntro();
+			logoIntro();
 		}
 
 		if(swagShader != null)
@@ -567,6 +581,7 @@ class TitleState extends MusicBeatState
 
 				case 16:
 					skipIntro();
+					logoIntro();
 			}
 		}
 	}
@@ -578,9 +593,18 @@ class TitleState extends MusicBeatState
 		{
 			remove(ngSpr);
 
-			FlxG.camera.flash(FlxColor.WHITE, 4);
+			//FlxG.camera.flash(FlxColor.WHITE, 4);
 			remove(credGroup);
 			skippedIntro = true;
 		}
 	}
+	function logoIntro():Void
+		{
+			add(logoOut);
+			new FlxTimer().start(0.37, function(tmr:FlxTimer)
+			{
+				remove(logoOut);
+				add(logoBl);
+			});
+		}
 }

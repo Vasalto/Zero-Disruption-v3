@@ -42,6 +42,8 @@ enum abstract Action(String) to String from String
 	var BACK = "back";
 	var PAUSE = "pause";
 	var RESET = "reset";
+	var TEMPER_1 = "temper_1";
+	var TEMPER_2 = "temper_2";
 }
 #else
 @:enum
@@ -75,6 +77,8 @@ abstract Action(String) to String from String
 	var BACK = "back";
 	var PAUSE = "pause";
 	var RESET = "reset";
+	var TEMPER_1 = "temper_1";
+	var TEMPER_2 = "temper_2";
 }
 #end
 
@@ -103,6 +107,8 @@ enum Control
 	ACCEPT;
 	BACK;
 	PAUSE;
+	TEMPER_1;
+	TEMPER_2;
 }
 
 enum KeyboardScheme
@@ -147,6 +153,9 @@ class Controls extends FlxActionSet
 	var _back = new FlxActionDigital(Action.BACK);
 	var _pause = new FlxActionDigital(Action.PAUSE);
 	var _reset = new FlxActionDigital(Action.RESET);
+	var _temper_1 = new FlxActionDigital(Action.TEMPER_1);
+	var _temper_2 = new FlxActionDigital(Action.TEMPER_2);
+
 
 	#if (haxe >= "4.0.0")
 	var byName:Map<String, FlxActionDigital> = [];
@@ -297,6 +306,16 @@ class Controls extends FlxActionSet
 	inline function get_RESET()
 		return _reset.check();
 
+	public var TEMPER_1(get, never):Bool;
+
+	inline function get_TEMPER_1()
+		return _temper_1.check();
+
+	public var TEMPER_2(get, never):Bool;
+
+	inline function get_TEMPER_2()
+		return _temper_2.check();
+
 	#if (haxe >= "4.0.0")
 	public function new(name, scheme = None)
 	{
@@ -330,6 +349,8 @@ class Controls extends FlxActionSet
 		add(_back);
 		add(_pause);
 		add(_reset);
+		add(_temper_1);
+		add(_temper_2);
 
 		for (action in digitalActions)
 			byName[action.name] = action;
@@ -369,6 +390,8 @@ class Controls extends FlxActionSet
 		add(_back);
 		add(_pause);
 		add(_reset);
+		add(_temper_1);
+		add(_temper_2);
 
 		for (action in digitalActions)
 			byName[action.name] = action;
@@ -426,6 +449,8 @@ class Controls extends FlxActionSet
 			case BACK: _back;
 			case PAUSE: _pause;
 			case RESET: _reset;
+			case TEMPER_1: _temper_1;
+			case TEMPER_2: _temper_2;
 		}
 	}
 
@@ -485,6 +510,10 @@ class Controls extends FlxActionSet
 				func(_pause, JUST_PRESSED);
 			case RESET:
 				func(_reset, JUST_PRESSED);
+			case TEMPER_1:
+				func(_temper_1, JUST_PRESSED);
+			case TEMPER_2:
+				func(_temper_2, JUST_PRESSED);
 		}
 	}
 
@@ -653,6 +682,10 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, keysMap.get('back'));
 				inline bindKeys(Control.PAUSE, keysMap.get('pause'));
 				inline bindKeys(Control.RESET, keysMap.get('reset'));
+
+				inline bindKeys(Control.TEMPER_1, keysMap.get('temper_1'));
+				inline bindKeys(Control.TEMPER_2, keysMap.get('temper_2'));
+
 			case Duo(true):
 				inline bindKeys(Control.UI_UP, [W]);
 				inline bindKeys(Control.UI_DOWN, [S]);
@@ -666,6 +699,8 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, [H, X]);
 				inline bindKeys(Control.PAUSE, [ONE]);
 				inline bindKeys(Control.RESET, [R]);
+				inline bindKeys(Control.TEMPER_1, [E]);
+				inline bindKeys(Control.TEMPER_2, [Q]);
 			case Duo(false):
 				inline bindKeys(Control.UI_UP, [FlxKey.UP]);
 				inline bindKeys(Control.UI_DOWN, [FlxKey.DOWN]);
@@ -679,6 +714,8 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, [P]);
 				inline bindKeys(Control.PAUSE, [ENTER]);
 				inline bindKeys(Control.RESET, [BACKSPACE]);
+				inline bindKeys(Control.TEMPER_1, [I]);
+				inline bindKeys(Control.TEMPER_2, [Y]);
 			case None: // nothing
 			case Custom: // nothing
 		}
@@ -698,6 +735,8 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [BACKSPACE, ESCAPE]);
 				bindKeys(Control.PAUSE, [P, ENTER, ESCAPE]);
 				bindKeys(Control.RESET, [R]);
+				bindKeys(Control.TEMPER_1, [E]);
+				bindKeys(Control.TEMPER_2, [Q]);
 			case Duo(true):
 				bindKeys(Control.UI_UP, [W]);
 				bindKeys(Control.UI_DOWN, [S]);
@@ -711,6 +750,8 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [H, X]);
 				bindKeys(Control.PAUSE, [ONE]);
 				bindKeys(Control.RESET, [R]);
+				bindKeys(Control.TEMPER_1, [E]);
+				bindKeys(Control.TEMPER_2, [Q]);
 			case Duo(false):
 				bindKeys(Control.UI_UP, [FlxKey.UP]);
 				bindKeys(Control.UI_DOWN, [FlxKey.DOWN]);
@@ -724,6 +765,8 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [P]);
 				bindKeys(Control.PAUSE, [ENTER]);
 				bindKeys(Control.RESET, [BACKSPACE]);
+				bindKeys(Control.TEMPER_1, [FlxKey.THREE]);
+				bindKeys(Control.TEMPER_2, [FlxKey.ONE]);
 			case None: // nothing
 			case Custom: // nothing
 		}

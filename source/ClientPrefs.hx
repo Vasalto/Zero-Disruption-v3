@@ -7,6 +7,8 @@ import flixel.graphics.FlxGraphic;
 import Controls;
 
 class ClientPrefs {
+	public static var mechanics:Bool = true;
+	public static var temperbarzdsetting:Bool = false; //does nothing, only there in zdsettingssubstate to tell you to go to controls lmaoaoao
 	public static var downScroll:Bool = false;
 	public static var middleScroll:Bool = false;
 	public static var showFPS:Bool = true;
@@ -79,7 +81,10 @@ class ClientPrefs {
 		'volume_down'	=> [NUMPADMINUS, MINUS],
 		
 		'debug_1'		=> [SEVEN, NONE],
-		'debug_2'		=> [EIGHT, NONE]
+		'debug_2'		=> [EIGHT, NONE],
+
+		'temper_1'		=> [E],
+		'temper_2'		=> [Q]
 	];
 	public static var defaultKeys:Map<String, Array<FlxKey>> = null;
 
@@ -89,6 +94,8 @@ class ClientPrefs {
 	}
 
 	public static function saveSettings() {
+		FlxG.save.data.mechanics = mechanics;
+		FlxG.save.data.temperbarzdsetting = temperbarzdsetting;
 		FlxG.save.data.downScroll = downScroll;
 		FlxG.save.data.middleScroll = middleScroll;
 		FlxG.save.data.showFPS = showFPS;
@@ -131,6 +138,12 @@ class ClientPrefs {
 	}
 
 	public static function loadPrefs() {
+		if(FlxG.save.data.mechanics != null) {
+			mechanics = FlxG.save.data.mechanics;
+		}
+		if(FlxG.save.data.temperbarzdsetting != null) {
+			temperbarzdsetting = FlxG.save.data.temperbarzdsetting;
+		}
 		if(FlxG.save.data.downScroll != null) {
 			downScroll = FlxG.save.data.downScroll;
 		}

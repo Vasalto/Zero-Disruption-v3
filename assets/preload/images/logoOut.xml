@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="logoOut.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logoOut10000" x="0" y="0" width="834" height="694" frameX="0" frameY="-51" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10001" x="834" y="0" width="834" height="679" frameX="0" frameY="-41" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10002" x="1668" y="0" width="834" height="681" frameX="0" frameY="-31" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10003" x="2502" y="0" width="834" height="674" frameX="0" frameY="-26" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10004" x="0" y="694" width="834" height="675" frameX="0" frameY="-13" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10005" x="834" y="694" width="834" height="674" frameX="0" frameY="-8" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10006" x="1668" y="694" width="834" height="673" frameX="0" frameY="-7" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10007" x="2502" y="694" width="834" height="674" frameX="0" frameY="-3" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10008" x="2502" y="694" width="834" height="674" frameX="0" frameY="-2" frameWidth="834" frameHeight="745"/>
+	<SubTexture name="logoOut10009" x="2502" y="694" width="834" height="674" frameX="0" frameY="0" frameWidth="834" frameHeight="745"/>
+</TextureAtlas>

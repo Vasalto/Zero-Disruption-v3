@@ -702,6 +702,8 @@ class FunkinLua {
 				case 'back': key = PlayState.instance.getControl('BACK');
 				case 'pause': key = PlayState.instance.getControl('PAUSE');
 				case 'reset': key = PlayState.instance.getControl('RESET');
+				case 'temper_1': key = PlayState.instance.getControl('TEMPER_1');
+				case 'temper_2': key = PlayState.instance.getControl('TEMPER_2');
 				case 'space': key = FlxG.keys.justPressed.SPACE;//an extra key for convinience
 			}
 			return key;

@@ -59,7 +59,11 @@ class ControlsSubState extends MusicBeatSubstate {
 		[''],
 		['DEBUG'],
 		['Key 1', 'debug_1'],
-		['Key 2', 'debug_2']
+		['Key 2', 'debug_2'],
+		[''],
+		['ZD Mechs'],
+		['Temper Bar Key 1', 'temper_1'],
+		['Temper Bar Key 2', 'temper_2']
 	];
 
 	private var grpOptions:FlxTypedGroup<Alphabet>;
