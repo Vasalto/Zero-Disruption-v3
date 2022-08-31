@@ -57,6 +57,7 @@ class MainMenuState extends MusicBeatState
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
 	var elexaMenu:FlxSprite;
+	var elexahitbox:FlxObject;
 
 	//private var char1:Character = null; //you could just make an flxsprite, i added elexaMenu
 
@@ -99,6 +100,11 @@ class MainMenuState extends MusicBeatState
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 		add(camFollowPos);*/
+
+		elexahitbox = new FlxSprite(0, 0).loadGraphic(Paths.image('hitne')); //il replace it later
+		elexahitbox.scrollFactor.set(0, 0);
+
+		FlxG.mouse.visible = true;
 
 		var yScroll:Float = 0.00;
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
@@ -171,6 +177,7 @@ class MainMenuState extends MusicBeatState
 		elexaMenu.flipX = true;
 		elexaMenu.antialiasing = true;
 		add(elexaMenu);
+		add(elexahitbox);
 
 		/*
 		char1  = new Character(920, 150, 'elexa', true);
@@ -232,7 +239,11 @@ class MainMenuState extends MusicBeatState
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
-			
+		if(FlxG.mouse.justPressed && FlxG.mouse.overlaps(elexahitbox))
+			{
+				PlayState.SONG = Song.loadFromJson('project-mdk-hard', 'project-mdk');
+				LoadingState.loadAndSwitchState(new PlayState());
+			}
 		if (!selectedSomethin)
 		{
 			if (controls.UI_UP_P)
@@ -310,34 +321,8 @@ class MainMenuState extends MusicBeatState
 			#if desktop
 			else if (FlxG.keys.anyJustPressed(debugKeys))
 			{
-				//selectedSomethin = true;
-				//MusicBeatState.switchState(new MasterEditorMenu());
-				PlayState.storyPlaylist = ["project-mdk"];
-				PlayState.isStoryMode = true;
-
-				FlxG.sound.play(Paths.sound('confirmMenu'));
-				FlxTween.tween(FlxG.camera, {alpha: 0}, 0.7, { // 0.5
-					onComplete: function(tween:FlxTween){
-		
-						if (playstateInfo["isStoryMode"]) {
-							PlayState.storyPlaylist = playstateInfo["songPlayList"];
-							PlayState.isStoryMode = playstateInfo["isStoryMode"];
-							PlayState.campaignScore = 0;
-							PlayState.campaignMisses = 0; 
-						} else {
-							PlayState.isStoryMode = false;
-						}
-					   
-						//PlayState.SONG = Song.loadFromJson(StringTools.replace(playstateInfo["jsondata"], "-null", ""), playstateInfo["songLowerCase"]);
-						PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + "-hard", PlayState.storyPlaylist[0].toLowerCase());
-
-		
-						//PlayState.storyDifficulty = playstateInfo["diffuclty"];  
-						LoadingState.loadAndSwitchState(new PlayState());
-						FlxG.sound.music.volume = 0;
-						FreeplayState.destroyFreeplayVocals();
-					}
-				});
+				selectedSomethin = true;
+				MusicBeatState.switchState(new MasterEditorMenu());
 			}
 			#end
 		}
