@@ -179,23 +179,6 @@ class MainMenuState extends MusicBeatState
 		add(elexaMenu);
 		add(elexahitbox);
 
-		/*
-		char1  = new Character(920, 150, 'elexa', true);
-		char1.setGraphicSize(Std.int(char1.width * 0.8));
-		add(char1);
-		char1.visible = true;
-		char1.dance();
-		char1.updateHitbox();*/
-
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
-		versionShit.scrollFactor.set();
-		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		add(versionShit);
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
-		versionShit.scrollFactor.set();
-		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		add(versionShit);
-
 		// NG.core.calls.event.logEvent('swag').send();
 
 		changeItem();

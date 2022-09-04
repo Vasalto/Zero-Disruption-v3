@@ -28,9 +28,8 @@ function onCreate()
 		setProperty('barBlue.scale.y', shielded)
 
 		makeLuaSprite('barline', 'mechanics/temperlines', 1204.5, 145)
-		setObjectCamera('barline', 'other')
+		setObjectCamera('barline', 'hud')
 		addLuaSprite('barline')
-
 
 		makeLuaSprite('vignette', 'vignettes/blackvignette', 0, 0);
 		setProperty('vignette.alpha', 0);

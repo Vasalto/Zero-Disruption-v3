@@ -1,14 +1,13 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				248,
 				-94
 			],
-			"anim": "attack",
+			"loop": false,
 			"fps": 20,
-			"name": "zero root attack",
+			"anim": "attack",
 			"indices": [
 				9,
 				10,
@@ -21,16 +20,18 @@
 				17,
 				18,
 				19
-			]
+			],
+			"name": "zero root attack"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				228,
 				-74
 			],
-			"loop": false,
-			"fps": 20,
 			"anim": "preattack",
+			"fps": 20,
+			"name": "zero root attack",
 			"indices": [
 				1,
 				2,
@@ -38,63 +39,62 @@
 				4,
 				5,
 				5
-			],
-			"name": "zero root attack"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-239,
 				519
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "zeroRooted up"
+			"fps": 24,
+			"name": "zeroRooted up",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				10,
 				257
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": true,
-			"name": "zeroRooted idle"
+			"fps": 24,
+			"name": "zeroRooted idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-410,
 				43
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "zeroRooted down"
+			"fps": 24,
+			"name": "zeroRooted down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-422,
 				86
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "zeroRooted right"
+			"fps": 24,
+			"name": "zeroRooted right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-117,
 				-79
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "zeroRooted left"
+			"fps": 24,
+			"name": "zeroRooted left",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -106,13 +106,13 @@
 	"healthicon": "zerotwo",
 	"flip_x": false,
 	"healthbar_colors": [
-		0,
-		0,
-		0
+		69,
+		69,
+		99
 	],
 	"camera_position": [
 		340,
-		-70
+		-210
 	],
 	"sing_duration": 4,
 	"scale": 1.2

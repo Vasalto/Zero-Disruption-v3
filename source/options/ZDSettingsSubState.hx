@@ -41,7 +41,7 @@ class ZDSettingsSubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Temper Bar Controls',
+		var option:Option = new Option('Mechanic Controls',
 			'Go to the Controls menu to change this setting!\nThis setting does basically nothing',
 			'temperbarzdsetting',
 			'bool',

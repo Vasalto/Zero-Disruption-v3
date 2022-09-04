@@ -3,14 +3,18 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "Zero",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Obtrude",
@@ -41,18 +45,14 @@
 		],
 		[
 			"Vehemence",
-			"dad",
+			"zerotwo",
 			[
-				146,
-				113,
-				253
+				73,
+				73,
+				73
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"weekName": "WeekZero"
 }
