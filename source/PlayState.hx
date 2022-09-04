@@ -33,6 +33,7 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.ui.FlxBar;
 import flixel.util.FlxCollision;
+import flixel.addons.display.FlxBackdrop;
 import flixel.util.FlxColor;
 import flixel.util.FlxSort;
 import flixel.util.FlxStringUtil;
@@ -214,6 +215,10 @@ class PlayState extends MusicBeatState
 	var frontlab2:BGSprite;
 	var desklol:BGSprite;
 	var frontstagechange:BGSprite;
+	var LMAOO:FlxBackdrop;
+	var LMAOO2:FlxBackdrop;
+	var LMAOO3:FlxBackdrop;
+	var LMAOO4:FlxBackdrop;
 
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
@@ -875,32 +880,48 @@ class PlayState extends MusicBeatState
 				
 				
 			
-			/*case 'LabMess': //Week Puta
-				eye = new FlxSprite(0, 0);
-				eye.frames = Paths.getSparrowAtlas('mechanics/lookAttack');
-				eye.setGraphicSize(Std.int(eye.width * 1));
-				eye.animation.addByPrefix('stop', "stop", 24);
-				eye.animation.addByPrefix('idle', "lookAttack", 24);
-				eye.animation.play('stop');
-				eye.screenCenter(X);
-				eye.screenCenter(Y);
-				eye.antialiasing = true;
-				eye.scrollFactor.set(0.95, 0.95);
-				eye.updateHitbox();
-				eye.alpha = 1;
+			case 'malware': //Week Puta
+				LMAOO = new FlxBackdrop(Paths.image('stages/malware/treef'), 0.2, 0, true, true);
+				LMAOO.velocity.set(100, 0);
+				LMAOO.updateHitbox();
+				LMAOO.screenCenter(X);
+				LMAOO.scrollFactor.set(1,1);
+				LMAOO.scale.set(1.6,1.6);
+
+
 			
-				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
-				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
-				ink.setGraphicSize(Std.int(ink.width * 2));
-				ink.animation.addByPrefix('stop', "stop", 24, false);
-				ink.animation.addByPrefix('ink1', "ink 1", 24, false);
-				ink.animation.addByPrefix('ink2', "ink 2", 24, false);
-				ink.animation.addByPrefix('ink3', "ink 3", 24, false);
-				ink.animation.play('stop');
-				ink.antialiasing = true;
-				ink.scrollFactor.set(0.95, 0.95);
-				ink.updateHitbox();
-				ink.alpha = 1*/
+				
+				LMAOO2 = new FlxBackdrop(Paths.image('stages/malware/treem'), 0.2, 0, true, true);
+				LMAOO2.velocity.set(100, 0);
+				LMAOO2.updateHitbox();
+				LMAOO2.screenCenter(X);
+				LMAOO2.scale.set(1.6,1.6);
+				LMAOO2.scrollFactor.set(1,1);
+
+
+				
+				LMAOO3 = new FlxBackdrop(Paths.image('stages/malware/treeb'), 0.2, 0, true, true);
+				LMAOO3.velocity.set(100, 0);
+				LMAOO3.updateHitbox();
+				LMAOO3.screenCenter(X);
+				LMAOO3.scale.set(1.6,1.6);
+				LMAOO3.scrollFactor.set(1,1);
+
+
+				LMAOO4 = new FlxBackdrop(Paths.image('stages/malware/sky'), 0.2, 0, true, true);
+				LMAOO4.velocity.set(100, 0);
+				LMAOO4.updateHitbox();
+				LMAOO4.screenCenter(X);
+				LMAOO4.scrollFactor.set(1,1);
+				LMAOO4.scale.set(1.6,1.6);
+
+
+
+				add(LMAOO4);
+				add(LMAOO3);
+				add(LMAOO2);
+				add(boyfriendGroup);
+				add(LMAOO);
 		}	
 			
 

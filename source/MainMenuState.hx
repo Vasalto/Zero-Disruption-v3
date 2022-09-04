@@ -224,7 +224,7 @@ class MainMenuState extends MusicBeatState
 
 		if(FlxG.mouse.justPressed && FlxG.mouse.overlaps(elexahitbox))
 			{
-				PlayState.SONG = Song.loadFromJson('project-mdk-hard', 'project-mdk');
+				PlayState.SONG = Song.loadFromJson('simulation', 'simulation');
 				LoadingState.loadAndSwitchState(new PlayState());
 			}
 		if (!selectedSomethin)
