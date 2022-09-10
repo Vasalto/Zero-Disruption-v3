@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Simulationgirl.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ele down0000" x="0" y="0" width="427" height="465"/>
+	<SubTexture name="ele down0001" x="427" y="0" width="427" height="465"/>
+	<SubTexture name="ele down0002" x="854" y="0" width="427" height="465"/>
+	<SubTexture name="ele down0003" x="1281" y="0" width="427" height="465"/>
+	<SubTexture name="ele down0004" x="1708" y="0" width="427" height="465"/>
+	<SubTexture name="ele down0005" x="2135" y="0" width="427" height="465"/>
+	<SubTexture name="ele down0006" x="2562" y="0" width="427" height="465"/>
+	<SubTexture name="ele down0007" x="2989" y="0" width="427" height="465"/>
+	<SubTexture name="ele down0008" x="3416" y="0" width="427" height="465"/>
+	<SubTexture name="ele idle0000" x="0" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0001" x="440" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0002" x="440" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0003" x="880" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0004" x="1320" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0005" x="1760" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0006" x="1760" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0007" x="2200" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0008" x="2640" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0009" x="2640" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0010" x="3080" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0011" x="3520" y="465" width="440" height="466"/>
+	<SubTexture name="ele idle0012" x="0" y="931" width="440" height="466"/>
+	<SubTexture name="ele idle0013" x="440" y="931" width="440" height="466"/>
+	<SubTexture name="ele left0000" x="880" y="931" width="376" height="452"/>
+	<SubTexture name="ele left0001" x="1256" y="931" width="376" height="452"/>
+	<SubTexture name="ele left0002" x="1632" y="931" width="376" height="452"/>
+	<SubTexture name="ele left0003" x="2008" y="931" width="376" height="452"/>
+	<SubTexture name="ele left0004" x="2384" y="931" width="376" height="452"/>
+	<SubTexture name="ele left0005" x="2760" y="931" width="376" height="452"/>
+	<SubTexture name="ele left0006" x="3136" y="931" width="376" height="452"/>
+	<SubTexture name="ele left0007" x="3512" y="931" width="376" height="452"/>
+	<SubTexture name="ele left0008" x="0" y="1397" width="376" height="452"/>
+	<SubTexture name="ele right0000" x="376" y="1397" width="427" height="465"/>
+	<SubTexture name="ele right0001" x="803" y="1397" width="427" height="465"/>
+	<SubTexture name="ele right0002" x="1230" y="1397" width="427" height="465"/>
+	<SubTexture name="ele right0003" x="1657" y="1397" width="427" height="465"/>
+	<SubTexture name="ele right0004" x="2084" y="1397" width="427" height="465"/>
+	<SubTexture name="ele right0005" x="2511" y="1397" width="427" height="465"/>
+	<SubTexture name="ele right0006" x="2938" y="1397" width="427" height="465"/>
+	<SubTexture name="ele right0007" x="3365" y="1397" width="427" height="465"/>
+	<SubTexture name="ele right0008" x="0" y="1862" width="427" height="465"/>
+	<SubTexture name="ele up0000" x="427" y="1862" width="427" height="477"/>
+	<SubTexture name="ele up0001" x="854" y="1862" width="427" height="475" frameX="0" frameY="-2" frameWidth="427" frameHeight="477"/>
+	<SubTexture name="ele up0002" x="1281" y="1862" width="427" height="475" frameX="0" frameY="-2" frameWidth="427" frameHeight="477"/>
+	<SubTexture name="ele up0003" x="1708" y="1862" width="427" height="475" frameX="0" frameY="-2" frameWidth="427" frameHeight="477"/>
+	<SubTexture name="ele up0004" x="2135" y="1862" width="427" height="475" frameX="0" frameY="-2" frameWidth="427" frameHeight="477"/>
+	<SubTexture name="ele up0005" x="2562" y="1862" width="427" height="475" frameX="0" frameY="-2" frameWidth="427" frameHeight="477"/>
+	<SubTexture name="ele up0006" x="2989" y="1862" width="427" height="475" frameX="0" frameY="-2" frameWidth="427" frameHeight="477"/>
+	<SubTexture name="ele up0007" x="3416" y="1862" width="427" height="475" frameX="0" frameY="-2" frameWidth="427" frameHeight="477"/>
+	<SubTexture name="ele up0008" x="0" y="2339" width="427" height="475" frameX="0" frameY="-2" frameWidth="427" frameHeight="477"/>
+</TextureAtlas>

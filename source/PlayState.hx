@@ -881,39 +881,39 @@ class PlayState extends MusicBeatState
 				
 			
 			case 'malware': //Week Puta
-				LMAOO = new FlxBackdrop(Paths.image('stages/malware/treef'), 0.2, 0, true, true);
+				LMAOO = new FlxBackdrop(Paths.image('stages/malware/treef'), 0, 0, true, true);
 				LMAOO.velocity.set(100, 0);
 				LMAOO.updateHitbox();
 				LMAOO.screenCenter(X);
 				LMAOO.scrollFactor.set(1,1);
-				LMAOO.scale.set(1.6,1.6);
+				LMAOO.scale.set(1.3,1.3);
 
 
 			
 				
-				LMAOO2 = new FlxBackdrop(Paths.image('stages/malware/treem'), 0.2, 0, true, true);
-				LMAOO2.velocity.set(100, 0);
+				LMAOO2 = new FlxBackdrop(Paths.image('stages/malware/treem'), 0, 0, true, true);
+				LMAOO2.velocity.set(90, 0);
 				LMAOO2.updateHitbox();
 				LMAOO2.screenCenter(X);
-				LMAOO2.scale.set(1.6,1.6);
+				LMAOO2.scale.set(1.3,1.3);
 				LMAOO2.scrollFactor.set(1,1);
 
 
 				
-				LMAOO3 = new FlxBackdrop(Paths.image('stages/malware/treeb'), 0.2, 0, true, true);
-				LMAOO3.velocity.set(100, 0);
+				LMAOO3 = new FlxBackdrop(Paths.image('stages/malware/treeb'), 0, 0, true, true);
+				LMAOO3.velocity.set(70, 0);
 				LMAOO3.updateHitbox();
 				LMAOO3.screenCenter(X);
-				LMAOO3.scale.set(1.6,1.6);
+				LMAOO3.scale.set(1.3,1.3);
 				LMAOO3.scrollFactor.set(1,1);
 
 
-				LMAOO4 = new FlxBackdrop(Paths.image('stages/malware/sky'), 0.2, 0, true, true);
-				LMAOO4.velocity.set(100, 0);
+				LMAOO4 = new FlxBackdrop(Paths.image('stages/malware/sky'), 0, 0, true, true);
+				LMAOO4.velocity.set(0, 0);
 				LMAOO4.updateHitbox();
 				LMAOO4.screenCenter(X);
 				LMAOO4.scrollFactor.set(1,1);
-				LMAOO4.scale.set(1.6,1.6);
+				LMAOO4.scale.set(1.3,1.3);
 
 
 
