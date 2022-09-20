@@ -886,7 +886,7 @@ class PlayState extends MusicBeatState
 				LMAOO.updateHitbox();
 				LMAOO.screenCenter(X);
 				LMAOO.scrollFactor.set(1,1);
-				LMAOO.scale.set(1.3,1.3);
+				//LMAOO.scale.set(1.3,1.3);
 
 
 			
@@ -895,7 +895,7 @@ class PlayState extends MusicBeatState
 				LMAOO2.velocity.set(90, 0);
 				LMAOO2.updateHitbox();
 				LMAOO2.screenCenter(X);
-				LMAOO2.scale.set(1.3,1.3);
+				//LMAOO2.scale.set(1.3,1.3);
 				LMAOO2.scrollFactor.set(1,1);
 
 
@@ -904,7 +904,7 @@ class PlayState extends MusicBeatState
 				LMAOO3.velocity.set(70, 0);
 				LMAOO3.updateHitbox();
 				LMAOO3.screenCenter(X);
-				LMAOO3.scale.set(1.3,1.3);
+				//LMAOO3.scale.set(1.3,1.3);
 				LMAOO3.scrollFactor.set(1,1);
 
 
@@ -913,7 +913,7 @@ class PlayState extends MusicBeatState
 				LMAOO4.updateHitbox();
 				LMAOO4.screenCenter(X);
 				LMAOO4.scrollFactor.set(1,1);
-				LMAOO4.scale.set(1.3,1.3);
+				//LMAOO4.scale.set(1.3,1.3);
 
 
 
@@ -921,6 +921,7 @@ class PlayState extends MusicBeatState
 				add(LMAOO3);
 				add(LMAOO2);
 				add(boyfriendGroup);
+				add(dadGroup);
 				add(LMAOO);
 		}	
 			

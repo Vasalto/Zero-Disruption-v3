@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Simulationboi.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="vasalto down0000" x="0" y="0" width="899" height="650" frameX="0" frameY="-20" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto down0001" x="899" y="0" width="878" height="661" frameX="-10" frameY="-6" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto down0002" x="1777" y="0" width="868" height="658" frameX="-15" frameY="-9" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto down0003" x="2645" y="0" width="864" height="662" frameX="-17" frameY="-5" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto down0004" x="3509" y="0" width="864" height="666" frameX="-17" frameY="-1" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto down0005" x="4373" y="0" width="864" height="667" frameX="-17" frameY="0" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto down0006" x="5237" y="0" width="864" height="667" frameX="-17" frameY="0" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto down0007" x="5237" y="0" width="864" height="667" frameX="-17" frameY="0" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto down0008" x="5237" y="0" width="864" height="667" frameX="-17" frameY="0" frameWidth="899" frameHeight="670"/>
+	<SubTexture name="vasalto idle0000" x="6101" y="0" width="789" height="647" frameX="0" frameY="-54" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0001" x="6890" y="0" width="794" height="682" frameX="-2" frameY="-13" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0002" x="0" y="682" width="783" height="677" frameX="-7" frameY="-18" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0003" x="783" y="682" width="778" height="672" frameX="-12" frameY="-21" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0004" x="1561" y="682" width="771" height="666" frameX="-18" frameY="-25" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0005" x="2332" y="682" width="777" height="677" frameX="-14" frameY="-18" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0006" x="3109" y="682" width="778" height="683" frameX="-14" frameY="-10" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0007" x="3887" y="682" width="779" height="686" frameX="-14" frameY="-8" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0008" x="4666" y="682" width="778" height="686" frameX="-14" frameY="-9" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0009" x="5444" y="682" width="774" height="689" frameX="-16" frameY="-5" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0010" x="6218" y="682" width="776" height="688" frameX="-12" frameY="-5" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0011" x="6994" y="682" width="773" height="688" frameX="-14" frameY="-4" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0012" x="0" y="1371" width="773" height="691" frameX="-14" frameY="-2" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto idle0013" x="773" y="1371" width="764" height="691" frameX="-14" frameY="0" frameWidth="796" frameHeight="701"/>
+	<SubTexture name="vasalto left0000" x="1537" y="1371" width="539" height="757" frameX="0" frameY="0" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto left0001" x="2076" y="1371" width="544" height="760" frameX="-11" frameY="0" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto left0002" x="2620" y="1371" width="546" height="758" frameX="-16" frameY="-2" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto left0003" x="3166" y="1371" width="549" height="758" frameX="-19" frameY="-2" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto left0004" x="3715" y="1371" width="552" height="759" frameX="-20" frameY="-2" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto left0005" x="4267" y="1371" width="553" height="759" frameX="-20" frameY="-2" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto left0006" x="4267" y="1371" width="553" height="759" frameX="-20" frameY="-2" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto left0007" x="4267" y="1371" width="553" height="759" frameX="-20" frameY="-2" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto left0008" x="4267" y="1371" width="553" height="759" frameX="-20" frameY="-2" frameWidth="573" frameHeight="761"/>
+	<SubTexture name="vasalto right0000" x="4820" y="1371" width="938" height="727" frameX="-6" frameY="-1" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto right0001" x="5758" y="1371" width="916" height="727" frameX="-4" frameY="-1" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto right0002" x="6674" y="1371" width="901" height="727" frameX="-1" frameY="-1" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto right0003" x="0" y="2131" width="893" height="728" frameX="0" frameY="0" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto right0004" x="893" y="2131" width="888" height="728" frameX="0" frameY="0" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto right0005" x="1781" y="2131" width="885" height="728" frameX="0" frameY="0" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto right0006" x="2666" y="2131" width="883" height="728" frameX="0" frameY="0" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto right0007" x="2666" y="2131" width="883" height="728" frameX="0" frameY="0" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto right0008" x="2666" y="2131" width="883" height="728" frameX="0" frameY="0" frameWidth="944" frameHeight="728"/>
+	<SubTexture name="vasalto up0000" x="3549" y="2131" width="805" height="822" frameX="-12" frameY="0" frameWidth="817" frameHeight="833"/>
+	<SubTexture name="vasalto up0001" x="4354" y="2131" width="807" height="824" frameX="-10" frameY="-3" frameWidth="817" frameHeight="833"/>
+	<SubTexture name="vasalto up0002" x="5161" y="2131" width="816" height="819" frameX="-1" frameY="-8" frameWidth="817" frameHeight="833"/>
+	<SubTexture name="vasalto up0003" x="5977" y="2131" width="817" height="815" frameX="0" frameY="-15" frameWidth="817" frameHeight="833"/>
+	<SubTexture name="vasalto up0004" x="6794" y="2131" width="817" height="816" frameX="0" frameY="-17" frameWidth="817" frameHeight="833"/>
+	<SubTexture name="vasalto up0005" x="0" y="2955" width="817" height="815" frameX="0" frameY="-18" frameWidth="817" frameHeight="833"/>
+	<SubTexture name="vasalto up0006" x="817" y="2955" width="817" height="816" frameX="0" frameY="-17" frameWidth="817" frameHeight="833"/>
+	<SubTexture name="vasalto up0007" x="1634" y="2955" width="817" height="816" frameX="0" frameY="-17" frameWidth="817" frameHeight="833"/>
+	<SubTexture name="vasalto up0008" x="1634" y="2955" width="817" height="816" frameX="0" frameY="-17" frameWidth="817" frameHeight="833"/>
+</TextureAtlas>
