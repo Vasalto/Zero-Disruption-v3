@@ -12,19 +12,9 @@ import flixel.tweens.FlxTween;
 import flixel.FlxSprite;
 import flixel.util.FlxTimer;
 
-/*enum PreloadType {
-    atlas;
-    image;
-}*/
-
 class LoadingScreen extends MusicBeatState {
     var enterPressed:Bool = true; //prevents you from hitting enter multiple times
     var maxCount:Int;
-
-    private var playstateInfo:Map<String, Dynamic> = [
-        "songLowerCase" => "",
-        "jsondata" /*aka songname-diff*/ => "",
-    ];
 
     override public function create() {
         super.create();
@@ -86,15 +76,12 @@ class LoadingScreen extends MusicBeatState {
         super.update(elapsed);
         if (controls.ACCEPT && enterPressed == true) {
             goToSong();
-            enterPressed = false; //locals & bools are the SAME THING
+            enterPressed = false;
         }
     }
 
     override public function new(songLowerCase:String, difficulty:Int, jsondata:String, isStoryMode:Bool, ?songPlayList:Array<String> = null) {
         super();
-        //passing info to finish function
-        playstateInfo["songLowerCase"] = songLowerCase;
-        playstateInfo["jsondata"] = jsondata;
     }
 
     function goToSong() 
@@ -113,7 +100,7 @@ class LoadingScreen extends MusicBeatState {
                     {
                         PlayState.isStoryMode = false;
                     }
-                PlayState.SONG = Song.loadFromJson(StringTools.replace(playstateInfo["jsondata"], "-null", ""), playstateInfo["songLowerCase"]);
+                PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0], "-null", ""), PlayState.storyPlaylist[0]);
                 PlayState.storyDifficulty = PlayState.storyDifficulty;                
                 MusicBeatState.switchState(new PlayState());
             }
