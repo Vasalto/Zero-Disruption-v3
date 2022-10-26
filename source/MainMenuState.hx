@@ -9,6 +9,7 @@ import flixel.FlxSprite;
 import flixel.FlxCamera;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.effects.FlxFlicker;
+import flixel.addons.display.FlxBackdrop;	
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.text.FlxText;
@@ -56,6 +57,9 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	var bg2:FlxBackdrop;
+	var glow:FlxSprite;
+
 	var elexaMenu:FlxSprite;
 	var elexahitbox:FlxObject;
 
@@ -106,15 +110,60 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.mouse.visible = true;
 
+
+		glow = new FlxSprite(-80).loadGraphic(Paths.image('menuGlow'));
+        glow.antialiasing = ClientPrefs.globalAntialiasing;
+        glow.scrollFactor.set();
+		glow.screenCenter(X);
+
+		//pulse(elexaMenu, 0.5, 2.5);
+        pulse(glow);
+
+		// blue background
 		var yScroll:Float = 0.00;
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
 		bg.scrollFactor.set(0, yScroll);
-		//bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.setGraphicSize(Std.int(bg.width * 1.050));
 		bg.updateHitbox();
-		bg.screenCenter();
+		bg.screenCenter(X);
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
+
 		add(bg);
+
+
+		// string background
+		/*var yScroll:Float = 0.00;
+		var bg2:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuStrings'));
+		bg2.scrollFactor.set(0, yScroll);
+		bg2.setGraphicSize(Std.int(bg.width * 1.050));
+		bg2.updateHitbox();
+		bg2.screenCenter();
+		bg2.alpha = .5;
+		bg2.antialiasing = ClientPrefs.globalAntialiasing;*/
+
+		bg2 = new FlxBackdrop(Paths.image("menuStrings"), 0.2, 0, true, true);
+        bg2.velocity.set(20, 0);
+        bg2.updateHitbox();
+        bg2.screenCenter(X);
+		bg2.alpha = .3;
+        bg2.antialiasing = false;
+
+		add(bg2);
+
+		add(glow);
+
+		// the baaaallll
+		var yScroll:Float = 0.00;
+		var bg3:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBall'));
+		bg3.scrollFactor.set(0, yScroll);
+		bg3.setGraphicSize(Std.int(bg.width * 1.050));
+		bg3.updateHitbox();
+		bg3.screenCenter();
+		bg3.y = -50;
+		bg3.antialiasing = ClientPrefs.globalAntialiasing;
+		add(bg3);
+
+
 
 		camFollow = new FlxObject(0, 0, 1, 1);
 		camFollowPos = new FlxObject(0, 0, 1, 1);
@@ -373,6 +422,17 @@ class MainMenuState extends MusicBeatState
 			});
 
 	}
+
+	function pulse(spr:FlxSprite, alph:Float = 0.2, dur:Float = 2)
+        {
+            FlxTween.tween(spr, {alpha: alph}, dur,
+                {
+                ease: FlxEase.quadInOut,
+                type: FlxTweenType.PINGPONG
+                });
+        }
+	
+    //comenta perra
 
 	function changeItem(huh:Int = 0)
 	{
