@@ -10,7 +10,7 @@ function onMoveCamera(focus)
 	if focus == 'boyfriend' then
 	campointx = getProperty('camFollow.x')
 	campointy = getProperty('camFollow.y')
-	setProperty('defaultCamZoom',0.6)
+	setProperty('defaultCamZoom',0.7)
 	bfturn = true
 	
 	elseif focus == 'dad' then

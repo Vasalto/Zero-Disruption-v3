@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				210,
+				100
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "gf11 idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				296,
+				146
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "gf11 left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				120
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "gf11 down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				190,
+				221
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "gf11 up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				30
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "gf11 right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gfStage",
+	"position": [
+		110,
+		-40
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		150,
+		0,
+		71
+	],
+	"camera_position": [
+		-340,
+		-220
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

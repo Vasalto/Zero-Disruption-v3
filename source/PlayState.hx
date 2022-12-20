@@ -212,6 +212,9 @@ class PlayState extends MusicBeatState
 	var fastCar:BGSprite;
 
 	var backlab2:BGSprite;
+	var backlab3:BGSprite;
+	var frontlab3:BGSprite;
+
 	var frontlab2:BGSprite;
 	var desklol:BGSprite;
 	var frontstagechange:BGSprite;
@@ -219,6 +222,9 @@ class PlayState extends MusicBeatState
 	var LMAOO2:FlxBackdrop;
 	var LMAOO3:FlxBackdrop;
 	var LMAOO4:FlxBackdrop;
+
+	var tutostage:FlxBackdrop;
+
 
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
@@ -393,6 +399,8 @@ class PlayState extends MusicBeatState
 					curStage = 'Lab3';
 				case 'vehemence':
 					curStage = 'Lab4';
+				case 'funktioren':
+					curStage = 'tutorialstage';
 				case 'thorns':
 					curStage = 'schoolEvil';
 				default:
@@ -772,15 +780,15 @@ class PlayState extends MusicBeatState
 				ink.alpha = 1;
 
 			case 'Lab3':
-				var back:BGSprite = new BGSprite('stages/3/back', -600, -300);
-				back.scale.set(1,1);
-				back.scrollFactor.set(1,1);
-				add(back);
+				var backlab3:BGSprite = new BGSprite('stages/3/back', -600, -300);
+				backlab3.scale.set(1,1);
+				backlab3.scrollFactor.set(1,1);
+				add(backlab3);
 
-				var front:BGSprite = new BGSprite('stages/3/front', -600, -300);
-				front.scale.set(1,1);
-				front.scrollFactor.set(1,1);
-				add(front); 
+				var frontlab3:BGSprite = new BGSprite('stages/3/front', -600, -300);
+				frontlab3.scale.set(1,1);
+				frontlab3.scrollFactor.set(1,1);
+				add(frontlab3); 
 
 				desklol = new BGSprite('stages/4/desk', -520, 490);
 				desklol.scale.set(1,1);
@@ -923,6 +931,18 @@ class PlayState extends MusicBeatState
 				add(boyfriendGroup);
 				add(dadGroup);
 				add(LMAOO);
+
+		case 'tutorialstage': //Week tutorial
+				tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), 0, 0, true, true);
+				tutostage.velocity.set(-100, 0);
+				tutostage.updateHitbox();
+				tutostage.screenCenter(X);
+				tutostage.scrollFactor.set(1,1);
+				tutostage.scale.set(1.7,1.7);
+
+				add(tutostage);
+				add(boyfriendGroup);
+				add(dadGroup);
 		}	
 			
 

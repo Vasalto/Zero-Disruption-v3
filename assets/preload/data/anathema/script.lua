@@ -42,25 +42,6 @@ function onCreate()
     setProperty('gf.visible', true)
 
     setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'rekt'); --put in mods/music/
-
-    makeAnimatedLuaSprite('fx', 'vignettes/vintage', 0, 0)
-    addAnimationByPrefix('fx', 'idle', 'idle', 16, true)
-    scaleObject('fx', 3, 3)
-    setObjectCamera('fx', 'camHud')
-    objectPlayAnimation('fx', 'idle', true)
-    setProperty('fx.alpha', 0)
-    addLuaSprite('fx', true)
-
-end
-
-function onMoveCamera(focus)
-	if focus == 'boyfriend' then
-        setProperty('defaultCamZoom',0.7);
-	elseif focus == 'dad' then
-        setProperty('defaultCamZoom',0.7);
-	elseif focus == 'girlfriend' then
-        setProperty('defaultCamZoom',0.5);
-	end
 end
 
 function redfade()
@@ -69,21 +50,6 @@ function redfade()
     runTimer('redfade', 0.7)
 end
 
-function onUpdate()
-    if followchars == true then
-        if mustHitSection == false then
-            setProperty('defaultCamZoom',0.7)
-            
-        else
-            setProperty('defaultCamZoom',0.7)
-            
-        end
-    else
-        triggerEvent('Camera Follow Pos','','')
-    end
-    for i = 0,3 do
-        setPropertyFromGroup('strumLineNotes', i, 'alpha', 0)
-    end
 
 
     function onTimerCompleted(tag, l, ll)
@@ -99,7 +65,6 @@ function onUpdate()
             redfade()
         end
     end
-end
 
 --[[bro aint nobody got time for this :skull:
 
