@@ -14,6 +14,8 @@ import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
 import flixel.util.FlxTimer;
 import lime.net.curl.CURLCode;
 import flixel.graphics.FlxGraphic;
@@ -46,6 +48,7 @@ class StoryMenuState extends MusicBeatState
 	var sprDifficulty:FlxSprite;
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
+	var glow:FlxSprite;
 
 	override function create()
 	{
@@ -71,8 +74,7 @@ class StoryMenuState extends MusicBeatState
 		rankText.screenCenter(X);
 
 		var bgYellow:FlxSprite = new FlxSprite(0, -176).makeGraphic(FlxG.width, 3, 0xFF808080);
-		var bgShitB:BGSprite = new BGSprite('menuGREEN', 0, 0);
-		var bgShitC:BGSprite = new BGSprite('CircleZero', 0, 0); //chamo negativo es subir mamaguevo
+		var bgShitC:BGSprite = new BGSprite('ElexaUI', 0, 0); //chamo negativo es subir mamaguevo
 		var bgShit:BGSprite = new BGSprite('NewUI', 0, 0);
 		//bgShit.setGraphicSize(Std.int(bgShit.width * 0.7));
 		bgSprite = new FlxSprite(0, 206);
@@ -80,6 +82,16 @@ class StoryMenuState extends MusicBeatState
 
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
 		
+
+
+		glow = new FlxSprite(0, 5).loadGraphic(Paths.image('Lineglow'));
+        glow.antialiasing = ClientPrefs.globalAntialiasing;
+        glow.scrollFactor.set();
+		//glow.screenCenter(X);
+
+		pulse(glow);//glow
+
+
 		//difficultySelectors.x = -150;
 
 	
@@ -137,7 +149,7 @@ class StoryMenuState extends MusicBeatState
 
 		difficultySelectors = new FlxGroup();
 
-		leftArrow = new FlxSprite(grpWeekText.members[0].x + grpWeekText.members[0].width + 10, grpWeekText.members[0].y + 10);
+		leftArrow = new FlxSprite(grpWeekText.members[0].x + grpWeekText.members[0].width + -110, grpWeekText.members[0].y + -150); //gere
 		leftArrow.frames = ui_tex;
 		leftArrow.animation.addByPrefix('idle', "arrow left");
 		leftArrow.animation.addByPrefix('press', "arrow push left");
@@ -166,9 +178,9 @@ class StoryMenuState extends MusicBeatState
 
 		add(bgYellow);
 		add(bgSprite);
-		add(bgShitB);
-		add(bgShitC);
 		add(bgShit);
+		add(glow);
+		add(bgShitC);
 		add(grpWeekCharacters);
 		add(difficultySelectors);
 		//add(grpWeekText);
@@ -211,6 +223,7 @@ class StoryMenuState extends MusicBeatState
 		// FlxG.watch.addQuick('font', scoreText.font);
 
 		difficultySelectors.visible = !weekIsLocked(curWeek);
+
 
 		if (!movedBack && !selectedWeek)
 		{
@@ -270,6 +283,8 @@ class StoryMenuState extends MusicBeatState
 		}
 
 		super.update(elapsed);
+
+		
 
 		grpLocks.forEach(function(lock:FlxSprite)
 		{
@@ -451,6 +466,18 @@ class StoryMenuState extends MusicBeatState
 		}
 		updateText();
 	}
+
+
+	function pulse(spr:FlxSprite, alph:Float = 0.1, dur:Float = 3)
+		{
+			FlxTween.tween(spr, {alpha: alph}, dur,
+				{
+				ease: FlxEase.quadInOut,
+				type: FlxTweenType.PINGPONG
+				});
+		}
+	
+	//comenta perra glow
 
 	function weekIsLocked(weekNum:Int) {
 		var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[weekNum]);

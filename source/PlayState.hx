@@ -939,9 +939,9 @@ class PlayState extends MusicBeatState
 				tutostage.screenCenter(X);
 				tutostage.scrollFactor.set(1,1);
 				tutostage.scale.set(1.7,1.7);
-
-				add(tutostage);
+				
 				add(boyfriendGroup);
+				add(tutostage);
 				add(dadGroup);
 		}	
 			
