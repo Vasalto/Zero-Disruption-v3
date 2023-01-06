@@ -37,6 +37,10 @@ class LoadingScreen extends MusicBeatState {
         load4.screenCenter();
         load4.antialiasing = true;
 
+        var load5:FlxSprite = new FlxSprite().loadGraphic(Paths.image('loadingbg5', 'shared'));
+        load5.screenCenter();
+        load5.antialiasing = true;
+
         var portrait1:FlxSprite = new FlxSprite();
         portrait1.frames = Paths.getSparrowAtlas("loading1", "shared");
         portrait1.animation.addByPrefix('idle', "loading1", 24, true);
@@ -56,17 +60,19 @@ class LoadingScreen extends MusicBeatState {
         portrait2.antialiasing = true;
        switch(Paths.formatToSongPath(PlayState.SONG.song)) //adds flxsprites depending on the song
             {
-                case 'obtrude':
+                case 'funktioren':
                     add(load1);
+                case 'obtrude':
+                    add(load2);
                     add(portrait1);
                 case 'outburst':
-                    add(load2);
+                    add(load3);
                     add(portrait2);
                 case 'anathema':
-                    add(load3);
+                    add(load4);
                     //add(portrait3);
                 case 'vehemence':
-                    add(load4);
+                    add(load5);
                     //add(portrait4);
             }
     }

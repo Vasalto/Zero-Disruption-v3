@@ -197,57 +197,12 @@
 				]
 			],
 			[
-				89557.5,
-				[
-					[
-						"Cinema",
-						"on",
-						""
-					]
-				]
-			],
-			[
 				89600,
 				[
 					[
-						"Cinema",
-						"on",
-						""
-					],
-					[
-						"CustomCountdown",
-						"three",
-						"off"
-					]
-				]
-			],
-			[
-				89900,
-				[
-					[
-						"CustomCountdown",
-						"two",
-						"off"
-					]
-				]
-			],
-			[
-				90700,
-				[
-					[
-						"CustomCountdown",
-						"one",
-						"off"
-					]
-				]
-			],
-			[
-				91182.5,
-				[
-					[
-						"Cinema",
-						"on",
-						""
+						"Set Cam Zoom",
+						"0.8",
+						"1.5"
 					]
 				]
 			],

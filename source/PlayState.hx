@@ -933,12 +933,12 @@ class PlayState extends MusicBeatState
 				add(LMAOO);
 
 		case 'tutorialstage': //Week tutorial
-				tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), 0, 0, true, true);
+				tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), -900, -900, true, true);
 				tutostage.velocity.set(-100, 0);
 				tutostage.updateHitbox();
 				tutostage.screenCenter(X);
 				tutostage.scrollFactor.set(1,1);
-				tutostage.scale.set(1.7,1.7);
+				tutostage.scale.set(1,1);
 				
 				add(boyfriendGroup);
 				add(tutostage);
