@@ -122,7 +122,7 @@ class ArtworkState extends MusicBeatState {
         //artistName.centerOrigin();
 
         bgCheckers = new FlxSprite().loadGraphic(Paths.image('gallery/movies/checkers'));
-        scrollCheckers = new FlxBackdrop(bgCheckers.graphic, 60, 45, true, true);
+        //scrollCheckers = new FlxBackdrop(bgCheckers.graphic, 60, 45, true, true);
         scrollCheckers.velocity.set(-30, 20);
         scrollCheckers.scrollFactor.set();
 

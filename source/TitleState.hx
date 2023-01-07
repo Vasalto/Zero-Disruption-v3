@@ -136,7 +136,7 @@ class TitleState extends MusicBeatState
 		FlxG.sound.volumeUpKeys = volumeUpKeys;
 		FlxG.keys.preventDefaultKeys = [TAB];
 		
-		LMAOO = new FlxBackdrop(Paths.image('wave'), 0.2, 0, true, true);
+		LMAOO = new FlxBackdrop(Paths.image('wave'), XY, 0, 0);
 		LMAOO.velocity.set(100, 0);
 		LMAOO.updateHitbox();
 		LMAOO.alpha = 0.5;

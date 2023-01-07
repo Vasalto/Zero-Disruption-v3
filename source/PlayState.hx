@@ -36,6 +36,7 @@ import flixel.util.FlxCollision;
 import flixel.addons.display.FlxBackdrop;
 import flixel.util.FlxColor;
 import flixel.util.FlxSort;
+import flixel.util.FlxAxes;
 import flixel.util.FlxStringUtil;
 import flixel.util.FlxTimer;
 import haxe.Json;
@@ -889,7 +890,8 @@ class PlayState extends MusicBeatState
 				
 			
 			case 'malware': //Week Puta
-				LMAOO = new FlxBackdrop(Paths.image('stages/malware/treef'), 0, 0, true, true);
+				LMAOO = new FlxBackdrop(Paths.image('stages/malware/treef'), XY, 0, 0);
+				
 				LMAOO.velocity.set(100, 0);
 				LMAOO.updateHitbox();
 				LMAOO.screenCenter(X);
@@ -899,7 +901,7 @@ class PlayState extends MusicBeatState
 
 			
 				
-				LMAOO2 = new FlxBackdrop(Paths.image('stages/malware/treem'), 0, 0, true, true);
+				LMAOO2 = new FlxBackdrop(Paths.image('stages/malware/treem'), XY, 0, 0);
 				LMAOO2.velocity.set(90, 0);
 				LMAOO2.updateHitbox();
 				LMAOO2.screenCenter(X);
@@ -907,8 +909,8 @@ class PlayState extends MusicBeatState
 				LMAOO2.scrollFactor.set(1,1);
 
 
-				
-				LMAOO3 = new FlxBackdrop(Paths.image('stages/malware/treeb'), 0, 0, true, true);
+			
+				LMAOO3 = new FlxBackdrop(Paths.image('stages/malware/treeb'), XY, 0, 0);
 				LMAOO3.velocity.set(70, 0);
 				LMAOO3.updateHitbox();
 				LMAOO3.screenCenter(X);
@@ -916,7 +918,7 @@ class PlayState extends MusicBeatState
 				LMAOO3.scrollFactor.set(1,1);
 
 
-				LMAOO4 = new FlxBackdrop(Paths.image('stages/malware/sky'), 0, 0, true, true);
+				LMAOO4 = new FlxBackdrop(Paths.image('stages/malware/sky'), XY, 0, 0);
 				LMAOO4.velocity.set(0, 0);
 				LMAOO4.updateHitbox();
 				LMAOO4.screenCenter(X);
@@ -933,11 +935,13 @@ class PlayState extends MusicBeatState
 				add(LMAOO);
 
 		case 'tutorialstage': //Week tutorial
-				tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), -900, -900, true, true);
+				//tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), -900, -900, true, true);
+				//tutostage = FlxBackdrop(Paths.image('stages/tutorialstage/alley'), repeatAxes:FlxAxes = XY, spacingX:Int = 0, spacingY:Int = 0)
+				tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), XY, 0, 0);
+				tutostage.scrollFactor.set(0.3,0.3);
 				tutostage.velocity.set(-100, 0);
 				tutostage.updateHitbox();
 				tutostage.screenCenter(X);
-				tutostage.scrollFactor.set(1,1);
 				tutostage.scale.set(1,1);
 				
 				add(boyfriendGroup);

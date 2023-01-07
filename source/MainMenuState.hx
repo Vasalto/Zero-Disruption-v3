@@ -141,7 +141,7 @@ class MainMenuState extends MusicBeatState
 		bg2.alpha = .5;
 		bg2.antialiasing = ClientPrefs.globalAntialiasing;*/
 
-		bg2 = new FlxBackdrop(Paths.image("menuStrings"), 0.2, 0, true, true);
+		bg2 = new FlxBackdrop(Paths.image("menuStrings"), XY, 0, 0);
         bg2.velocity.set(20, 0);
         bg2.updateHitbox();
         bg2.screenCenter(X);
