@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				139,
+				120
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "MDK_idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				46,
+				116
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "MDK_LS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				350,
+				290
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "MDK_US",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				336,
+				125
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "MDK_RS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				328,
+				88
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "MDK_DS",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mdk",
+	"position": [
+		110,
+		-40
+	],
+	"healthicon": "mdk",
+	"flip_x": false,
+	"healthbar_colors": [
+		99,
+		82,
+		66
+	],
+	"camera_position": [
+		-340,
+		-220
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
