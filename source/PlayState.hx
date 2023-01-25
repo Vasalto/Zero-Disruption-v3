@@ -270,7 +270,7 @@ class PlayState extends MusicBeatState
 	var ink:FlxSprite;
 	var songName:String = "";
 
-
+	var gfgun:FlxSprite;
 	var peeps:FlxSprite;
 	var peepsdesk:FlxSprite;
 	var frontlab4:BGSprite;
@@ -823,18 +823,27 @@ class PlayState extends MusicBeatState
 				front.scrollFactor.set(1,1);
 				add(front);
 			**/
+			var gfgun:FlxSprite = new FlxSprite(755, 560);
+				gfgun.frames = Paths.getSparrowAtlas('stages/4/gfgun');
+				//eye.setGraphicSize(Std.int(eye.width * 1));
+				gfgun.animation.addByPrefix('gfgun', "gfgun", 24);
+				gfgun.animation.play('gfgun');
+				gfgun.scale.set(0.8,0.8);
+				gfgun.scrollFactor.set(1, 1);
+				gfgun.updateHitbox();
+
 				var back:BGSprite = new BGSprite('stages/4/back', -600, -300);
-				back.scale.set(1,1);
+				back.scale.set(0.9,0.9);
 				back.scrollFactor.set(1,1);
 				add(back);
 
 				frontlab4 = new BGSprite('stages/4/front', -600, -300);
-				frontlab4.scale.set(1,1);
+				frontlab4.scale.set(0.9,0.9);
 				frontlab4.scrollFactor.set(1,1);
 				add(frontlab4); 
 
 				frontlab4StageChange = new BGSprite('stages/4/front2', -600, -300);
-				frontlab4StageChange.scale.set(1,1);
+				frontlab4StageChange.scale.set(0.9,0.9);
 				frontlab4StageChange.visible = false;
 				frontlab4StageChange.scrollFactor.set(1,1);
 				add(frontlab4StageChange); 
@@ -843,6 +852,9 @@ class PlayState extends MusicBeatState
 				desklol.scale.set(1,1);
 				desklol.scrollFactor.set(1,1);
 				//add(desklol); 
+
+				add(gfgun);
+
 				
 				eye = new FlxSprite(0, 0);
 				eye.frames = Paths.getSparrowAtlas('mechanics/lookAttack');
@@ -937,7 +949,7 @@ class PlayState extends MusicBeatState
 		case 'tutorialstage': //Week tutorial
 				//tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), -900, -900, true, true);
 				//tutostage = FlxBackdrop(Paths.image('stages/tutorialstage/alley'), repeatAxes:FlxAxes = XY, spacingX:Int = 0, spacingY:Int = 0)
-				tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), XY, 0, 0);
+				tutostage = new FlxBackdrop(Paths.image('stages/tutorialstage/alley'), XY	, 0, 0);
 				tutostage.scrollFactor.set(0.3,0.3);
 				tutostage.velocity.set(-100, 0);
 				tutostage.updateHitbox();

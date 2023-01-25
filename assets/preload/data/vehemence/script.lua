@@ -15,7 +15,7 @@ function onStepHit()
     if curStep == 144 then
         setProperty('black.visible', true)
         doTweenAlpha('byeblack', 'black', 0, 0.7, 'linear');
-    elseif curBeat == 412 then
+    elseif curBeat == 420 then
         setProperty('red.visible', true)
         doTweenAlpha('byered', 'red', 0, 0.7, 'linear');
     end

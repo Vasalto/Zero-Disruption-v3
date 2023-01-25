@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfgun.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfgun0000" x="0" y="0" width="755" height="496"/>
+	<SubTexture name="gfgun0001" x="755" y="0" width="755" height="496"/>
+	<SubTexture name="gfgun0002" x="755" y="0" width="755" height="496"/>
+	<SubTexture name="gfgun0003" x="1510" y="0" width="755" height="496"/>
+	<SubTexture name="gfgun0004" x="2265" y="0" width="755" height="496"/>
+	<SubTexture name="gfgun0005" x="2265" y="0" width="755" height="496"/>
+	<SubTexture name="gfgun0006" x="3020" y="0" width="755" height="496"/>
+	<SubTexture name="gfgun0007" x="0" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0008" x="0" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0009" x="755" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0010" x="1510" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0011" x="2265" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0012" x="2265" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0013" x="3020" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0014" x="3020" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0015" x="3020" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0016" x="3020" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0017" x="3020" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0018" x="3020" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0019" x="3020" y="496" width="755" height="496"/>
+	<SubTexture name="gfgun0020" x="0" y="992" width="755" height="496"/>
+	<SubTexture name="gfgun0021" x="0" y="992" width="755" height="496"/>
+	<SubTexture name="gfgun0022" x="755" y="992" width="755" height="496"/>
+	<SubTexture name="gfgun0023" x="755" y="992" width="755" height="496"/>
+</TextureAtlas>
