@@ -11,12 +11,25 @@
 		setProperty('vignette.alpha', 1);
 		setObjectCamera('vignette', 'other')
 		addLuaSprite('vignette', true);
+
+		makeLuaSprite('mainSky', 'mainSky', 0, 0);
+		setProperty('mainSky.alpha', 1);
+		setObjectCamera('mainSky', 'other')
+		addLuaSprite('mainSky', false);
+		scaleObject('mainSky', 2, 2 * 1.4)
 		
+		makeLuaSprite('light', 'light', -150, -200);
+		setProperty('light.alpha', 0);
+		setObjectCamera('light', 'other')
+		addLuaSprite('light', true);
+		scaleObject('light', 1, 1)
+
 		makeLuaSprite('vignette', 'blackvignette', 0, 0);
 		setProperty('vignette.alpha', 1);
 		setObjectCamera('vignette', 'other')
 		addLuaSprite('vignette', true);
 	
+
 	
 
 	end

@@ -1,0 +1,88 @@
+{
+	"dialogue": [
+		{
+			"expression": "thinking",
+			"text": "Well, this is strange, how did we get into this situation?",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "Beep?",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "thinking",
+			"text": "O-ok let's recap...",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "thinking",
+			"text": "We gave that tank-guy some cramps, usual rap...",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.02
+		},
+		{
+			"expression": "thinking",
+			"text": "We saw this... big building while walking home and...",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.02
+		},
+		{
+			"expression": "thinking",
+			"text": "Pico ran into it... we chased him...",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.02
+		},
+		{
+			"expression": "thinking",
+			"text": "Some workers mistook us as employees...",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.025
+		},
+		{
+			"expression": "thinking",
+			"text": "They gave us these fancy suits and...",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.02
+		},
+		{
+			"expression": "confused",
+			"text": "Here we are.",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Yeah yeah go pico.",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.09
+		},
+		{
+			"expression": "thinking",
+			"text": "Let's just go along, there must be an exit somewhere.",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "shocked",
+			"text": "...!",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		}
+	]
+}

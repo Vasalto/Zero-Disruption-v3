@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "vasalto idle"
+			"fps": 24,
+			"name": "vasalto idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-344,
 				96
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "vasalto left"
+			"fps": 24,
+			"name": "vasalto left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				80,
 				-30
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "vasalto down"
+			"fps": 24,
+			"name": "vasalto down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				161
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "vasalto up"
+			"fps": 24,
+			"name": "vasalto up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				142,
 				40
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "vasalto right"
+			"fps": 24,
+			"name": "vasalto right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -62,12 +62,12 @@
 		110,
 		0
 	],
-	"healthicon": "face",
+	"healthicon": "vasalto",
 	"flip_x": true,
 	"healthbar_colors": [
-		161,
-		161,
-		161
+		125,
+		152,
+		200
 	],
 	"camera_position": [
 		-470,

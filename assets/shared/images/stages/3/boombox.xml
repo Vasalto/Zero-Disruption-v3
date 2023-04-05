@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="boombox.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gfv3Scared0000" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0001" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0002" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0003" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0004" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0005" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0006" x="640" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0007" x="640" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0008" x="1280" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0009" x="1280" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0010" x="0" y="384" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0011" x="0" y="384" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0012" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0013" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0014" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0015" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0016" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0017" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0018" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0019" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0020" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0021" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0022" x="640" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0023" x="640" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0024" x="1280" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0025" x="1280" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0026" x="0" y="384" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0027" x="0" y="384" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0028" x="0" y="0" width="640" height="384"/>
+	<SubTexture name="gfv3Scared0029" x="0" y="0" width="640" height="384"/>
+</TextureAtlas>

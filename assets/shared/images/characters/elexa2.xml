@@ -1,124 +1,124 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="elexa2.png">
-	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="elexa down 20000" x="0" y="0" width="503" height="611" frameX="0" frameY="-9" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20001" x="0" y="0" width="503" height="611" frameX="0" frameY="-9" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20002" x="503" y="0" width="481" height="620" frameX="-22" frameY="0" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20003" x="503" y="0" width="481" height="620" frameX="-22" frameY="0" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20004" x="984" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20005" x="984" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20006" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20007" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20008" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20009" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20010" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20011" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20012" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20013" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20014" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20015" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20016" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20017" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20018" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20019" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa down 20020" x="1454" y="0" width="470" height="617" frameX="-33" frameY="-3" frameWidth="503" frameHeight="620"/>
-	<SubTexture name="elexa idle 20000" x="1924" y="0" width="538" height="857" frameX="-6" frameY="-32" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20001" x="2462" y="0" width="538" height="857" frameX="-6" frameY="-32" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20002" x="3000" y="0" width="511" height="881" frameX="-24" frameY="-8" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20003" x="3511" y="0" width="511" height="881" frameX="-24" frameY="-8" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20004" x="4022" y="0" width="503" height="889" frameX="-17" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20005" x="4525" y="0" width="452" height="889" frameX="-68" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20006" x="4977" y="0" width="455" height="889" frameX="-68" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20007" x="5432" y="0" width="442" height="889" frameX="-81" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20008" x="5874" y="0" width="453" height="889" frameX="-70" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20009" x="5874" y="0" width="453" height="889" frameX="-70" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20010" x="6327" y="0" width="474" height="889" frameX="-49" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20011" x="6327" y="0" width="474" height="889" frameX="-49" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20012" x="6801" y="0" width="471" height="889" frameX="-52" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20013" x="6801" y="0" width="471" height="889" frameX="-52" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20014" x="7272" y="0" width="472" height="889" frameX="-51" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20015" x="7272" y="0" width="472" height="889" frameX="-51" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20016" x="0" y="889" width="506" height="889" frameX="-17" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20017" x="506" y="889" width="455" height="889" frameX="-68" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20018" x="961" y="889" width="455" height="889" frameX="-68" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20019" x="1416" y="889" width="442" height="889" frameX="-81" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20020" x="1858" y="889" width="453" height="889" frameX="-70" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20021" x="1858" y="889" width="453" height="889" frameX="-70" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20022" x="2311" y="889" width="474" height="889" frameX="-49" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20023" x="2311" y="889" width="474" height="889" frameX="-49" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20024" x="2785" y="889" width="471" height="889" frameX="-52" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20025" x="2785" y="889" width="471" height="889" frameX="-52" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20026" x="3256" y="889" width="481" height="889" frameX="-42" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20027" x="3737" y="889" width="523" height="889" frameX="0" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20028" x="3737" y="889" width="523" height="889" frameX="0" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20029" x="4260" y="889" width="516" height="889" frameX="-7" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20030" x="4260" y="889" width="516" height="889" frameX="-7" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20031" x="4776" y="889" width="516" height="889" frameX="-7" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20032" x="4776" y="889" width="516" height="889" frameX="-7" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20033" x="4776" y="889" width="516" height="889" frameX="-7" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20034" x="5292" y="889" width="516" height="889" frameX="-7" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20035" x="5808" y="889" width="516" height="889" frameX="-7" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa idle 20036" x="5808" y="889" width="516" height="889" frameX="-7" frameY="0" frameWidth="544" frameHeight="889"/>
-	<SubTexture name="elexa left 20000" x="6324" y="889" width="665" height="745" frameX="0" frameY="-6" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20001" x="6324" y="889" width="665" height="745" frameX="0" frameY="-6" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20002" x="6989" y="889" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20003" x="6989" y="889" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20004" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20005" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20006" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20007" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20008" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20009" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20010" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20011" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20012" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20013" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20014" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20015" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20016" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20017" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20018" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa left 20019" x="0" y="1778" width="667" height="751" frameX="-8" frameY="0" frameWidth="675" frameHeight="751"/>
-	<SubTexture name="elexa right 20000" x="667" y="1778" width="683" height="805" frameX="-2" frameY="0" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20001" x="667" y="1778" width="683" height="805" frameX="-2" frameY="0" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20002" x="1350" y="1778" width="674" height="796" frameX="-1" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20003" x="1350" y="1778" width="674" height="796" frameX="-1" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20004" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20005" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20006" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20007" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20008" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20009" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20010" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20011" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20012" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20013" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20014" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20015" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20016" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20017" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20018" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20019" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa right 20020" x="2024" y="1778" width="671" height="796" frameX="0" frameY="-9" frameWidth="685" frameHeight="805"/>
-	<SubTexture name="elexa up 20000" x="2695" y="1778" width="469" height="887" frameX="-22" frameY="0" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20001" x="2695" y="1778" width="469" height="887" frameX="-22" frameY="0" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20002" x="3164" y="1778" width="501" height="872" frameX="0" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20003" x="3164" y="1778" width="501" height="872" frameX="0" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20004" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20005" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20006" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20007" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20008" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20009" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20010" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20011" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20012" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20013" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20014" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20015" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20016" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20017" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20018" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
-	<SubTexture name="elexa up 20019" x="3665" y="1778" width="495" height="872" frameX="-4" frameY="-15" frameWidth="501" frameHeight="887"/>
+	<SubTexture name="elexa down 20000" x="0" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20001" x="0" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20002" x="619" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20003" x="619" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20004" x="1238" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20005" x="1238" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20006" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20007" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20008" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20009" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20010" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20011" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20012" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20013" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20014" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20015" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20016" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20017" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20018" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20019" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa down 20020" x="1857" y="0" width="619" height="713"/>
+	<SubTexture name="elexa idle 20000" x="2476" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20001" x="3081" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20002" x="3686" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20003" x="4291" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20004" x="4896" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20005" x="5501" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20006" x="6106" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20007" x="6711" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20008" x="7316" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20009" x="7316" y="0" width="605" height="933"/>
+	<SubTexture name="elexa idle 20010" x="0" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20011" x="0" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20012" x="605" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20013" x="605" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20014" x="1210" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20015" x="1210" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20016" x="1815" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20017" x="2420" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20018" x="3025" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20019" x="3630" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20020" x="4235" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20021" x="4235" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20022" x="4840" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20023" x="4840" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20024" x="5445" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20025" x="5445" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20026" x="6050" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20027" x="6655" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20028" x="6655" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20029" x="7260" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20030" x="7260" y="933" width="605" height="933"/>
+	<SubTexture name="elexa idle 20031" x="0" y="1866" width="605" height="933"/>
+	<SubTexture name="elexa idle 20032" x="0" y="1866" width="605" height="933"/>
+	<SubTexture name="elexa idle 20033" x="0" y="1866" width="605" height="933"/>
+	<SubTexture name="elexa idle 20034" x="605" y="1866" width="605" height="933"/>
+	<SubTexture name="elexa idle 20035" x="1210" y="1866" width="605" height="933"/>
+	<SubTexture name="elexa idle 20036" x="1210" y="1866" width="605" height="933"/>
+	<SubTexture name="elexa left 20000" x="1815" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20001" x="1815" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20002" x="2560" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20003" x="2560" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20004" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20005" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20006" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20007" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20008" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20009" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20010" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20011" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20012" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20013" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20014" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20015" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20016" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20017" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20018" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa left 20019" x="3305" y="1866" width="745" height="841"/>
+	<SubTexture name="elexa right 20000" x="4050" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20001" x="4050" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20002" x="4795" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20003" x="4795" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20004" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20005" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20006" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20007" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20008" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20009" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20010" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20011" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20012" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20013" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20014" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20015" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20016" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20017" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20018" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20019" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa right 20020" x="5540" y="1866" width="745" height="857"/>
+	<SubTexture name="elexa up 20000" x="6285" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20001" x="6285" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20002" x="6886" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20003" x="6886" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20004" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20005" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20006" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20007" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20008" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20009" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20010" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20011" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20012" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20013" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20014" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20015" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20016" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20017" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20018" x="7487" y="1866" width="601" height="948"/>
+	<SubTexture name="elexa up 20019" x="7487" y="1866" width="601" height="948"/>
 </TextureAtlas>

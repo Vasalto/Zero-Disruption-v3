@@ -1,109 +1,109 @@
 {
 	"dialogue": [
 		{
-			"expression": "talk",
-			"text": "Badabadabang!",
+			"expression": "confused",
+			"text": "Ba?",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bfzd"
-		},
-		{
-			"expression": "talk",
-			"text": "Amazing! You never cease to surprise me, babe!",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gfzd"
-		},
-		{
-			"expression": "excited",
-			"text": "Beep!",
-			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bfzd"
+			"portrait": "bfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "thinking",
-			"text": "I can't help but wonder where Pico went after that Tank-guy blew up the field, though.",
+			"text": "This place looks like a maze...",
 			"boxState": "normal",
-			"speed": 0.045,
-			"portrait": "gfzd"
+			"portrait": "gfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "shocked",
+			"text": "Beep!",
+			"boxState": "normal",
+			"portrait": "bfzd",
+			"speed": 0.05
+		},
+		{
+			"expression": "thinking",
+			"text": "I can't help but wonder where Pico went, he was with us a few minutes ago! ",
+			"boxState": "normal",
+			"portrait": "gfzd",
+			"speed": 0.045
 		},
 		{
 			"expression": "shocked",
 			"text": "Bebop.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bfzd"
+			"portrait": "bfzd",
+			"speed": 0.05
 		},
 		{
-			"expression": "talk",
+			"expression": "confused",
 			"text": "Oh, hey! Someone's coming! Maybe we can ask them?",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gfzd"
+			"portrait": "gfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "thinking",
 			"text": "Excuse me, ma'am. Have you seen a short, foul-tempered ginger anywhere around here?",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gfzd"
+			"portrait": "gfzd",
+			"speed": 0.05
 		},
 		{
-			"expression": "excited",
+			"expression": "thinking",
 			"text": "He's with us/.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gfzd"
+			"portrait": "gfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "idle",
 			"text": "Foul-tempered ging- wait.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
 			"expression": "idle",
 			"text": "You two aren't from here... who are you?",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
-			"expression": "shocked",
+			"expression": "furious",
 			"text": "Bopeebah! Bebahtoo skdeeboop?!",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "bfzd"
+			"portrait": "bfzd",
+			"speed": 0.05
 		},
 		{
-			"expression": "disgust",
+			"expression": "sad",
 			"text": "...",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
 			"expression": "idle",
 			"text": "I don't understand what you just said to me, but you two need to leave.",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.05
 		},
 		{
 			"expression": "confused",
 			"text": "Wait! We still need to find our friend!",
 			"boxState": "normal",
-			"speed": 0.05,
-			"portrait": "gfzd"
+			"portrait": "gfzd",
+			"speed": 0.05
 		},
 		{
 			"expression": "angry",
 			"text": "I will repeat this once, and ONLY once. Leave. NOW.",
 			"boxState": "normal",
-			"speed": 0.055,
-			"portrait": "elexa"
+			"portrait": "elexa",
+			"speed": 0.055
 		}
 	]
 }

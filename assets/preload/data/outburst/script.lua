@@ -50,7 +50,7 @@ end
 
 function entryz()
     objectPlayAnimation('zeroj', 'entry', true);
-    setProperty('zeroj.alpha', 1);
+    setProperty('zeroj.alpha', 0.8);
     runTimer('entryz', 0.5)
 end
 

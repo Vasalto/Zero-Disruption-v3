@@ -270,6 +270,7 @@ class PlayState extends MusicBeatState
 	var ink:FlxSprite;
 	var songName:String = "";
 
+	var bb:FlxSprite;
 	var gfgun:FlxSprite;
 	var peeps:FlxSprite;
 	var peepsdesk:FlxSprite;
@@ -707,7 +708,7 @@ class PlayState extends MusicBeatState
 					add(bg);
 				}
 			case 'Lab1':
-				var back:BGSprite = new BGSprite('stages/1/back', -600, -300);
+				var back:BGSprite = new BGSprite('stages/1/back', -600, -300); 
 				back.scale.set(1,1);
 				back.scrollFactor.set(1,1);
 				add(back);
@@ -733,7 +734,9 @@ class PlayState extends MusicBeatState
 				peeps.animation.play('people');
 				peeps.scrollFactor.set(0.95, 0.95);
 				peeps.updateHitbox();
-				add(peeps);
+
+				
+
 
 				var peepsdesk:FlxSprite = new FlxSprite(-585, 200);
 				peepsdesk.frames = Paths.getSparrowAtlas('stages/1/peopleback');
@@ -743,7 +746,13 @@ class PlayState extends MusicBeatState
 				peepsdesk.scrollFactor.set(1, 1);
 				peepsdesk.updateHitbox();
 				add(peepsdesk);
-				
+				add(gfGroup);
+				add(dadGroup);
+				add(boyfriendGroup);
+				add(peeps);
+
+
+
 			case 'Lab2':
 				backlab2 = new BGSprite('stages/2/back', -600, -300);
 				backlab2.scale.set(1,1);
@@ -795,6 +804,15 @@ class PlayState extends MusicBeatState
 				desklol.scale.set(1,1);
 				desklol.scrollFactor.set(1,1);
 				//add(desklol); 
+
+				var bb:FlxSprite = new FlxSprite(755, 700);
+				bb.frames = Paths.getSparrowAtlas('stages/3/boombox');
+				//eye.setGraphicSize(Std.int(eye.width * 1));
+				bb.animation.addByPrefix('boombox', "gfv3Scared", 24);
+				bb.animation.play('boombox');
+				bb.scale.set(0.8,0.8);
+				bb.scrollFactor.set(1, 1);
+				bb.updateHitbox();
 				
 				ink = new FlxSprite(FlxG.random.int(200, 260), FlxG.random.int(40, 100));
 				ink.frames = Paths.getSparrowAtlas('mechanics/inkAttack');
@@ -808,6 +826,7 @@ class PlayState extends MusicBeatState
 				ink.scrollFactor.set(0.95, 0.95);
 				ink.updateHitbox();
 				ink.alpha = 1;
+				add(bb); 
 
 				
 			case 'Lab4':
@@ -904,7 +923,7 @@ class PlayState extends MusicBeatState
 			case 'malware': //Week Puta
 				LMAOO = new FlxBackdrop(Paths.image('stages/malware/treef'), XY, 0, 0);
 				
-				LMAOO.velocity.set(100, 0);
+				LMAOO.velocity.set(200, 0);
 				LMAOO.updateHitbox();
 				LMAOO.screenCenter(X);
 				LMAOO.scrollFactor.set(1,1);
@@ -914,16 +933,19 @@ class PlayState extends MusicBeatState
 			
 				
 				LMAOO2 = new FlxBackdrop(Paths.image('stages/malware/treem'), XY, 0, 0);
-				LMAOO2.velocity.set(90, 0);
+				LMAOO2.velocity.set(160, 0);
 				LMAOO2.updateHitbox();
 				LMAOO2.screenCenter(X);
 				//LMAOO2.scale.set(1.3,1.3);
 				LMAOO2.scrollFactor.set(1,1);
 
+				//just velocitys
+				
+
 
 			
 				LMAOO3 = new FlxBackdrop(Paths.image('stages/malware/treeb'), XY, 0, 0);
-				LMAOO3.velocity.set(70, 0);
+				LMAOO2.velocity.set(80, 0);
 				LMAOO3.updateHitbox();
 				LMAOO3.screenCenter(X);
 				//LMAOO3.scale.set(1.3,1.3);
@@ -2485,6 +2507,22 @@ class PlayState extends MusicBeatState
 						{				
 							frontlab4StageChange.visible = true;
 							frontlab4.visible = false;
+						}
+				}
+			case 'malware':
+				switch(songName)
+				{
+					case 'simulation':
+						if (curBeat >= 200)
+						{				
+							LMAOO.visible = false;
+						}
+						if (curBeat >= 264)
+						{				
+							LMAOO.visible = true;
+							LMAOO.velocity.set(800, 0);
+							LMAOO2.velocity.set(620, 0);
+							LMAOO3.velocity.set(620, 0);
 						}
 				}
 
@@ -4558,7 +4596,7 @@ class PlayState extends MusicBeatState
 			return;
 		}
 
-		if (curSong.toLowerCase() == 'vehemence' && curStep >= 300 )
+		/*if (curSong.toLowerCase() == 'vehemence' && curStep >= 300 )
 			{
 				var amount = curBeat/16;
 				if (FlxG.random.bool(amount))
@@ -4573,7 +4611,7 @@ class PlayState extends MusicBeatState
 					});
 				}
 			}
-
+*/
 		lastStepHit = curStep;
 		setOnLuas('curStep', curStep);
 		callOnLuas('onStepHit', []);
