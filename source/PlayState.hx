@@ -265,7 +265,7 @@ class PlayState extends MusicBeatState
 	var detailsPausedText:String = "";
 	#end
 	//mod
-	var buttonsWarning:FlxSprite;
+	var buttonsWarning:FlxTypedGroup<FlxObject>;
 	var eye:FlxSprite;
 	var ink:FlxSprite;
 	var songName:String = "";
@@ -1358,18 +1358,40 @@ class PlayState extends MusicBeatState
 		{
 			case 'outburst':
 				if(ClientPrefs.mechanics)
-					{
-						buttonsWarning = new FlxSprite(310, 200); 
-						buttonsWarning.frames = Paths.getSparrowAtlas('mechanics/buttons');
-						buttonsWarning.animation.addByPrefix('buttonAnim','buttons',24);
-						buttonsWarning.animation.play('buttonAnim');
-						buttonsWarning.screenCenter(X);
-						buttonsWarning.screenCenter(Y);
-						buttonsWarning.scale.set(0.8, 0.8);
-						buttonsWarning.alpha = 0.001;
-						add(buttonsWarning);
-						buttonsWarning.cameras = [camHUD];
-					}
+				{
+					buttonsWarning = new FlxTypedGroup<FlxObject>();
+					add(buttonsWarning);
+					buttonsWarning.cameras = [camHUD];
+					buttonsWarning.forEach(function(obj:FlxObject){
+						obj.scrollFactor.set();
+					});
+
+					var buttonTextLol:FlxSprite = new FlxSprite(310, 200);
+					buttonTextLol.frames = Paths.getSparrowAtlas('mechanics/buttons');
+					buttonTextLol.animation.addByPrefix('buttonAnim','buttons',24);
+					buttonTextLol.animation.play('buttonAnim');
+					buttonTextLol.screenCenter();
+					buttonTextLol.scale.set(0.8, 0.8);
+					buttonTextLol.alpha = 0.001;
+					buttonsWarning.add(buttonTextLol);
+
+					var temperKey_1:Array<Dynamic> = ClientPrefs.keyBinds.get('temper_1');
+					var temperKey_2:Array<Dynamic> = ClientPrefs.keyBinds.get('temper_2'); 
+
+					var temperKey1Txt:FlxText = new FlxText(-175, 350, FlxG.width, "");
+					temperKey1Txt.setFormat(null, 128, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+					temperKey1Txt.borderSize = 4;
+					temperKey1Txt.text = '${InputFormatter.getKeyName(temperKey_1[0])}'; 
+					temperKey1Txt.alpha = 0.001;
+					buttonsWarning.add(temperKey1Txt);
+
+					var temperKey2Txt:FlxText = new FlxText(225, 350, FlxG.width, "");
+					temperKey2Txt.setFormat(null, 128, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+					temperKey2Txt.borderSize = 4;
+					temperKey2Txt.text = '${InputFormatter.getKeyName(temperKey_2[0])}'; 
+					temperKey2Txt.alpha = 0.001;
+					buttonsWarning.add(temperKey2Txt);
+				}
 		}
 
 		switch(curStage)
@@ -1377,8 +1399,7 @@ class PlayState extends MusicBeatState
 			case 'Lab2':
 				amongUsFlash = new FlxSprite();
 				amongUsFlash.makeGraphic(FlxG.width, FlxG.height, 0xFFFF0000, true);
-				amongUsFlash.screenCenter(X);
-				amongUsFlash.screenCenter(Y);
+				amongUsFlash.screenCenter();
 				amongUsFlash.scale.set(1.20, 1.20);
 				amongUsFlash.alpha = 0.001;
 				add(amongUsFlash);
@@ -1516,7 +1537,7 @@ class PlayState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence.
-		DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());// DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		#end
 
 		if(!ClientPrefs.controllerMode)
@@ -2035,7 +2056,7 @@ class PlayState extends MusicBeatState
 		
 		#if desktop
 		// Updating Discord Rich Presence (with Time Left)
-		DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength); //DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength);
+		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength);
 		#end
 		setOnLuas('songLength', songLength);
 		callOnLuas('onSongStart', []);
@@ -2389,11 +2410,11 @@ class PlayState extends MusicBeatState
 			#if desktop
 			if (startTimer.finished)
 			{
-				DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			}
 			else
 			{
-				DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 			}
 			#end
 		}
@@ -2408,11 +2429,11 @@ class PlayState extends MusicBeatState
 		{
 			if (Conductor.songPosition > 0.0)
 			{
-				DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);//DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter(), true, songLength - Conductor.songPosition - ClientPrefs.noteOffset);
 			}
 			else
 			{
-				DiscordClient.changePresence(detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());//DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 			}
 		}
 		#end
@@ -2425,7 +2446,7 @@ class PlayState extends MusicBeatState
 		#if desktop
 		if (health > 0 && !paused)
 		{
-			DiscordClient.changePresence(detailsPausedText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());//DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+			DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		}
 		#end
 
@@ -2465,22 +2486,20 @@ class PlayState extends MusicBeatState
 					case 1:
 						if (ClientPrefs.mechanics)
 						{
-							FlxTween.tween(buttonsWarning, {alpha: 1}, 2, {
-								ease: FlxEase.quintOut,
-								onComplete: function(twn:FlxTween)
-								{
-									new FlxTimer().start(5, function(tmr:FlxTimer)
+							buttonsWarning.forEach(function(obj:FlxObject)
+							{
+								FlxTween.tween(obj, {alpha: 1}, 2, {
+									ease: FlxEase.quintOut,
+									onComplete: function(twn:FlxTween)
 									{
-										FlxTween.tween(buttonsWarning, {alpha: 0}, 2, {
-											ease: FlxEase.quintOut,
-											onComplete: function(twn:FlxTween)
-											{
-												remove(buttonsWarning);
-											}
+										new FlxTimer().start(5, function(tmr:FlxTimer)
+										{
+											FlxTween.tween(obj, {alpha: 0}, 2, {ease: FlxEase.quintOut});
 										});
-									});
-								}
+									}
+								});
 							});
+	
 						}
 				}
 		}
@@ -2692,7 +2711,7 @@ class PlayState extends MusicBeatState
 				//}
 		
 				#if desktop
-				DiscordClient.changePresence(detailsPausedText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());//DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+				DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 				#end
 			}
 		}
@@ -3038,7 +3057,7 @@ class PlayState extends MusicBeatState
 				
 				#if desktop
 				// Game Over doesn't get his own variable because it's only used here
-				DiscordClient.changePresence("Game Over - " + detailsText, "CLASSIFIED" + " (" + storyDifficultyText + ")", iconP2.getCharacter());//DiscordClient.changePresence("Game Over - " + detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
+				DiscordClient.changePresence("Game Over - " + detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 				#end
 				isDead = true;
 				return true;

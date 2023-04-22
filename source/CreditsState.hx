@@ -95,7 +95,7 @@ class CreditsState extends MusicBeatState
 			['Ocho',				'ocho',				'Concept Artist',										'https://twitter.com/FNF_0Disruption',	'4494E6'],
 			['D4',					'D4',				'Concept Artist',										'https://twitter.com/Dany4dev',			'4494E6'],
 			['Raketer',				'raketer',			'Coder',												'https://twitter.com/FNF_0Disruption',	'4444E6'],
-			['TheSlithyGamer4evr',	'slith',			'Charter/Coder',											'https://www.youtube.com/channel/UCRyEPq3297h56-cubR38TGA',	'389A58'],
+			['Slithy',				'slith',			'Coder',												'https://slithy.carrd.co',	'389A58'],
 
 			[''],
 			['Special Thanks'],
@@ -103,7 +103,7 @@ class CreditsState extends MusicBeatState
 			['Noize',			'Noize',				'Beta Tester',											'https://twitter.com/FNF_0Disruption',	'389A58'],
 			['VanDrawn',		'vandrawn',	'GF Voicelines',													'https://twitter.com/vandrawn',			'4494E6'],
 			['Cherry',		'cherry',					'Helped with gallery code',								'https://www.youtube.com/channel/UCUmLM_3CWrU2HltOeoyrbIA/ ',			'4494E6'],
-			['CakieYee', 	'cakie',					'kade engine-like song text code',						'https://www.youtube.com/channel/UCJQ-_42tg3wjAT8dAXeNLDQ/',		'FFFFFF'],
+			['CakieYee', 	'cakie',					'song text script (smalllua.lua)',						'https://www.youtube.com/channel/UCJQ-_42tg3wjAT8dAXeNLDQ/',		'5f0196'],
 
 			[''],
 			['Psych Engine Team'],
