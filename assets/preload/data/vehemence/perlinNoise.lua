@@ -58,6 +58,9 @@ function onCreate()
         tileXsize = screenWidth/resX
         tileYsize = screenHeight/resY
         newSeed()
+        setObjectOrder(name, getObjectOrder('DadGroup') - 1); 
+        
+
 end
 
 function onUpdate(elp)
@@ -95,7 +98,7 @@ function makeAgraphic(name, placeX, placeY, sizeX, sizeY, color)
     makeLuaSprite(name, '', placeX, placeY)
     makeGraphic(name, sizeX, sizeY, color)
     setObjectCamera(name, 'camHUD')
-    addLuaSprite(name, true)
+    addLuaSprite(name, false)
     setObjectCamera(name,'camHUD');
 
 end
