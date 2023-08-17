@@ -2,7 +2,7 @@ function onCreate()
     function opponentNoteHit(id, direction, noteType)
         setProperty("health", getProperty("health") - 0.009)
         if getProperty("health") < 0.001 then
-            setProperty("health", 0.001)
+            setProperty("health", 0.0034)
         end
     end
 end

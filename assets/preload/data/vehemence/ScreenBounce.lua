@@ -1,8 +1,8 @@
-local angleshit = 0.2;
-local anglevar = 0.2;
+local angleshit = 0.1;
+local anglevar = 0.1;
 
 function onBeatHit()
-	if curBeat > 35 and curBeat < 100 or curBeat > 180 and curBeat < 307 or curBeat > 420 then 
+	if curBeat > 8 and curBeat < 136 or curBeat > 172 and curBeat < 237 or curBeat > 268 then 
 		triggerEvent('Add Camera Zoom', 0.04,0.05)
 
 		if curBeat % 4 == 0 then

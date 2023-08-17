@@ -1,87 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="MDK_sprites.png">
-	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="MDK_DS0000" x="0" y="0" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0001" x="1090" y="0" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0002" x="2180" y="0" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0003" x="3270" y="0" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0004" x="4360" y="0" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0005" x="5450" y="0" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0006" x="6540" y="0" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0007" x="0" y="892" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0008" x="0" y="892" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0009" x="0" y="892" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0010" x="0" y="892" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0011" x="0" y="892" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0012" x="0" y="892" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0013" x="0" y="892" width="1090" height="892"/>
-	<SubTexture name="MDK_DS0014" x="0" y="892" width="1090" height="892"/>
-	<SubTexture name="MDK_LS0000" x="1090" y="892" width="858" height="896"/>
-	<SubTexture name="MDK_LS0001" x="1948" y="892" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0002" x="2806" y="892" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0003" x="3664" y="892" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0004" x="4522" y="892" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0005" x="5380" y="892" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0006" x="6238" y="892" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0007" x="7096" y="892" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0008" x="0" y="1788" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0009" x="858" y="1788" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0010" x="1716" y="1788" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0011" x="1716" y="1788" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0012" x="1716" y="1788" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0013" x="1716" y="1788" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_LS0014" x="1716" y="1788" width="858" height="893" frameX="0" frameY="-3" frameWidth="858" frameHeight="896"/>
-	<SubTexture name="MDK_RS0000" x="2574" y="1788" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0001" x="3948" y="1788" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0002" x="5322" y="1788" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0003" x="6696" y="1788" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0004" x="0" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0005" x="1374" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0006" x="2748" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0007" x="4122" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0008" x="5496" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0009" x="5496" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0010" x="5496" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0011" x="5496" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0012" x="5496" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_RS0013" x="5496" y="2681" width="1374" height="892"/>
-	<SubTexture name="MDK_US0000" x="6870" y="2681" width="1120" height="1072"/>
-	<SubTexture name="MDK_US0001" x="0" y="3753" width="1120" height="1034" frameX="0" frameY="-38" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0002" x="1120" y="3753" width="1120" height="1013" frameX="0" frameY="-59" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0003" x="2240" y="3753" width="1120" height="997" frameX="0" frameY="-75" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0004" x="3360" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0005" x="4480" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0006" x="5600" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0007" x="5600" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0008" x="5600" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0009" x="5600" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0010" x="5600" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0011" x="5600" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0012" x="5600" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_US0013" x="5600" y="3753" width="1120" height="991" frameX="0" frameY="-81" frameWidth="1120" frameHeight="1072"/>
-	<SubTexture name="MDK_idle0000" x="6720" y="3753" width="810" height="892"/>
-	<SubTexture name="MDK_idle0001" x="6720" y="3753" width="810" height="892"/>
-	<SubTexture name="MDK_idle0002" x="0" y="4787" width="795" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0003" x="795" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0004" x="795" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0005" x="1580" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0006" x="2365" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0007" x="2365" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0008" x="3150" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0009" x="3150" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0010" x="3935" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0011" x="4720" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0012" x="4720" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0013" x="5505" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0014" x="6290" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0015" x="6290" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0016" x="7075" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0017" x="7075" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0018" x="7075" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0019" x="7075" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0020" x="7075" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0021" x="7075" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0022" x="7075" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
-	<SubTexture name="MDK_idle0023" x="7075" y="4787" width="785" height="892" frameX="0" frameY="0" frameWidth="810" frameHeight="892"/>
+	<SubTexture name="MDK_DS0000" x="3891" y="1002" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0001" x="3891" y="1901" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0002" x="3639" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0003" x="1385" y="4684" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0004" x="2481" y="4684" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0005" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0006" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0007" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0008" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0009" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0010" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0011" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0012" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0013" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_DS0014" x="4735" y="4019" width="1090" height="893"/>
+	<SubTexture name="MDK_LS0000" x="4987" y="1002" width="860" height="896"/>
+	<SubTexture name="MDK_LS0001" x="5018" y="6" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0002" x="4987" y="1904" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0003" x="4766" y="2803" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0004" x="5632" y="2803" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0005" x="5853" y="905" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0006" x="5884" y="6" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0007" x="5853" y="1804" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0008" x="5831" y="3702" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0009" x="6498" y="2703" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0010" x="6719" y="905" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0011" x="6498" y="2703" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0012" x="6498" y="2703" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0013" x="6498" y="2703" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_LS0014" x="6498" y="2703" width="860" height="893" frameX="0" frameY="-3" frameWidth="860" frameHeight="896"/>
+	<SubTexture name="MDK_RS0000" x="6" y="5626" width="1373" height="894" frameX="0" frameY="-74" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0001" x="6" y="6526" width="1373" height="894" frameX="0" frameY="-74" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0002" x="1385" y="6" width="1373" height="894" frameX="0" frameY="-74" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0003" x="1385" y="906" width="1373" height="894" frameX="0" frameY="-74" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0004" x="1385" y="1806" width="1373" height="894" frameX="0" frameY="-74" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0005" x="1385" y="2706" width="1373" height="894" frameX="0" frameY="-74" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0006" x="6" y="4717" width="1373" height="903" frameX="0" frameY="-65" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0007" x="6" y="2873" width="1373" height="916" frameX="0" frameY="-52" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0008" x="6" y="3795" width="1373" height="916" frameX="0" frameY="-52" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0009" x="6" y="1940" width="1373" height="927" frameX="0" frameY="-41" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0010" x="6" y="1940" width="1373" height="927" frameX="0" frameY="-41" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0011" x="6" y="980" width="1373" height="954" frameX="0" frameY="-14" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0012" x="6" y="980" width="1373" height="954" frameX="0" frameY="-14" frameWidth="1373" frameHeight="968"/>
+	<SubTexture name="MDK_RS0013" x="6" y="6" width="1373" height="968"/>
+	<SubTexture name="MDK_US0000" x="1385" y="3606" width="1121" height="1072"/>
+	<SubTexture name="MDK_US0001" x="2512" y="3606" width="1121" height="1032" frameX="0" frameY="-40" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0002" x="2764" y="6" width="1121" height="1012" frameX="0" frameY="-60" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0003" x="2764" y="1024" width="1121" height="997" frameX="0" frameY="-75" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0004" x="2764" y="2027" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0005" x="3639" y="3023" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0006" x="3891" y="6" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0007" x="3891" y="6" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0008" x="3891" y="6" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0009" x="3891" y="6" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0010" x="3891" y="6" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0011" x="3891" y="6" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0012" x="3891" y="6" width="1121" height="990" frameX="0" frameY="-82" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_US0013" x="3891" y="6" width="1121" height="990" frameX="0" frameY="-78" frameWidth="1121" frameHeight="1072"/>
+	<SubTexture name="MDK_idle0000" x="6750" y="6" width="812" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0001" x="6750" y="6" width="812" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0002" x="6719" y="1804" width="797" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0003" x="1385" y="6491" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0004" x="1385" y="6491" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0005" x="2178" y="6491" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0006" x="3764" y="5826" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0007" x="3764" y="5826" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0008" x="5956" y="5510" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0009" x="5956" y="5510" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0010" x="3577" y="4918" width="787" height="902" frameX="0" frameY="-1" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0011" x="1385" y="5583" width="787" height="902" frameX="0" frameY="-1" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0012" x="1385" y="5583" width="787" height="902" frameX="0" frameY="-1" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0013" x="4370" y="4918" width="787" height="894" frameX="0" frameY="-9" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0014" x="5163" y="5510" width="787" height="894" frameX="0" frameY="-9" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0015" x="5163" y="5510" width="787" height="894" frameX="0" frameY="-9" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0016" x="2971" y="5826" width="787" height="894" frameX="0" frameY="-9" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0017" x="2971" y="5826" width="787" height="894" frameX="0" frameY="-9" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0018" x="6624" y="4601" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0019" x="6624" y="4601" width="787" height="893" frameX="0" frameY="-10" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0020" x="5831" y="4601" width="787" height="903" frameX="0" frameY="0" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0021" x="5831" y="4601" width="787" height="903" frameX="0" frameY="0" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0022" x="2178" y="5583" width="787" height="902" frameX="0" frameY="-1" frameWidth="812" frameHeight="903"/>
+	<SubTexture name="MDK_idle0023" x="2178" y="5583" width="787" height="902" frameX="0" frameY="-1" frameWidth="812" frameHeight="903"/>
 </TextureAtlas>

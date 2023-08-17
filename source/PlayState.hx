@@ -1375,23 +1375,45 @@ class PlayState extends MusicBeatState
 					buttonTextLol.alpha = 0.001;
 					buttonsWarning.add(buttonTextLol);
 
-					var temperKey_1:Array<Dynamic> = ClientPrefs.keyBinds.get('temper_1');
-					var temperKey_2:Array<Dynamic> = ClientPrefs.keyBinds.get('temper_2'); 
+					var temperKey_1:Array<Dynamic> = ClientPrefs.keyBinds.get('temper_2');
+					var temperKey_2:Array<Dynamic> = ClientPrefs.keyBinds.get('temper_1'); 
 
-					var temperKey1Txt:FlxText = new FlxText(350, 350, 200, "");
+					var temperKey1Txt:FlxText = new FlxText(360, 350, 200, "");
 					temperKey1Txt.setFormat(null, 100, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 					temperKey1Txt.borderSize = 8;
 					temperKey1Txt.text = '${InputFormatter.getKeyName(temperKey_1[0])}'; 
 					temperKey1Txt.alpha = 0.001;
 					buttonsWarning.add(temperKey1Txt);
 
-					var temperKey2Txt:FlxText = new FlxText(temperKey1Txt.x + 400, 350, 200, "");
+					var temperKey2Txt:FlxText = new FlxText(temperKey1Txt.x + 390, 350, 200, "");
 					temperKey2Txt.setFormat(null, 100, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 					temperKey2Txt.borderSize = 8;
 					temperKey2Txt.text = '${InputFormatter.getKeyName(temperKey_2[0])}'; 
 					temperKey2Txt.alpha = 0.001;
 					buttonsWarning.add(temperKey2Txt);
 				}
+			case 'vehemence':
+				if(ClientPrefs.mechanics)
+				{
+					buttonsWarning = new FlxTypedGroup<FlxObject>();
+					add(buttonsWarning);
+					buttonsWarning.cameras = [camHUD];
+					buttonsWarning.forEach(function(obj:FlxObject){
+						obj.scrollFactor.set();
+					});
+
+				
+
+					var temperKey_1:Array<Dynamic> = ClientPrefs.keyBinds.get('temper_1');
+
+					var temperKey1Txt:FlxText = new FlxText(820, 530, 200, "");
+					temperKey1Txt.setFormat(null, 100, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+					temperKey1Txt.borderSize = 8;
+					temperKey1Txt.text = '${InputFormatter.getKeyName(temperKey_1[0])}'; 
+					temperKey1Txt.alpha = 0.001;
+					buttonsWarning.add(temperKey1Txt);
+				}
+			
 		}
 
 		switch(curStage)
@@ -2532,6 +2554,34 @@ class PlayState extends MusicBeatState
 	
 						}
 				}
+		case 'vehemence':
+		
+				switch(curBeat)
+				{
+					case 1:
+						if (ClientPrefs.mechanics)
+						{
+							buttonsWarning.forEach(function(obj:FlxObject)
+							{
+								FlxTween.tween(obj, {alpha: 1}, 2, {
+									ease: FlxEase.quintOut,
+									onComplete: function(twn:FlxTween)
+									{
+										new FlxTimer().start(5, function(tmr:FlxTimer)
+										{
+											FlxTween.tween(obj, {alpha: 0}, 2, {
+												ease: FlxEase.quintOut, 
+												onComplete: function(twn:FlxTween)
+												{
+													remove(buttonsWarning);	
+												}});
+										});
+									}
+								});
+							});
+	
+						}
+				}
 		}
 
 		//makes the funny glass break visible
@@ -2552,7 +2602,7 @@ class PlayState extends MusicBeatState
 				switch(songName)
 				{
 					case 'vehemence':
-						if (curStep >= 144)
+						if (curStep >= 31)
 						{				
 							frontlab4StageChange.visible = true;
 							frontlab4.visible = false;

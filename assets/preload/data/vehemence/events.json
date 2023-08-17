@@ -1,69 +1,106 @@
 {
 	"song": {
-		"speed": 2.9,
-		"stage": "lab",
-		"player1": "bf",
-		"player2": "zero2.0",
-		"player3": null,
 		"events": [
 			[
-				0,
+				37500,
 				[
 					[
-						"Play Animation",
-						"singDOWN",
-						"dad"
+						"Set Cam Zoom",
+						"0.7",
+						"0.50"
 					]
 				]
 			],
 			[
-				342.857142857143,
+				41500,
 				[
 					[
-						"Play Animation",
-						"singRIGHT",
-						"dad"
+						"Set Cam Zoom",
+						"0.7",
+						"0.50"
 					]
 				]
 			],
 			[
-				685.714285714286,
+				45500,
 				[
 					[
-						"Play Animation",
-						"singLEFT",
-						"dad"
+						"Set Cam Zoom",
+						"0.7",
+						"0.50"
 					]
 				]
 			],
 			[
-				1028.57142857143,
+				49500,
 				[
 					[
-						"Play Animation",
-						"singRIGHT",
-						"dad"
+						"Set Cam Zoom",
+						"0.7",
+						"0.50"
 					]
 				]
 			],
 			[
-				1371.42857142857,
+				89500,
 				[
 					[
-						"Play Animation",
-						"singRIGHT",
-						"dad"
+						"Set Cam Zoom",
+						"0.7",
+						"0.10"
+					]
+				]
+			],
+			[
+				89678.125,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						"0.10"
+					]
+				]
+			],
+			[
+				89850,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						"0.10"
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						"0.60"
+					]
+				]
+			],
+			[
+				98000,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						"0.60"
+					]
+				]
+			],
+			[
+				114000,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						"0.60"
 					]
 				]
 			]
-		],
-		"notes": [],
-		"splashSkin": null,
-		"validScore": false,
-		"gfVersion": "gf",
-		"bpm": 175,
-		"arrowSkin": null,
-		"needsVoices": true,
-		"song": "Vehemence"
+		]
 	}
 }

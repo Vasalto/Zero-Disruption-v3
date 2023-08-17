@@ -48,8 +48,6 @@ class MainMenuState extends MusicBeatState
 		'freeplay',
 		'options',
 		'credits',
-		'gallery'
-
 		
 	];
 

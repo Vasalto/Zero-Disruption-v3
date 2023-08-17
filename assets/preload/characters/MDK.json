@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				139,
 				120
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "MDK_idle"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				46,
-				116
-			],
-			"anim": "singLEFT",
 			"fps": 24,
-			"name": "MDK_LS",
+			"name": "MDK_idle",
 			"indices": []
 		},
 		{
+			"offsets": [
+				290,
+				124
+			],
 			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "MDK_LS"
+		},
+		{
 			"offsets": [
 				350,
 				290
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "MDK_US",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "MDK_US"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				336,
 				125
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "MDK_RS",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "MDK_RS"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				328,
+				318,
 				88
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "MDK_DS",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "MDK_DS"
 		}
 	],
 	"no_antialiasing": false,

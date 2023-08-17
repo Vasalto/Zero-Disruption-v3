@@ -29,6 +29,11 @@ function onCreate()
     setObjectCamera('redLight', 'hud')
     addLuaSprite('redLight', true)
 
+    makeLuaSprite('black','',-600,0)
+	makeGraphic('black',3000,2000,'000000')
+    addLuaSprite('black', true)
+    setProperty('black.visible', false)  
+
 	makeLuaSprite('LMAOTENTACLES', 'tentaclesblack', 0, 0);
 	setProperty('LMAOTENTACLES.alpha', 0);
 	setObjectCamera('LMAOTENTACLES', 'other')
@@ -63,6 +68,10 @@ end
             redfade()
         elseif curBeat == 1 then
             redfade()
+        end
+        if curBeat == 392 then
+            setProperty('black.visible', true)
+             setProperty('black.alpha', 1)
         end
     end
 

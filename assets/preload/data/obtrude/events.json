@@ -1,21 +1,11 @@
 {
 	"song": {
-		"speed": 2.8,
+		"speed": 2.3,
 		"stage": "Lab1",
 		"player1": "bf",
 		"player2": "elexamic",
 		"player3": null,
 		"events": [
-			[
-				0,
-				[
-					[
-						"Camera Zoom Speed",
-						"16",
-						"0.2"
-					]
-				]
-			],
 			[
 				1200,
 				[
@@ -47,46 +37,6 @@
 				]
 			],
 			[
-				24400,
-				[
-					[
-						"Set Cam Zoom",
-						"0.8",
-						"0.3"
-					]
-				]
-			],
-			[
-				24700,
-				[
-					[
-						"Set Cam Zoom",
-						"0.9",
-						"0.3"
-					]
-				]
-			],
-			[
-				25000,
-				[
-					[
-						"Set Cam Zoom",
-						"1",
-						"0.5"
-					]
-				]
-			],
-			[
-				25600,
-				[
-					[
-						"Camera Zoom Speed",
-						"4",
-						"0.4"
-					]
-				]
-			],
-			[
 				38400,
 				[
 					[
@@ -103,121 +53,6 @@
 						"Set Cam Zoom",
 						"0.8",
 						"0.3"
-					]
-				]
-			],
-			[
-				39000,
-				[
-					[
-						"Set Cam Zoom",
-						"0.9",
-						"0.3"
-					]
-				]
-			],
-			[
-				39300,
-				[
-					[
-						"Set Cam Zoom",
-						"0.9",
-						"0.3"
-					]
-				]
-			],
-			[
-				39600,
-				[
-					[
-						"Set Cam Zoom",
-						"0.95",
-						"0.3"
-					]
-				]
-			],
-			[
-				39800,
-				[
-					[
-						"Set Cam Zoom",
-						"1",
-						"0.2"
-					]
-				]
-			],
-			[
-				40000,
-				[
-					[
-						"Camera Zoom Speed",
-						"4",
-						"0.5"
-					]
-				]
-			],
-			[
-				65600,
-				[
-					[
-						"Camera Zoom Speed",
-						"16",
-						"0.3"
-					]
-				]
-			],
-			[
-				65700,
-				[
-					[
-						"Set Cam Zoom",
-						"0.7",
-						""
-					]
-				]
-			],
-			[
-				72000,
-				[
-					[
-						"Set Cam Zoom",
-						"0.7",
-						""
-					]
-				]
-			],
-			[
-				88000,
-				[
-					[
-						"Camera Zoom Speed",
-						"48",
-						"0.01"
-					]
-				]
-			],
-			[
-				89600,
-				[
-					[
-						"Set Cam Zoom",
-						"0.8",
-						"1.5"
-					]
-				]
-			],
-			[
-				91200,
-				[
-					[
-						"Cinema",
-						"",
-						""
-					],
-					[
-						"Camera Zoom Speed",
-						"4",
-						"0.6"
 					]
 				]
 			],
@@ -245,8 +80,8 @@
 		"notes": [],
 		"splashSkin": null,
 		"validScore": false,
-		"gfVersion": "gfYeahV2",
-		"bpm": 150,
+		"gfVersion": "gfv3",
+		"bpm": 130,
 		"arrowSkin": null,
 		"needsVoices": true,
 		"song": "Obtrude"
