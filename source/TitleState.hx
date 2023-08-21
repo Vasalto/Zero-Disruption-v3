@@ -68,12 +68,6 @@ class TitleState extends MusicBeatState
 	var curWacky:Array<String> = [];
 
 	var wackyImage:FlxSprite;
-
-	var easterEggEnabled:Bool = true; //Disable this to hide the easter egg
-	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.B]; //bb stands for bbpanzu cuz he wanted this lmao
-	var lastKeysPressed:Array<FlxKey> = [];
-
-	var mustUpdate:Bool = false;
 	var LMAOO:FlxBackdrop;
 
 	var titleJSON:TitleData;
@@ -106,30 +100,6 @@ class TitleState extends MusicBeatState
 		}
 		#end*/
 		
-		#if CHECK_FOR_UPDATES
-		if(!closedState) {
-			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/ShadowMario/FNF-PsychEngine/main/gitVersion.txt");
-			
-			http.onData = function (data:String)
-			{
-				updateVersion = data.split('\n')[0].trim();
-				var curVersion:String = MainMenuState.psychEngineVersion.trim();
-				trace('version online: ' + updateVersion + ', your version: ' + curVersion);
-				if(updateVersion != curVersion) {
-					trace('versions arent matching!');
-					mustUpdate = true;
-				}
-			}
-			
-			http.onError = function (error) {
-				trace('error: $error');
-			}
-			
-			http.request();
-		}
-		#end
-
 		FlxG.game.focusLostFramerate = 60;
 		FlxG.sound.muteKeys = muteKeys;
 		FlxG.sound.volumeDownKeys = volumeDownKeys;
@@ -410,57 +380,10 @@ class TitleState extends MusicBeatState
 
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 				{
-					if (mustUpdate) {
-						MusicBeatState.switchState(new WarnState());//WarnState
-					} else {
-						MusicBeatState.switchState(new WarnState());//WarnState
-					}
+					MusicBeatState.switchState(new WarnState());
 					closedState = true;
 				});
 				// FlxG.sound.play(Paths.music('titleShoot'), 0.7);
-			}
-			else if(easterEggEnabled)
-			{
-				var finalKey:FlxKey = FlxG.keys.firstJustPressed();
-				if(finalKey != FlxKey.NONE) {
-					lastKeysPressed.push(finalKey); //Convert int to FlxKey
-					if(lastKeysPressed.length > easterEggKeyCombination.length)
-					{
-						lastKeysPressed.shift();
-					}
-					
-					if(lastKeysPressed.length == easterEggKeyCombination.length)
-					{
-						var isDifferent:Bool = false;
-						for (i in 0...lastKeysPressed.length) {
-							if(lastKeysPressed[i] != easterEggKeyCombination[i]) {
-								isDifferent = true;
-								break;
-							}
-						}
-
-						/*if(!isDifferent) {
-							trace('Easter egg triggered!');
-							FlxG.save.data.psykaEasterEgg = !FlxG.save.data.psykaEasterEgg;
-							FlxG.sound.play(Paths.sound('secretSound'));
-
-							var black:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-							black.alpha = 0;
-							add(black);
-
-							FlxTween.tween(black, {alpha: 1}, 1, {onComplete:
-								function(twn:FlxTween) {
-									FlxTransitionableState.skipNextTransIn = true;
-									FlxTransitionableState.skipNextTransOut = true;
-									MusicBeatState.switchState(new TitleState());
-								}
-							});
-							lastKeysPressed = [];
-							closedState = true;
-							transitioning = true;
-						}*/
-					}
-				}
 			}
 		}
 

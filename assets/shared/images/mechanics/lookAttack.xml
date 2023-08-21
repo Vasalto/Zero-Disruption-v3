@@ -2,6 +2,11 @@
 <TextureAtlas imagePath="lookAttack.png">
 	<!-- Created with Adobe Animate version 21.0.7.42652 -->
 	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lookLol0006" x="1470" y="0" width="245" height="333"/>
+	<SubTexture name="lookLol0007" x="1470" y="0" width="245" height="333"/>
+	<SubTexture name="lookLol0008" x="1715" y="0" width="245" height="333"/>
+	<SubTexture name="lookLol0009" x="1715" y="0" width="245" height="333"/>
+	<SubTexture name="lookLol0010" x="0" y="333" width="245" height="333"/>
 	<SubTexture name="lookAttack0000" x="0" y="0" width="245" height="333"/>
 	<SubTexture name="lookAttack0001" x="245" y="0" width="245" height="333"/>
 	<SubTexture name="lookAttack0002" x="490" y="0" width="245" height="333"/>

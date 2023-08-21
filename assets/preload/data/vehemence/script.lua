@@ -15,7 +15,16 @@ function onCreate()
     addLuaSprite('red2', false)
     setObjectCamera('red2', 'camHUD')
     setProperty('red2.visible', false)   
-    setBlendMode('red2', 'multiply')   
+    setBlendMode('red2', 'multiply')
+
+    makeAnimatedLuaSprite('zeroLook', 'mechanics/lookAttack', 0, 0)
+    addAnimationByPrefix('zeroLook', 'lookLol', 'lookLol', 24, true)
+    screenCenter('zeroLook')
+    addLuaSprite('zeroLook', true)
+    setScrollFactor('zeroLook', 0, 0)
+    objectPlayAnimation('zeroLook', 'lookLol')
+    setProperty('zeroLook.alpha', 0)
+    scaleObject('zeroLook', 1.5, 1.5)
 
     setProperty('skipCountdown', true)
 
@@ -31,20 +40,33 @@ function onStepHit()
         setProperty('black.alpha', 1)
         doTweenAlpha('byeblack', 'black', 0, 0.7, 'linear');
     elseif curBeat == 268 then
+        removeLuaSprite('zeroLook')
+        removeLuaSprite('black')
         setProperty('red.visible', true)
         setProperty('red2.visible', true)
 
         doTweenAlpha('byered', 'red', 0, 0.7, 'linear');
+    elseif curBeat == 263 then
+        doTweenAlpha('lookTweenIn', 'zeroLook', 1, 1.97, 'linear')
+    elseif curBeat == 267 then
+        setProperty('black.alpha', 1)
+        scaleObject('zeroLook', 2, 2)
+        screenCenter('zeroLook')
     elseif curStep == 1 then
         setProperty('black.visible', true)
-        doTweenAlpha('byeblack', 'black', 0, 5, 'linear');
+        doTweenAlpha('byeblackfornow', 'black', 0, 5, 'linear');
+    end
+    if curStep == 1068 and curStep == 1070 then
+        setProperty('zeroLook.alpha', 1)
+    elseif curStep == 1069 and 1071 then
+        setProperty('zeroLook.alpha', 0)
     end
 end
 
 function onTweenCompleted(tag)
-    if tag == 'byeblack' then
-        removeLuaSprite('black')
-    elseif tag == 'byered' then
+    if tag == 'byered' then
         removeLuaSprite('red')
+    elseif tag == 'lookTweenIn' then
+        setProperty('zeroLook.alpha', 0)
     end
 end

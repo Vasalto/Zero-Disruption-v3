@@ -5,9 +5,9 @@ local counter = 3
 function onCreate()
 
     if downscroll then 
-    makeAnimatedLuaSprite('Battery', 'battery', 990.5, 40, true)
+    makeAnimatedLuaSprite('Battery', 'mechanics/battery', 990.5, 40, true)
     else
-    makeAnimatedLuaSprite('Battery', 'battery', 990.5, 540, true)
+    makeAnimatedLuaSprite('Battery', 'mechanics/battery', 990.5, 540, true)
     end
 
     addAnimationByPrefix('Battery', 'battery1', 'full', 24, false);
