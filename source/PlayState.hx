@@ -1406,12 +1406,23 @@ class PlayState extends MusicBeatState
 
 					var temperKey_1:Array<Dynamic> = ClientPrefs.keyBinds.get('temper_1');
 
-					var temperKey1Txt:FlxText = new FlxText(820, 530, 200, "");
-					temperKey1Txt.setFormat(null, 100, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-					temperKey1Txt.borderSize = 8;
-					temperKey1Txt.text = '${InputFormatter.getKeyName(temperKey_1[0])}'; 
-					temperKey1Txt.alpha = 0.001;
-					buttonsWarning.add(temperKey1Txt);
+					//Bad way of doing this, but it works for now lmao
+
+					if (ClientPrefs.downScroll) {
+   						var temperKey1Txt:FlxText = new FlxText(820, 30, 200, "");
+						temperKey1Txt.setFormat(null, 100, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+						temperKey1Txt.borderSize = 8;
+						temperKey1Txt.text = '${InputFormatter.getKeyName(temperKey_1[0])}'; 
+						temperKey1Txt.alpha = 0.001;
+						buttonsWarning.add(temperKey1Txt);
+					} else {
+    					var temperKey1Txt:FlxText = new FlxText(820, 530, 200, "");
+						temperKey1Txt.setFormat(null, 100, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+						temperKey1Txt.borderSize = 8;
+						temperKey1Txt.text = '${InputFormatter.getKeyName(temperKey_1[0])}'; 
+						temperKey1Txt.alpha = 0.001;
+						buttonsWarning.add(temperKey1Txt);
+					}
 				}
 			
 		}

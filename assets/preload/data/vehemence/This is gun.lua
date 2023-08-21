@@ -3,7 +3,13 @@ local counter = 3
 
 -- on create
 function onCreate()
+
+    if downscroll then 
+    makeAnimatedLuaSprite('Battery', 'battery', 990.5, 40, true)
+    else
     makeAnimatedLuaSprite('Battery', 'battery', 990.5, 540, true)
+    end
+
     addAnimationByPrefix('Battery', 'battery1', 'full', 24, false);
     addAnimationByPrefix('Battery', 'battery2', 'medium', 24, false);
     addAnimationByPrefix('Battery', 'battery3', 'low', 24, false);
@@ -12,6 +18,7 @@ function onCreate()
     scaleObject('Battery', 0.3, 0.3)
     addLuaSprite('Battery')
     setObjectCamera('Battery', 'HUD') 
+
 
     makeLuaSprite('whiteBG', '', 0, 0)
     makeGraphic('whiteBG', 2000, 2000, 'FFFFFF')
