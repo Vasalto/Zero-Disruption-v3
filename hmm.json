@@ -3,12 +3,12 @@
     {
       "name": "lime",
       "type": "haxelib",
-      "version": null
+      "version": "4.1.0"
     },
     {
       "name": "openfl",
       "type": "haxelib",
-      "version": null
+      "version": "9.2.2"
     },
     {
       "name": "hmm",
@@ -18,52 +18,42 @@
     {
       "name": "flixel",
       "type": "haxelib",
-      "version": null
+      "version": "5.3.1"
     },
     {
       "name": "flixel-addons",
       "type": "haxelib",
-      "version": null
+      "version": "3.2.0"
     },
     {
       "name": "hscript",
       "type": "haxelib",
-      "version": null
+      "version": "2.4.0"
     },
     {
       "name": "flixel-tools",
       "type": "haxelib",
-      "version": null
+      "version": "1.5.1"
     },
     {
       "name": "flixel-ui",
       "type": "haxelib",
-      "version": null
+      "version": "2.4.0"
     },
     {
       "name": "hxcpp",
       "type": "haxelib",
-      "version": null
-    },
-    {
-      "name": "tjson",
-      "type": "haxelib",
-      "version": null
-    },
-    {
-      "name": "hxjsonast",
-      "type": "haxelib",
-      "version": null
+      "version": "4.2.1"
     },
     {
       "name": "hxCodec",
       "type": "haxelib",
-      "version": null
+      "version": "2.5.1"
     },
     {
       "name": "SScript",
       "type": "haxelib",
-      "version": null
+      "version": "4.0.1"
     },
     {
       "name": "hxcpp-debug-server",
