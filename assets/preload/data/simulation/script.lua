@@ -7,7 +7,7 @@ function onCreatePost()
 	--setProperty('boyfriend.x', 900);
 	--setProperty('dad.x', 900);
 
-	makeLuaSprite('vignette', 'blackvignette', 0, 0);
+	makeLuaSprite('vignette', 'vignettes/blackvignette', 0, 0);
 	setProperty('vignette.alpha', 1);
 	setObjectCamera('vignette', 'other')
 	addLuaSprite('vignette', true);
@@ -18,13 +18,13 @@ function onCreatePost()
 	addLuaSprite('mainSky', false);
 	scaleObject('mainSky', 2, 2 * 1.4)
 	
-	makeLuaSprite('light', 'light', -150, -200);
+	makeLuaSprite('light', 'vignettes/light', -150, -200);
 	setProperty('light.alpha', 0);
 	setObjectCamera('light', 'other')
 	addLuaSprite('light', true);
 	scaleObject('light', 1, 1)
 
-	makeLuaSprite('vignette', 'blackvignette', 0, 0);
+	makeLuaSprite('vignette', 'vignettes/blackvignette', 0, 0);
 	setProperty('vignette.alpha', 1);
 	setObjectCamera('vignette', 'other')
 	addLuaSprite('vignette', true);
