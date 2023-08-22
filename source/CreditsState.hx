@@ -109,7 +109,7 @@ class CreditsState extends MusicBeatState
 			['Avenge',		'avenge',				'charter',													'https://twitter.com/howtoavenge101',	'4494E6'],
 
 			['Cherry',			'cherry',				'Helped with gallery code',								'https://www.youtube.com/channel/UCUmLM_3CWrU2HltOeoyrbIA/ ',			'4494E6'],
-			['CakieYee', 		'cakie',				'song text script (smalllua.lua)',						'https://www.youtube.com/channel/UCJQ-_42tg3wjAT8dAXeNLDQ/',		'5f0196'],
+			['CakieYea', 		'cakie',				'song text script (smalllua.lua)',						'https://www.youtube.com/@cakieyea',		'5f0196'],
 			['D4',				'D4',					'Concept Artist',										'https://twitter.com/Dany4dev',			'4494E6'],
 			['winterlinSE',		'corperator',				'composer',												'https://twitter.com/Dany4dev',			'4494E6'],
 			['Noize',			'Noize',				'Beta Tester',											'https://twitter.com/FNF_0Disruption',	'389A58'],
