@@ -54,7 +54,7 @@ function onStepHit()
         screenCenter('zeroLook')
     elseif curStep == 1 then
         setProperty('black.visible', true)
-        doTweenAlpha('byeblackfornow', 'black', 0, 5, 'linear');
+        doTweenAlpha('byeblack', 'black', 0, 5, 'linear');
     end
     if curStep == 1068 and curStep == 1070 then
         setProperty('zeroLook.alpha', 1)

@@ -14,7 +14,6 @@ local del2 = 0;
 
 function onCreate()
     precacheImage('vignettes/vintage')
-    luaDebugMode = true
 	
 	setProperty('cameraSpeed', 2.2);
 

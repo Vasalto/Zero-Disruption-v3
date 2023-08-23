@@ -106,12 +106,6 @@ class TitleState extends MusicBeatState
 		FlxG.sound.volumeUpKeys = volumeUpKeys;
 		FlxG.keys.preventDefaultKeys = [TAB];
 		
-		LMAOO = new FlxBackdrop(Paths.image('wave'), XY, 0, 0);
-		LMAOO.velocity.set(100, 0);
-		LMAOO.updateHitbox();
-		LMAOO.alpha = 0.5;
-		LMAOO.screenCenter(X);
-		
 		PlayerSettings.init();
 
 		curWacky = FlxG.random.getObject(getIntroTextShit());
@@ -212,6 +206,11 @@ class TitleState extends MusicBeatState
 		// bg.antialiasing = ClientPrefs.globalAntialiasing;
 		// bg.setGraphicSize(Std.int(bg.width * 0.6));
 		// bg.updateHitbox();
+		LMAOO = new FlxBackdrop(Paths.image('wave'), XY, 0, 0);
+		LMAOO.velocity.set(100, 0);
+		LMAOO.updateHitbox();
+		LMAOO.alpha = 0.5;
+		LMAOO.screenCenter(X);
 		add(LMAOO);
 
 		//add(bg);

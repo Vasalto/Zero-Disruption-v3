@@ -4,29 +4,30 @@ local counter = 3
 -- on create
 function onCreate()
 
-    if downscroll then 
-    makeAnimatedLuaSprite('Battery', 'mechanics/battery', 990.5, 40, true)
-    else
-    makeAnimatedLuaSprite('Battery', 'mechanics/battery', 990.5, 540, true)
+    if getPropertyFromClass('ClientPrefs', 'mechanics') == true then
+        if downscroll then 
+        makeAnimatedLuaSprite('Battery', 'mechanics/battery', 990.5, 40, true)
+        else
+        makeAnimatedLuaSprite('Battery', 'mechanics/battery', 990.5, 540, true)
+        end
+
+        addAnimationByPrefix('Battery', 'battery1', 'full', 24, false);
+        addAnimationByPrefix('Battery', 'battery2', 'medium', 24, false);
+        addAnimationByPrefix('Battery', 'battery3', 'low', 24, false);
+        addAnimationByPrefix('Battery', 'battery4', 'none', 24, false);
+
+        scaleObject('Battery', 0.3, 0.3)
+        addLuaSprite('Battery')
+        setObjectCamera('Battery', 'HUD') 
+
+
+        makeLuaSprite('whiteBG', '', 0, 0)
+        makeGraphic('whiteBG', 2000, 2000, 'FFFFFF')
+        scaleObject('whiteBG', 2, 2)
+        setObjectCamera('whiteBG', 'HUD') 
+        setProperty('whiteBG.alpha', 0)
+        addLuaSprite('whiteBG', true)
     end
-
-    addAnimationByPrefix('Battery', 'battery1', 'full', 24, false);
-    addAnimationByPrefix('Battery', 'battery2', 'medium', 24, false);
-    addAnimationByPrefix('Battery', 'battery3', 'low', 24, false);
-    addAnimationByPrefix('Battery', 'battery4', 'none', 24, false);
-
-    scaleObject('Battery', 0.3, 0.3)
-    addLuaSprite('Battery')
-    setObjectCamera('Battery', 'HUD') 
-
-
-    makeLuaSprite('whiteBG', '', 0, 0)
-    makeGraphic('whiteBG', 2000, 2000, 'FFFFFF')
-    scaleObject('whiteBG', 2, 2)
-    setObjectCamera('whiteBG', 'HUD') 
-    setProperty('whiteBG.alpha', 0)
-    addLuaSprite('whiteBG', true)
-
 end
 
 
@@ -88,31 +89,35 @@ end
 local pollo = 0.0001
 
 function onUpdate(elapsed)
-    handleKeyPress()
-    baterycount()
-     if curBeat >= 1 then
-        if drain == true then
-            setProperty('health', getProperty('health')- (elapsed * pollo * 30));
-         --   cameraShake("hud", 0.002, 0.4);
-           -- playSound('alert', 0.2  )
+    if getPropertyFromClass('ClientPrefs', 'mechanics') == true then
+        handleKeyPress()
+        baterycount()
+        if curBeat >= 1 then
+            if drain == true then
+                setProperty('health', getProperty('health')- (elapsed * pollo * 30));
+            --   cameraShake("hud", 0.002, 0.4);
+            -- playSound('alert', 0.2  )
+            end
         end
-     end
+    end
 end
 --draiin true
 ---
     
 function onBeatHit()
-    if curBeat % 4 == 2 then
-        if counter == 0 and reload == true then
-            runTimer('Increase', 0.1)
+    if getPropertyFromClass('ClientPrefs', 'mechanics') == true then
+        if curBeat % 4 == 2 then
+            if counter == 0 and reload == true then
+                runTimer('Increase', 0.1)
+            end
         end
     end
-  --  if curBeat % 4 == 2 then
-    --    local cold = math.random(1,10)
-   --         if cold == 2 then
-   --             drain = true
-   --         end
-  --  end
+       --  if curBeat % 4 == 2 then
+        --    local cold = math.random(1,10)
+    --         if cold == 2 then
+    --             drain = true
+    --         end
+    --  end
 end
 ---- tag function
 function onTimerCompleted(tag)
@@ -134,18 +139,24 @@ end
 
 
 function goodNoteHit()
-    setProperty('health', math.min(getProperty('health'), 2 - 0.08))
+    if getPropertyFromClass('ClientPrefs', 'mechanics') == true then
+        setProperty('health', math.min(getProperty('health'), 2 - 0.08))
+    end
 end
 
 function noteMiss()
-    pollo = pollo + 0.0010
+    if getPropertyFromClass('ClientPrefs', 'mechanics') == true then
+        pollo = pollo + 0.0010
+    end
 end
 
 function opponentNoteHit()
-    if drain == false then
-        health = getProperty('health')
-        if getProperty('health') > 0.1 then
-        setProperty('health', health- 0.0001);
+    if getPropertyFromClass('ClientPrefs', 'mechanics') == true then
+        if drain == false then
+            health = getProperty('health')
+            if getProperty('health') > 0.1 then
+                setProperty('health', health- 0.0001);
+            end
+        end
     end
-end
 end
